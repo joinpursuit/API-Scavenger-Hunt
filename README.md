@@ -263,6 +263,34 @@ myPage = 'historical_quotes';
 
 1. A list of all items in Fortnite
 * https://fortnite-api.theapinetwork.com/items/list
+or
+* https://www.fortnitehut.com/free-api?item
+```
+],
+"items": [
+{
+"name": "<span>Strong Guard</span>",
+"ourid": "<span>ay9i8wT</span>"
+},
+{
+"name": "<span>Spike</span>",
+"ourid": "<span>yeQuGYK</span>"
+},
+{
+"name": "<span>Rush</span>",
+"ourid": "<span>MKi6OAB</span>"
+},
+{
+"name": "<span>Juke</span>",
+"ourid": "<span>k0zIVm2</span>"
+},
+{
+"name": "<span>Interceptor</span>",
+"ourid": "<span>7hGUdNt</span>"
+},
+{
+"name": "<span>Gridiron</span>",
+```
 
 1. A list of all Game of Thrones Episodes.
 * https://api.got.show/api/map/episodes
