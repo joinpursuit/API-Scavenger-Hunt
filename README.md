@@ -87,7 +87,6 @@ For each of the questions below, identify a website and search query that will g
 1. All the JavaScript repos on Github with Pursuit in their name
 1. All the Swift repos on Github with Pursuit in their name
 1. A list of all Pokemon
-
 `https://pokeapi.co/api/v2/pokemon
 
  {
