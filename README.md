@@ -83,9 +83,20 @@ For each of the questions below, identify a website and search query that will g
 
 1. All the repos on Github with Pursuit their name
 
+ ` https://github.com/search?q=pursuit`
+
+
 
 1. All the JavaScript repos on Github with Pursuit in their name
+
+`https://github.com/search?l=JavaScript&q=pursuit&type=Repositories`
+
+
 1. All the Swift repos on Github with Pursuit in their name
+
+`https://github.com/search?l=Swift&q=pursuit&type=Repositories`
+
+
 1. A list of all Pokemon
 `https://pokeapi.co/api/v2/pokemon
 
@@ -178,7 +189,69 @@ For each of the questions below, identify a website and search query that will g
 } `
 
 1. A list of all items in Fortnite
+
+https://fortniteapi.com/
+
+`I found this one but they made you make an account to access it`
+
 1. A list of all Game of Thrones Episodes.
+' I didn't find the episodes but I found the characters. https://anapioficeandfire.com/
+
+
+{
+	"url": "https://anapioficeandfire.com/api/characters/583",
+	"name": "Jon Snow",
+	"gender": "Male",
+	"culture": "Northmen",
+	"born": "In 283 AC",
+	"died": "",
+	"titles": [
+		"Lord Commander of the Night's Watch"
+	],
+	"aliases": [
+		"Lord Snow",
+		"Ned Stark's Bastard",
+		"The Snow of Winterfell",
+		"The Crow-Come-Over",
+		"The 998th Lord Commander of the Night's Watch",
+		"The Bastard of Winterfell",
+		"The Black Bastard of the Wall",
+		"Lord Crow"
+	],
+	"father": "",
+	"mother": "",
+	"spouse": "",
+	"allegiances": [
+		"https://anapioficeandfire.com/api/houses/362"
+	],
+	"books": [
+		"https://anapioficeandfire.com/api/books/5"
+	],
+	"povBooks": [
+		"https://anapioficeandfire.com/api/books/1",
+		"https://anapioficeandfire.com/api/books/2",
+		"https://anapioficeandfire.com/api/books/3",
+		"https://anapioficeandfire.com/api/books/8"
+	],
+	"tvSeries": [
+		"Season 1",
+		"Season 2",
+		"Season 3",
+		"Season 4",
+		"Season 5",
+		"Season 6"
+	],
+	"playedBy": [
+		"Kit Harington"
+	]
+}`
+
+
 1. A list of all songs with "Love" in the title.
+`https://www.songfacts.com/search/songs/love`
+
 1. All information about Petyr Baelish from the Game of Thrones books
+
 1. All the movies Leonardo Dicaprio has acted in
+
+`https://www.themoviedb.org/person/6193-leonardo-dicaprio?language=en-US`
