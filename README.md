@@ -38,7 +38,7 @@ Use Postman to find each of the following HTTP codes:
   * Present an error message that the page is not found.
 
 1. 418
-  *
+  * https://www.google.com/teapot
   * An error message that is a joke sating that it refuses to brew coffee because it is a teapot.
   * Use it to lighten up a page.
 
@@ -76,12 +76,15 @@ endpoint = "https://randomuser.me/api/?results=150"
 ```
 1. All the repos on Github with Pursuit their name
 ```
+endpoint = "https://api.github.com/search/repositories?q=pursuit-core"
 ```
 1. All the JavaScript repos on Github with Pursuit in their name
 ```
+endpoint = "https://api.github.com/search/repositories?q=pursuit-core+language:javascript&sort=stars&order=desc"
 ```
 1. All the Swift repos on Github with Pursuit in their name
 ```
+endpoint = "https://api.github.com/search/repositories?q=pursuit-core+language:swift&sort=stars&order=desc"
 ```
 1. A list of all Pokemon
 ```
@@ -97,9 +100,13 @@ endpoint = "https://api.got.show/api/map/episodes"
 ```
 1. A list of all songs with "Love" in the title.
 ```
+endpoint = "https://itunes.apple.com/search?term=love"
 ```
 1. All information about Petyr Baelish from the Game of Thrones books
 ```
 endpoint = "https://www.anapioficeandfire.com/api/characters/823"
 ```
 1. All the movies Leonardo Dicaprio has acted in
+```
+endpoint ="https://itunes.apple.com/search?term=leonardo+dicaprio"
+```
