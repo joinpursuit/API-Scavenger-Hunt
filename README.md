@@ -13,27 +13,51 @@ Use Postman to find each of the following HTTP codes:
 *In this case there is no error so the response will contain an entity describing or containing the result of thr action.
 ```
 1. 301
+```js
+*endpoint :curl -I www.amazon.com
+*the status code means that  the resource has been moved permanently
+status code when there is a permanent redirect set to an original URL to forward the user agent to another URL. As the user can’t see the original URL, search engines will only index the redirected URL
+* we should redirect to a new proper URL
 
 1. 400
-*https://api.github.com while the root-endpoint pusuit's
-*The status code means = bad request
-*The most common reason for a 400 Bad Request error is because the URL was typed wrong or the link that was clicked on points to a malformed URL with a specific kind of mistake in it, like a syntax problem.
+*https://api.github.com
+ while the root-endpoint pusuit's
+*"The status code means = bad request"
+The most common reason for a 400 Bad Request error is because the URL was typed wrong or the link that was clicked on points to a malformed URL with a specific kind of mistake in it, like a syntax problem."
+* "check for extra, typically non-allowed, characters in the URL like a percentage character. While there are perfectly valid uses for something like a % character, you won't often find one in a standard URL."
+```
 1. 401
 ```js
-https://wordsapiv1.p.mashape.com/words/example
+*https://wordsapiv1.p.mashape.com/words/example
+*The status code means = The request contains bad syntax or cannot be fulfilled. semantically means unauthorised, the user does not have valid authentication credentials for the target resource.
+Some sites incorrectly issue HTTP 401 when an IP address is banned from the website. 
+*Reload the page. As simple as it might seem, closing down the page and reopening it might be enough to fix the 401 error, but only if it's caused by a misloaded page.
+If you're sure the URL is valid, visit the website's main page and look for a link that says Login or Secure Access. Enter your credentials here and then try the page again.
 ```
 1. 403
-```js
-*https://api.github.com/searchpursuit/repositories
-```js
-*https://api.github.com/search/repositories?q=joinpursuit
-*
-``
+*curl -I www.amazon.com
+
+*The status code means =
+The request was valid, but the server is refusing action. The user might not have the necessary permissions for a resource, or may need an account of some sort. This code is also typically used if the request provided authentication via the WWW-Authenticate header field, but the server did not accept that authentication.
+*to fix the 403 error you should first clear the browser's the caches version of the page  could cause 403 forbidden error
+or we ca creat and aditional alet to get an additional acces before viewing the page. 
+
+```
 1. 404
 *https://api.github.com/search/JavaScript?repositories?q=joinpursuit
-1. 418
-1. 500
+* the status code means = The requested resource could not be found but may be available in the future. Subsequent requests by the client are permissible.
+*
+Retry the web page by pressing F5, clicking/tapping the refresh/reload button, or trying the URL from the address bar again.
 
+1. 418
+```js
+*endpoit:https://www.google.com/teapot
+
+* status code means = The requested resource could not be found but may be available in the future. Subsequent requests by the client are permissible.
+```
+1. 500
+*The server has encountered a situation it doesn't know how to handle.
+* change the url of that is called in the code
 For each of the questions below, write:
 
 1. The website which generated the HTTP status code
