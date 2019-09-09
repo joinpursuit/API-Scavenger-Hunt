@@ -149,6 +149,69 @@ For each of the questions below, identify a website and search query that will g
         "previous": null,
         "results": [
 1. A list of all items in Fortnite
+    * https://www.fortnitehut.com/free-api?rarity=epic
+    * {
+    "results": [
+        {
+            "rarityid": {
+                "name": "epic",
+                "date": "September 9th 2019"
+            }
+        }
+    ],
+    "items": [
+        {
+            "name": "Cryo Hops",
+            "ourid": "ecivZzK"
+        },
+        {
+            "name": "Shake It Up",
+            "ourid": "PzHJpD2"
+        },
+        {
+            "name": "Astro Assassin",
+            "ourid": "nfYVwot"
+        },
+        {
+            "name": "Jingu Bang",
+            "ourid": "KOfIRGJ"
+        },
+        {
+            "name": "Strong Guard",
+            "ourid": "9DRFfMr"
+        },
+        {
+            "name": "Spike",
+            "ourid": "WtiRmyi"
+        },
+        {
+            "name": "Rush",
+            "ourid": "uZzduaZ"
+        },
+        {
+            "name": "Juke",
+            "ourid": "IGGq2CQ"
+        },
+        {
+            "name": "Interceptor",
+            "ourid": "fwY29oH"
+        },
+        {
+            "name": "Gridiron",
+            "ourid": "3cpEHQ8"
+        },
+        {
+            "name": "End Zone",
+            "ourid": "RJ6QP1z"
+        },
+        {
+            "name": "Blitz",
+            "ourid": "ozNcWdq"
+        },
+        {
+            "name": "Vulture",
+            "ourid": "YDXYMnf"
+        },
 
 1. A list of all Game of Thrones Episodes.
     * https://api.got.show//api/show/episodes
