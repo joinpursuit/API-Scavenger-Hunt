@@ -88,7 +88,7 @@ For each of the questions below, identify a website and search query that will g
         }
 ```
 
-1. A list of 150 random users in English.
+2. A list of 150 random users in English.
 ```js
     website = https://randomuser.me/api/
     snippet = {
@@ -155,9 +155,9 @@ For each of the questions below, identify a website and search query that will g
 }
 ```
 
-1. All the repos on Github with Pursuit their name
+3. All the repos on Github with Pursuit their name
 ```js
-    website = https://api.github.com/users/kameronscodespace/repos?access_token=
+    website = https://api.github.com/users/kameronscodespace/repos?q=pursuit
     snippet = {
         "id": 196094791,
         "node_id": "MDEwOlJlcG9zaXRvcnkxOTYwOTQ3OTE=",
@@ -186,11 +186,11 @@ For each of the questions below, identify a website and search query that will g
         }
 ```
 
-1. All the JavaScript repos on Github with Pursuit in their name
+4. All the JavaScript repos on Github with Pursuit in their name
 ????
-1. All the Swift repos on Github with Pursuit in their name
+5. All the Swift repos on Github with Pursuit in their name
 ????
-1. A list of all Pokemon
+6. A list of all Pokemon
 ```js
     website = https://pokeapi.co/api/v2/pokemon
     snippet = "results": [
@@ -231,7 +231,7 @@ For each of the questions below, identify a website and search query that will g
             "url": "https://pokeapi.co/api/v2/pokemon/9/"
         }
 ```
-1. A list of all items in Fortnite
+7. A list of all items in Fortnite
 ```js
     website = https://www.fortnitehut.com/free-api?leaked=yes',
     snippet = "featured_items": [
@@ -289,7 +289,7 @@ For each of the questions below, identify a website and search query that will g
         }
     ]
 ```
-1. A list of all Game of Thrones Episodes.
+8. A list of all Game of Thrones Episodes.
 ```js
     website = https://api.got.show/api/map/episodes
     snippet = "_id": "5cc0743604e71a0010b85729",
@@ -306,13 +306,46 @@ For each of the questions below, identify a website and search query that will g
             "__v": 0
         }
 ```
-1. A list of all songs with "Love" in the title.
+9. A list of all songs with "Love" in the title.
 ```js
-    website = 
-    snippet =
+    website = https://itunes.apple.com/search?term=love&media=music
+    snippet =  {
+            "wrapperType": "track",
+            "kind": "song",
+            "artistId": 368183298,
+            "collectionId": 1440881047,
+            "trackId": 1440881708,
+            "artistName": "Kendrick Lamar",
+            "collectionName": "DAMN.",
+            "trackName": "LOVE. (FEAT. ZACARI.)",
+            "collectionCensoredName": "DAMN.",
+            "trackCensoredName": "LOVE. (FEAT. ZACARI.)",
+            "artistViewUrl": "https://music.apple.com/us/artist/kendrick-lamar/368183298?uo=4",
+            "collectionViewUrl": "https://music.apple.com/us/album/love-feat-zacari/1440881047?i=1440881708&uo=4",
+            "trackViewUrl": "https://music.apple.com/us/album/love-feat-zacari/1440881047?i=1440881708&uo=4",
+            "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/28/40/40/28404037-5570-0709-5601-7eff314e45eb/mzaf_6754627230951906996.plus.aac.p.m4a",
+            "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/87/a6/e2/87a6e2e3-cdd2-a2fd-2de5-a7d7505b3225/source/30x30bb.jpg",
+            "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/87/a6/e2/87a6e2e3-cdd2-a2fd-2de5-a7d7505b3225/source/60x60bb.jpg",
+            "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/87/a6/e2/87a6e2e3-cdd2-a2fd-2de5-a7d7505b3225/source/100x100bb.jpg",
+            "collectionPrice": 9.99,
+            "trackPrice": 1.29,
+            "releaseDate": "2017-04-14T12:00:00Z",
+            "collectionExplicitness": "explicit",
+            "trackExplicitness": "explicit",
+            "discCount": 1,
+            "discNumber": 1,
+            "trackCount": 14,
+            "trackNumber": 10,
+            "trackTimeMillis": 213400,
+            "country": "USA",
+            "currency": "USD",
+            "primaryGenreName": "Hip-Hop/Rap",
+            "contentAdvisoryRating": "Explicit",
+            "isStreamable": true
+        }
 ```
 
-1. All information about Petyr Baelish from the Game of Thrones books
+10. All information about Petyr Baelish from the Game of Thrones books
 ```js
     website = https://api.got.show/api/book/characters/:Petyr+Baelish
     snippet = [
@@ -351,7 +384,7 @@ For each of the questions below, identify a website and search query that will g
         "id": "5cc08e61888dfb00103cd5e9"
     }
 ```
-1. All the movies Leonardo Dicaprio has acted in
+11. All the movies Leonardo Dicaprio has acted in
 ```js
     website = https://www.themoviedb.org/person/6193-leonardo-dicaprio?language=en-US
     snippet = 
