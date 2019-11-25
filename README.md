@@ -157,11 +157,18 @@ https://api.github.com/search/repositories?q=pursuit+language:swift&sort=stars&o
 
 1. A list of all Pokemon
 https://pogoapi.net/api/v1/pokemon_names.json
+
 1. A list of all items in Fortnite
 1. A list of all Game of Thrones Episodes.
+https://api.got.show/api/show/episodes
+
 1. A list of all songs with "Love" in the title.
+
 1. All information about Petyr Baelish from the Game of Thrones books
+https://www.anapioficeandfire.com/api/characters/823
+
 1. All the movies Leonardo Dicaprio has acted in
+
 
 # Part Two
 
@@ -170,14 +177,14 @@ Status Code Scavenger Hunt!
 Use Postman to find each of the following HTTP codes:
 
 
-1. 200
-1. 301
-1. 400
-1. 401
-1. 403
-1. 404
-1. 418
-1. 500
+1. 200 OK
+1. 301 Moved Permanently
+1. 400 Bad request
+1. 401 Unauthorized
+1. 403 Forbidden
+1. 404 Not Found
+1. 418 April Fools
+1. 500 ISE. server fails the request.
 
 
 For each of the questions below, write:
