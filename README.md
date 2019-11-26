@@ -17,6 +17,7 @@ https://catfact.ninja/fact?max_length=140
 }
 1. A list of 150 random users in English.
 https://randomuser.me/api/?results=150
+
 {
     "results": [
         {
@@ -29,6 +30,7 @@ https://randomuser.me/api/?results=150
         }
 1. All the repos on Github with Pursuit their name
 https://api.github.com/users/joinpursuit/repos
+
 [
   {
     "id": 213441105,
@@ -58,6 +60,7 @@ https://api.github.com/users/joinpursuit/repos
     },
 1. All the JavaScript repos on Github with Pursuit in their name
   https://api.github.com/search/repositories?q=pursuit-core+language:javascript&sort=stars&order=desc
+
     "total_count": 22,
   "incomplete_results": false,
   "items": [
@@ -69,6 +72,7 @@ https://api.github.com/users/joinpursuit/repos
       "private": false,
 1. All the Swift repos on Github with Pursuit in their name
   https://api.github.com/search/repositories?q=pursuit-core+language:swift&sort=stars&order=desc
+
      "total_count": 130,
   "incomplete_results": false,
   "items": [
@@ -107,10 +111,79 @@ https://pogoapi.net/api/v1/pokemon_names.json
       "ourid": "uQsDME1"
 
 1. A list of all Game of Thrones Episodes.
-  
+  https://api.got.show/api/map/episodes
+      "message": "Success",
+  "data": [
+    {
+      "characters": [
+        "Viserys Targaryen",
+        "Catelyn Stark",
+        "Cersei Lannister",
+        "Jaime Lannister",
+        "Eddard Stark",
+        "Robert Baratheon",
+        "Jorah Mormont",
+        "Daenerys Targaryen",
+        "Jon Snow",
+        "Petyr Baelish",
+        "Arya Stark",
+        "Sansa Stark",
+        "Bran Stark",
+        "Robb Stark",
+        "Joffrey Baratheon",
+        "Tyrion Lannister",
+        "Jeor Mormont",
+        "Alliser Thorne",
+        "Jory Cassel",
+        "Barristan Selmy",
+        "Rodrik Cassel",
+        "Benjen Stark",
+        "Yoren",
+        "Renly Baratheon",
+        "Maester Aemon",
+        "Syrio Forel",
+        "Grenn",
+        "Irri",
+        "Pypar",
+        "Rakharo",
+        "Lancel Lannister"
+      ],
+      "_id": "5cc0743604e71a0010b85729",
+      "director": "Tim Van Patten",
+      "airDate": "2011-04-24T04:00:00.000Z",
+      "totalNr": 2,
+      "season": 1,
+      "nr": 2,
+      "name": "The Kingsroad",
+      "predecessor": "Winter Is Coming",
+      "successor": "Lord Snow",
+      "createdAt": "2019-04-24T14:35:34.594Z",
+      "updatedAt": "2019-04-24T14:35:34.594Z",
+      "__v": 0
+    },
 1. A list of all songs with "Love" in the title.
+  http://itunes.apple.com/search?term=love
+
+  {
+ "resultCount":50,
+ "results": [
+{"wrapperType":"track", "kind":"song", "artistId":42616562, "collectionId":715579496, "trackId":715581836, "artistName":"Nat \"King\" Cole", "collectionName":"Nat King Cole",
 1. All information about Petyr Baelish from the Game of Thrones books
+  https://www.anapioficeandfire.com/api/characters/823
+
+  {
+  "url": "https://www.anapioficeandfire.com/api/characters/823",
+  "name": "Petyr Baelish",
+  "gender": "Male",
+  "culture": "Valemen",
+
 1. All the movies Leonardo Dicaprio has acted in
+  http://itunes.apple.com/search?term=leonardo+dicaprio
+
+  {
+ "resultCount":41,
+ "results": [
+{"wrapperType":"track", "kind":"feature-movie", "trackId":1473165316, "artistName":"Quentin Tarantino", "trackName":"Once Upon a Time...in Hollywood", "trackCensoredName":"Once Upon a Time...in Hollywood", "trackViewUrl":"https://itunes.apple.com/us/movie/once-upon-a-time-in-hollywood/id1473165316?uo=4",
 
 # Part Two
 
