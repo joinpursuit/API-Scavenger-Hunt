@@ -838,12 +838,14 @@ Use Postman to find each of the following HTTP codes:
 401 Unauthorized client error status response code indicates that the request has not been applied because it lacks valid authentication credentials for the target resource.
 This status is sent with a WWW-Authenticate header that contains information on how to authorize correctly.
 1. 403
-
+403 Forbidden client error status response code indicates that the server understood the request but refuses to authorize it.
 1. 404
-
+404 Not Found client error response code indicates that the server can't find the requested resource. Links which lead to a 404 page are often called broken or dead links, and can be subject to link rot.
+A 404 status code does not indicate whether the resource is temporarily or permanently missing. But if a resource is permanently removed, a 410 (Gone) should be used instead of a 404 status.
 1. 418
-
+418 I'm a teapot client error response code indicates that the server refuses to brew coffee because it is a teapot. This error is a reference to Hyper Text Coffee Pot Control Protocol which was an April Fools' joke in 1998.
 1. 500
+500 Internal Server Error server error response code indicates that the server encountered an unexpected condition that prevented it from fulfilling the request.
 
 
 For each of the questions below, write:
