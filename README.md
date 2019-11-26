@@ -851,9 +851,10 @@ A 404 status code does not indicate whether the resource is temporarily or perma
 For each of the questions below, write:
 
 1. The website which generated the HTTP status code
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 2. A description of what the status code means
 3. If an app you were writing encountered this status code, what would you do (if anything) to resolve any issues?
-
+  
 
 For reference, see:
 
