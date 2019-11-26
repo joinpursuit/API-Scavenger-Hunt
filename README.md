@@ -193,11 +193,17 @@ Use Postman to find each of the following HTTP codes:
 
 
 1. 200
+https://github.com/jcafowler
+The website loaded without incident.
+
 1. 301
 1. 400
 1. 401
 1. 403
+
 1. 404
+https://github.com/jflkm;lkfmkl;M;DSm
+The error means there is nothing found at that particular url on the website.
 1. 418
 1. 500
 
