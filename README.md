@@ -57,7 +57,28 @@ https://api.github.com/users/joinpursuit/repos
       "site_admin": false
     },
 1. All the JavaScript repos on Github with Pursuit in their name
+  https://api.github.com/search/repositories?q=pursuit-core+language:javascript&sort=stars&order=desc
+    "total_count": 22,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 149148208,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxNDkxNDgyMDg=",
+      "name": "Pursuit-Core-Web",
+      "full_name": "joinpursuit/Pursuit-Core-Web",
+      "private": false,
 1. All the Swift repos on Github with Pursuit in their name
+  https://api.github.com/search/repositories?q=pursuit-core+language:swift&sort=stars&order=desc
+     "total_count": 130,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 99703757,
+      "node_id": "MDEwOlJlcG9zaXRvcnk5OTcwMzc1Nw==",
+      "name": "Pursuit-Core-iOS",
+      "full_name": "joinpursuit/Pursuit-Core-iOS",
+      "private": false,
+      "owner": {
 1. A list of all Pokemon
 https://pogoapi.net/api/v1/pokemon_names.json
 {
@@ -70,7 +91,23 @@ https://pogoapi.net/api/v1/pokemon_names.json
         "name": "Ivysaur"
     },
 1. A list of all items in Fortnite
+  https://www.fortnitehut.com/free-api?rarity=epic
+
+    "results": [
+    {
+      "rarityid": {
+        "name": "epic",
+        "date": "November 26th 2019"
+      }
+    }
+  ],
+  "items": [
+    {
+      "name": "Pink Flamingo",
+      "ourid": "uQsDME1"
+
 1. A list of all Game of Thrones Episodes.
+  
 1. A list of all songs with "Love" in the title.
 1. All information about Petyr Baelish from the Game of Thrones books
 1. All the movies Leonardo Dicaprio has acted in
