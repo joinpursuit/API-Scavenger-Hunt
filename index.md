@@ -78,6 +78,81 @@ https://randomuser.me/api/?results=150
         "followers_url": "https://api.github.com/users/joinpursuit/followers",
         "following_url":
 1.5. 
+// https://api.github.com/search/repositories?q=joinpursuit/swift
+
+{
+  "total_count": 6,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 157135012,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxNTcxMzUwMTI=",
+      "name": "Swift-Protocols-Lab",
+      "full_name": "joinpursuit/Swift-Protocols-Lab",
+      "private": false,
+      "owner": {
+        "login": "joinpursuit",
+        "id": 5825944,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+        "avatar_url": "https://avatars2.githubusercontent.com/u/5825944?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/joinpursuit",
+        "html_url": "https://github.com/joinpursuit",
+        "followers_url": "https://api.github.com/users/joinpursuit/followers",
+        "following_url":
+1.6.
+https://pokeapi.co/api/v2/pokemon
+"count": 964,
+    "next": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
+    "previous": null,
+    "results": [
+        {
+            "name": "bulbasaur",
+            "url": "https://pokeapi.co/api/v2/pokemon/1/"
+        },
+1.7.
+https://fortnite-api.theapinetwork.com/store/get
+{
+    "lastUpdate": 1574726400,
+    "lanuage": "en",
+    "data": [
+        {
+            "itemId": "e67b4bc-bd9afae-5c95ae3-2ce6ce9",
+            "lastUpdat
+1.8.
+api.got.show/api/show/episodes
+[
+    {
+        "written_by": [
+            "David Benioff",
+            "D.B. Weiss"
+        ],
+        "characters": [
+            "Will",
+            "Waymar Royce",
+            "Gared",
+            "Wildling girl",
+            "White Walker 1",
+            "White Walker 2",
+            "Bran Stark",
+            "Jon Snow",
+            "Robb Stark",
+            "Catelyn Stark",
+            "Eddard Stark",
+            "Rickon Stark",
+            "Sansa Stark",
+            "Mordane",
+            "Arya Stark",
+            "Jeyne Poole",
+
+1.9.
+https://itunes.apple.com/search?term=love
+
+1.10.
+api.got.show/api/book/characters/:petyrBaelish
+
+1.11.
+https://itunes.apple.com/search?term=leonardo+dicaprio
 
           
 2.4.
