@@ -17,8 +17,12 @@
 // https://www.fortnitehut.com/free-api?rarity=epic
 
 // 8. A list of all Game of Thrones Episodes.
-
+// https://api.got.show/api/show/episodes
 
 // 9. A list of all songs with "Love" in the title.
+// https://itunes.apple.com/search?term=love
+
 // 10. All information about Petyr Baelish from the Game of Thrones books
+
+
 // 11. All the movies Leonardo Dicaprio has acted in
