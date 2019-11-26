@@ -307,6 +307,7 @@ For each of the questions below, write:
 
 
 3. If an app you were writing encountered this status code, what would you do (if anything) to resolve any issues?
+In the case of the 301 code, I would send an alert giving the new alert of the link.
 
 
 For reference, see:
