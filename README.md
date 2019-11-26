@@ -88,26 +88,34 @@ Use Postman to find each of the following HTTP codes:
 
 1. 200
 GOOGLE.COM
-Standard response for successful HTTP requests.
+Standard response for successful HTTP requests. No call issue.
 
 1. 301
-This and all future requests should be directed to the given url
+This and all future requests should be directed to the given url. No call issue if redirection is intentional.
+
 1. 400
 The server cannot or will not process the request due to an apparent client error (e.g., malformed request syntax, size too large, invalid request message framing, or deceptive request routing).
+The HTTP request syntax (URL/DNS) needs to be fixed or the DNS/Cookie cache needs to be cleared.
 
 1. 401
 Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided. The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource.
+For resolution, users needs to provide valid credentials for access (login/password).
 
 1. 403
-The request contained valid data and was understood by the server, but the server is refusing action. This may be due to the user not having the necessary permissions for a resource or needing an account of some sort, or attempting a prohibited action (e.g. creating a duplicate record where only one is allowed). This code is also typically used if the request provided authentication via the WWW-Authenticate header field, but the server did not accept that authentication. The request should not be repeated
+The request contained valid data and was understood by the server, but the server is refusing action. This may be due to the user not having the necessary permissions for a resource or needing an account of some sort, or attempting a prohibited action (e.g. creating a duplicate record where only one is allowed). This code is also typically used if the request provided authentication via the WWW-Authenticate header field, but the server did not accept that authentication. The request should not be repeated.
+To resolve, the directory may need an index file or be enabled, otherwise the user requires permission to access.
 
 1. 404
 The requested resource could not be found but may be available in the future. Subsequent requests by the client are permissible.
+A webpage may have moved without redirection to the new website or the URL syntax used for the request is incorrect, would need to fix syntax or add a redirecting URL.
+
 1. 418
 This code was defined in 1998 as one of the traditional IETF April Fools' jokes, in RFC 2324, Hyper Text Coffee Pot Control Protocol, and is not expected to be implemented by actual HTTP servers. The RFC specifies this code should be returned by teapots requested to brew coffee.
 http://www.error418.net/
+
 1. 500
 A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.
+To resolve, need to check the server for errors or corrupt or missing files.
 
 
 For each of the questions below, write:
