@@ -216,13 +216,37 @@ Use Postman to find each of the following HTTP codes:
 
 
 1. 200
+1. website=
+2. description= Ok
+3. resolution=
 1. 301
+1. website=
+2. description= Moved Permanently 
+3. resolution=A browser redirects to this page and search engines update their links to the resource
 1. 400
+1. website=
+2. description=Bad Request
+3. resolution= fix syntax
 1. 401
+1. website=
+2. description=Unauthorized
+3. resolution=
 1. 403
+1. website=
+2. description=Forbidden
+3. resolution= create sufficient right to user
 1. 404
+1. website=
+2. description=Not Found
+3. resolution=broken or dead links, and can be subject to link rot, add a new link
 1. 418
+1. website=
+2. description=I'm a teapot
+3. resolution=This error is a reference to Hyper Text Coffee Pot Control Protocol which was an April Fools' joke in 1998.
 1. 500
+1. website=
+2. description=Internal Server Error
+3. resolution=More appropriate timeout or upload limits rules should help.
 
 
 For each of the questions below, write:
