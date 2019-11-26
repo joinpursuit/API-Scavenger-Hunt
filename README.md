@@ -833,9 +833,10 @@ Use Postman to find each of the following HTTP codes:
 1. 301
 301 Moved Permanently redirect status response code indicates that the resource requested has been definitively moved to the URL given by the Location headers
 1. 400
-
+400 Bad Request response status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing).
 1. 401
-
+401 Unauthorized client error status response code indicates that the request has not been applied because it lacks valid authentication credentials for the target resource.
+This status is sent with a WWW-Authenticate header that contains information on how to authorize correctly.
 1. 403
 
 1. 404
