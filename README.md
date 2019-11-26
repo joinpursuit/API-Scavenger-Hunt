@@ -43,14 +43,14 @@ Status Code Scavenger Hunt!
 Use Postman to find each of the following HTTP codes:
 
 
-1. 200: OK
+1. 200: OK soundcloud
 1. 301: Moved permanently   
-1. 400: Bad request
-1. 401: Unauthorized
-1. 403: Client is forbidden
-1. 404: Path not found
-1. 418: I'm a teapot
-1. 500
+1. 400: Bad request facebook
+1. 401: Unauthorized spotify
+1. 403: Client is forbidden googled error code
+1. 404: Path not found github
+1. 418: I'm a teapot googled error code
+1. 500: internal server error googled error code
 
 
 For each of the questions below, write:
