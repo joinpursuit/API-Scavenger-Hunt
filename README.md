@@ -37,7 +37,7 @@ https://fortnite-api.theapinetwork.com/items/list
 https://api.got.show/api/map/episodes
 
 1. A list of all songs with "Love" in the title.
-
+https://itunes.apple.com/search?term=love
 
 1. All information about Petyr Baelish from the Game of Thrones books
 https://www.anapioficeandfire.com/api/characters/823
@@ -54,13 +54,21 @@ Use Postman to find each of the following HTTP codes:
 
 
 1. 200
+Success status response code indicates that the request has succeeded. Depends on the HTTP request method: GET : The resource has been fetched and is transmitted in the message body.
 1. 301
+Used for permanent URL redirection, meaning current links or records using the URL that the response is received for should be updated. The new URL should be provided in the Location field included with the response.
 1. 400
+Bad Request response status code indicates that the server cannot or will not process the request due to something that is perceived to be a client error.
 1. 401
+Authentication Error, lacks valid authentication.
 1. 403
+403 access to the requested (valid) URL by the client is Forbidden for some reason.  Sever understands request, but will not fulfill due to client
 1. 404
+Not found. Page not found, server not found. Browser is able to communicate with server, but the server could not find the request.
 1. 418
+That's a joke....
 1. 500
+Internal Server Error. Indicates server encountered an unexpected condition that prevented it from fulfilling the request. 
 
 
 For each of the questions below, write:
