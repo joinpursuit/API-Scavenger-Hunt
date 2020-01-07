@@ -40,7 +40,7 @@ https://pokeapi.co/api/v2/pokemon/
   'omastar',    'kabuto'
 ]
 1. A list of all items in Fortnite
-https://www.fortnitehut.com/free-api?rarity=epic
+git stat
 {
   "results": [
     {
