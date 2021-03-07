@@ -241,6 +241,58 @@ https://fortnite-api.theapinetwork.com/items/list
 
 
 - A list of all Game of Thrones Episodes.
+
+https://api.got.show/api/show/episodes
+
+```
+{
+    "written_by": [
+      "Vanessa Taylor"
+    ],
+    "characters": [
+      "Rennick",
+      "Lannister guardsman",
+      "Roose Bolton",
+      "Talisa Maegyr",
+      "The Tickler",
+      "Weasel",
+      "Tortured prisoner",
+      "Spice King",
+      "Pyat Pree",
+      "Silk King",
+      "Xaro Xhoan Daxos",
+      "Copper King"
+    ],
+    "deaths": [
+      "Rennick",
+      "Lannister guardsman",
+      "Tortured prisoner",
+      "Stafford Lannister"
+    ],
+    "places": [
+      "At Oxcross",
+      "At Harrenhal",
+      "In King's Landing",
+      "In the Stormlands",
+      "In Qarth",
+      "First",
+      "Deaths",
+      "Cast Notes",
+      "Video"
+    ],
+    "_id": "5cc074bf04e71a0010b85a27",
+    "title": "Garden of Bones",
+    "season": 2,
+    "episode": 4,
+    "runtime": 51,
+    "directed_by": "David Petrarca",
+    "createdAt": "2019-04-24T14:37:51.764Z",
+    "updatedAt": "2019-04-24T14:37:51.764Z",
+    "__v": 0
+  }
+
+```
+
 - A list of all songs with "Love" in the title.
 - All information about Petyr Baelish from the Game of Thrones books
 - All the movies Leonardo Dicaprio has acted in
