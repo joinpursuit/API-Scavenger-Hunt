@@ -32,15 +32,165 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+  https://randomuser.me/api
+
+```{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Peter",
+        "last": "Gilbert"
+      }
+```
+
 - All the repos on Github with Pursuit their name
+  https://api.github.com/search/repositories?q=pursuit
+
+```
+"login": "purescript",
+        "id": 6556677,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjY1NTY2Nzc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6556677?v=4"
+```
+
 - All the JavaScript repos on Github with Pursuit in their name
+  https://api.github.com/search/repositories?q=pursuit-core+language:javascript
+
+```
+{
+  "total_count": 5,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 149148208,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxNDkxNDgyMDg=",
+      "name": "Pursuit-Core-Web",
+      "full_name": "joinpursuit/Pursuit-Core-Web",
+      "private": false,
+```
+
 - All the Swift repos on Github with Pursuit in their name
+  https://api.github.com/search/repositories?q=pursuit-core+language:swift
+
+```
+"items": [
+    {
+      "id": 233689493,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMzM2ODk0OTM=",
+      "name": "Pursuit-Core-iOS-UserDefaults-Lab",
+      "full_name": "maitreebain/Pursuit-Core-iOS-UserDefaults-Lab",
+      "private": false,
+      "owner": {
+        "login": "maitreebain",
+```
+
 - A list of all Pokemon
+  https://pokeapi.co/api/v2/pokemon
+
+````{
+  "count": 1118,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
+  "previous": null,
+  "results": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    },
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/2/"
+    },
+    {
+      ```
 - A list of all items in Fortnite
+
+https://fortnite-api.com/v2/shop/br/combined
+
+````
+
+{
+"status": 200,
+"data": {
+"hash": "74a71d87f7fd6c80c0a09903d173743a01711c47",
+"date": "2021-03-07T03:00:00Z",
+"featured": {
+"name": "FEATURED",
+"entries": [
+
+```
+
 - A list of all Game of Thrones Episodes.
+
+https://api.got.show/api/map/episodes
+
+```
+
+{
+"message": "Success",
+"data": [
+{
+"characters": [
+"Viserys Targaryen",
+"Catelyn Stark",
+"Cersei Lannister",
+"Jaime Lannister",
+"Eddard Stark",
+"Robert Baratheon",
+"Jorah Mormont",
+
+```
+
+
 - A list of all songs with "Love" in the title.
+https://itunes.apple.com/search?term=love
+
+```
+
+"resultCount": 2,
+"results": [
+{
+"wrapperType": "audiobook",
+"artistId": 326020144,
+"collectionId": 315601683,
+"amgArtistId": 371195,
+"artistName": "Pema Chödrön",
+"collectionName": "Getting Unstuck: Breaking Your Habitual Patterns and Encountering Naked Reality",
+
+```
+
 - All information about Petyr Baelish from the Game of Thrones books
+https://anapioficeandfire.com/api/characters/823
+
+```
+
+{
+"url": "https://www.anapioficeandfire.com/api/characters/823",
+"name": "Petyr Baelish",
+"gender": "Male",
+"culture": "Valemen",
+"born": "In 268 AC, at the Fingers",
+"died": "",
+"titles":
+
+````
+
 - All the movies Leonardo Dicaprio has acted in
+https://itunes.apple.com/search?term=leonardo+dicaprio
+
+````
+{
+  "resultCount": 45,
+  "results": [
+    {
+      "wrapperType": "audiobook",
+      "artistId": 524168658,
+      "collectionId": 648174732,
+      "artistName": "Douglas Wight",
+      "collectionName": "Leonardo DiCaprio: The Biography (Unabridged)",
+      "collectionCensoredName": "Leonardo DiCaprio: The Biography (Unabridged)", 
+````
 
 # Part Two
 
@@ -76,7 +226,7 @@ Try out all requests you can think of in this API, the docs are a good starting 
   ],
   "statusCodesFound": [200, ...]
 }
-```
+````
 
 ### Hints
 
