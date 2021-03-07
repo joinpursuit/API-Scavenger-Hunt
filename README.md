@@ -105,6 +105,20 @@ Here are all the APIs to find!
     {
       ```
 - A list of all items in Fortnite
+
+https://fortnite-api.com/v2/shop/br/combined
+
+````
+{
+  "status": 200,
+  "data": {
+    "hash": "74a71d87f7fd6c80c0a09903d173743a01711c47",
+    "date": "2021-03-07T03:00:00Z",
+    "featured": {
+      "name": "FEATURED",
+      "entries": [
+````
+
 - A list of all Game of Thrones Episodes.
 - A list of all songs with "Love" in the title.
 - All information about Petyr Baelish from the Game of Thrones books
