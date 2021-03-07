@@ -32,6 +32,34 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+link - https://randomuser.me/api/?results=150
+
+``` {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Constance",
+        "last": "Payne"
+      },
+      "location": {
+        "street": {
+          "number": 2879,
+          "name": "Walnut Hill Ln"
+        },
+        "city": "Sydney",
+        "state": "Western Australia",
+        "country": "Australia",
+        "postcode": 6104,
+        "coordinates": {
+          "latitude": "-33.5974",
+          "longitude": "166.0925"
+        },
+        "timezone": {
+          "offset": "-8:00",
+          "description": "Pacific Time (US & Canada)"
+          }
+
+          ```
 - All the repos on Github with Pursuit their name
 - All the JavaScript repos on Github with Pursuit in their name
 - All the Swift repos on Github with Pursuit in their name
