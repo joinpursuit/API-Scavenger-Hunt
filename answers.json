@@ -28,7 +28,14 @@
           "responseStatusCode": 200,
           "statusCodeMeaning": "ok, request was successful and response was sent back without issue."
         },
-
+        {
+          "method": "GET",
+          "endpoint": "/api/todos",
+          "description": "Lists of to-dos",
+          "responseStatusCode": 200,
+          "statusCodeMeaning": "ok, request was successful and response was sent back without issue."
+        }
+        
 
 
 
