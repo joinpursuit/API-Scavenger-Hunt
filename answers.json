@@ -1,0 +1,28 @@
+
+
+{
+    "requests": [
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "Expected a `username` field  with a valid string in the body",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "Bad Request/invalid syntax"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/users/myra47",
+        "description": "Returns basic information on myra",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      }
+    ],
+    "statusCodesFound": [200, 400]
+  }
