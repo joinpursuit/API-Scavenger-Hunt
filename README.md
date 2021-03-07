@@ -151,6 +151,121 @@ link - https://fortnite-api.theapinetwork.com/items/list
     ```
     
 - A list of all Game of Thrones Episodes.
+link - "https://api.got.show/api/show/episodes"
+
+`` {
+    "written_by": [
+      "David Benioff",
+      "D.B. Weiss"
+    ],
+    "characters": [
+      "Will",
+      "Waymar Royce",
+      "Gared",
+      "Wildling girl",
+      "White Walker 1",
+      "White Walker 2",
+      "Bran Stark",
+      "Jon Snow",
+      "Robb Stark",
+      "Catelyn Stark",
+      "Eddard Stark",
+      "Rickon Stark",
+      "Sansa Stark",
+      "Mordane",
+      "Arya Stark",
+      "Jeyne Poole",
+      "Rodrik Cassel",
+      "Jory Cassel",
+      "Theon Greyjoy",
+      "Lady",
+      "Grey Wind",
+      "Shaggydog",
+      "Summer",
+      "Nymeria",
+      "Ghost",
+      "Jaime Lannister",
+      "Cersei Lannister",
+      "Maester",
+      "Tommy",
+      "Joffrey Baratheon",
+      "Sandor Clegane",
+      "Preston Greenfield",
+      "Hodor",
+      "Mikken",
+      "Robert Baratheon",
+      "Tommen Baratheon",
+      "Myrcella Baratheon",
+      "Tyrion Lannister",
+      "Ros",
+      "Daenerys Targaryen",
+      "Viserys Targaryen",
+      "Pentoshi servant",
+      "Illyrio Mopatis",
+      "Khal",
+      "Qotho",
+      "Cohollo",
+      "Haggo",
+      "Benjen Stark",
+      "Jorah Mormont",
+      "Mago"
+    ],
+    "deaths": [
+      "Waymar Royce",
+      "Gared",
+      "Will",
+      "Jon Arryn",
+      "Dothraki"
+    ],
+    "places": [
+      "Beyond the Wall",
+      "In Pentos",
+      "In King's Landing",
+      "In the North",
+      "First",
+      "Deaths",
+      "Cast notes"
+    ],
+    "_id": "5cc074bf04e71a0010b85a1a",
+    "title": "Winter Is Coming",
+    "season": 1,
+    "episode": 1,
+    "runtime": 62,
+    "directed_by": "Tim Van Patten",
+    "createdAt": "2019-04-24T14:37:51.759Z",
+    "updatedAt": "2019-04-24T14:37:51.759Z",
+    "__v": 0
+  },
+  {
+    "written_by": [
+      "David Benioff",
+      "D.B. Weiss"
+    ],
+    "characters": [
+      "Doreah",
+      "Irri",
+      "Jhiqui",
+      "Rast",
+      "Catspaw assassin",
+      "Ilyn Payne",
+      "Mycah",
+      "Lannister guardsman"
+    ],
+    "deaths": [
+      "Catspaw assassin",
+      "Mycah",
+      "Lady"
+    ],
+    "places": [
+      "In the Dothraki Sea",
+      "In the North",
+      "At the Wall",
+      "At the Inn at the Crossroads",
+      "Characters",
+      "Cast notes"
+    ]``
+
+
 - A list of all songs with "Love" in the title.
 - All information about Petyr Baelish from the Game of Thrones books
 - All the movies Leonardo Dicaprio has acted in
