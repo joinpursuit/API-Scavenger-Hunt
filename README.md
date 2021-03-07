@@ -29,18 +29,137 @@ https://catfact.ninja/fact
 
 ---
 
+
+
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+```
+https://randomuser.me/api/?results=150&nat=us
+
+{
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Sonia",
+        "last": "Burns"
+      },
+       {
+        "city": "Garden Grove",
+        "state": "Vermont",
+        "country": "United States",
+        "postcode": 11587,
+        "coordinates": {
+          "latitude": "4.1587",
+          "longitude": "59.2836"
+        }
+
+ "results": 150,
+```
+
 - All the repos on Github with Pursuit their name
+```
+https://api.github.com/search/repositories?q=pursuit
+
+{
+      "id": 22592439,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMjU5MjQzOQ==",
+      "name": "pursuit",
+      "full_name": "purescript/pursuit",
+      "private": false,
+      }
+{
+  "total_count": 2085
+}
+
+
+```
+
+
 - All the JavaScript repos on Github with Pursuit in their name
+```
+https://api.github.com/search/repositories?q=pursuitin:name+language:javascript
+
+
+      "id": 40902807,
+      "node_id": "MDEwOlJlcG9zaXRvcnk0MDkwMjgwNw==",
+      "name": "ChessPursuit",
+      "full_name": "Saturnyn/ChessPursuit",
+      "private": false,
+      "owner": }
+
+      "language": "JavaScript"
+{
+  "total_count": 178 
+}
+
+```
+
+
 - All the Swift repos on Github with Pursuit in their name
+```
+https://api.github.com/search/repositories?q=pursuitin:name+language:swift
+
+
+      "id": 158296571,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxNTgyOTY1NzE=",
+      "name": "Pursuit-Core-iOS-Hangman-UIKit-Project",
+      "full_name": "joinpursuit/Pursuit-Core-iOS-Hangman-UIKit-Project",
+      "private": false,
+      "owner": }
+
+      "language": "Swift"
+
+
+  "total_count": 199
+
+
+
+```
+
+
 - A list of all Pokemon
+```
+https://pokeapi.co/api/v2/pokemon
+
+{
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    }
+
+
+  "count": 1118
+
+```
+
 - A list of all items in Fortnite
+```
+
+```
+
 - A list of all Game of Thrones Episodes.
+```
+
+```
+
+
 - A list of all songs with "Love" in the title.
+```
+
+```
+
+
 - All information about Petyr Baelish from the Game of Thrones books
+```
+
+```
+
+
 - All the movies Leonardo Dicaprio has acted in
+```
+
+```
+
 
 # Part Two
 
