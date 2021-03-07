@@ -69,7 +69,7 @@
       "description": "deletes the item",
       "responseStatusCode": 200,
       "statusCodeMeaning": "The request was successful"
-    }
+    },
     {
       "method": "GET",
       "endpoint": "/admin",
