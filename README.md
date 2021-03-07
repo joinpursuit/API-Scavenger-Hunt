@@ -175,8 +175,71 @@ https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2
 
 
 - All the Swift repos on Github with Pursuit in their name
+
+
+
+```
+
+
+```
+
 - A list of all Pokemon
+
+https://pokeapi.co/api/v2/pokemon/
+
+```
+ {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    }
+
+```
+
 - A list of all items in Fortnite
+
+https://fortnite-api.theapinetwork.com/items/list
+
+```
+
+{
+  "lastUpdate": 0,
+  "lanuage": "en",
+  "data": [
+    {
+      "itemId": "5bac8575-992e-41db-b23c-8d5646d8f586",
+      "lastUpdate": 1614475984,
+      "item": {
+        "name": "Silver Surfer (Bundle)",
+        "description": null,
+        "type": "bundle",
+        "rarity": "epic",
+        "series": "marvel",
+        "cost": 2200,
+        "upcoming": false,
+        "images": {
+          "icon": "https://dropin-bucket.mativecdn.com/cosmetics/br/5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7/icon.png",
+          "featured": null,
+          "background": "https://dropin-bucket.mativecdn.com/cosmetics/br/5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7/icon.png",
+          "information": "https://dropin-bucket.mativecdn.com/cosmetics/br/5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7/icon.png"
+        },
+        "backpack": {},
+        "obtained": "2200",
+        "obtained_type": "vbucks",
+        "ratings": {
+          "avgStars": 3.71,
+          "totalPoints": 89,
+          "numberVotes": 24
+        },
+        "costmeticId": "5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7",
+        "obtainedValue": "none",
+        "obtainedFromBattlepass": "none"
+      }
+    }
+
+
+```
+
+
 - A list of all Game of Thrones Episodes.
 - A list of all songs with "Love" in the title.
 - All information about Petyr Baelish from the Game of Thrones books
