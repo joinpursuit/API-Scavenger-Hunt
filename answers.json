@@ -1,68 +1,82 @@
 {
-    "requests": [
-      {
-        "method": "GET",
-        "endpoint": "/api/users",
-        "description": "Returns user list",
-        "responseStatusCode": 200,
-        "statusCodeMeaning": "The request was successful"
-      },
-      {
-        "method": "GET",
-        "endpoint": "/api/users/alejo4373",
-        "description": "Returns user information",
-        "responseStatusCode": 200,
-        "statusCodeMeaning": "The request was successful"
-      },
-      {
-        "method": "POST",
-        "endpoint": "/api/users/signup",
-        "description": "Returns expected a `username` field  with a valid string in the body",
-        "responseStatusCode": 400,
-        "statusCodeMeaning": "The request was bad"
-      },
-      {
-        "method": "GET",
-        "endpoint": "/api/todos",
-        "description": "Returns a list of all todos",
-        "responseStatusCode": 200,
-        "statusCodeMeaning": "The request was successful"
-      },
-      {
-        "method": "GET",
-        "endpoint": "/api/todos?username=alejo4373",
-        "description": "Returns empty list",
-        "responseStatusCode": 200,
-        "statusCodeMeaning": "The request was successful"
-      },
-      {
-        "method": "GET",
-        "endpoint": "/api/todos/1",
-        "description": "Returns todo not found",
-        "responseStatusCode": 404,
-        "statusCodeMeaning": "The request was Not Found"
-      },
-      {
-        "method": "GET",
-        "endpoint": "/admin",
-        "description": "Returns 🛑 You are not authorized to come here. Where are your credentials?",
-        "responseStatusCode": 401,
-        "statusCodeMeaning": "The request was Unathorized"
-      },
-      {
-        "method": "DELETE",
-        "endpoint": "/api/todos",
-        "description": "Returns Oops! DELETE method is is not allowed here",
-        "responseStatusCode": 405,
-        "statusCodeMeaning": "The request was not allowed"
-      },
-      {
-        "method": "GET",
-        "endpoint": "/9",
-        "description": "Returns a gif",
-        "responseStatusCode": 400,
-        "statusCodeMeaning": "The request was bad"
-      }
-    ],
-    "statusCodesFound": [200, 400, 401, 404, 405]
-  }
+  "requests": [
+    {
+      "method": "GET",
+      "endpoint": "/api/users",
+      "description": "Returns a list of all users",
+      "responseStatusCode": 200,
+      "statusCodeMeaning": "The request was successful"
+    },
+    {
+      "method": "GET",
+      "endpoint": "/api/users/corey",
+      "description": "Returns the username and id",
+      "responseStatusCode": 200,
+      "statusCodeMeaning": "The request was successful"
+    },
+    {
+      "method": "POST",
+      "endpoint": "/api/users/signup",
+      "description": "Create username of joshua",
+      "responseStatusCode": 201,
+      "statusCodeMeaning": "The request was successful create"
+    },
+    {
+      "method": "GET",
+      "endpoint": "/api/todos",
+      "description": "Returns a list of all todos",
+      "responseStatusCode": 200,
+      "statusCodeMeaning": "The request was successful"
+    },
+    {
+      "method": "GET",
+      "endpoint": "/api/todos?owner=corey",
+      "description": "Returns id of todo, owner,text of the todo, and if completed",
+      "responseStatusCode": 200,
+      "statusCodeMeaning": "The request was successful"
+    },
+    {
+      "method": "POST",
+      "endpoint": "/api/todos",
+      "description": "Create id, owner=joshua, text=complete book",
+      "responseStatusCode": 201,
+      "statusCodeMeaning": "The request was successful created"
+    },
+    {
+      "method": "POST",
+      "endpoint": "/api/todos/0f10f5c0",
+      "description": "return specific id with owner and text and if completed",
+      "responseStatusCode": 200,
+      "statusCodeMeaning": "The request was successful created"
+    },
+    {
+      "method": "PUT",
+      "endpoint": "/api/todos/0f10f5c0",
+      "description": "replaced text='complete a website' and completed='true'",
+      "responseStatusCode": 200,
+      "statusCodeMeaning": "The request was successful"
+    },
+    {
+      "method": "PATCH",
+      "endpoint": "/api/todos/0f10f5c0",
+      "description": "completed:false",
+      "responseStatusCode": 200,
+      "statusCodeMeaning": "The request was successful"
+    },
+    {
+      "method": "DELETE",
+      "endpoint": "/api/todos/0f10f5c0",
+      "description": "deletes the item",
+      "responseStatusCode": 200,
+      "statusCodeMeaning": "The request was successful"
+    }
+    {
+      "method": "GET",
+      "endpoint": "/admin",
+      "description": "Returns user not authorized",
+      "responseStatusCode": 401,
+      "statusCodeMeaning": "The request was unauthorized"
+    }
+  ],
+  "statusCodesFound": [200, 201, 401 ]
+}
