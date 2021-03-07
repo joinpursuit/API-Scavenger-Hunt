@@ -34,7 +34,7 @@ Here are all the APIs to find!
 - A list of 150 random users in English.
   https://randomuser.me/api
 
-````{
+```{
   "results": [
     {
       "gender": "male",
@@ -43,18 +43,33 @@ Here are all the APIs to find!
         "first": "Peter",
         "last": "Gilbert"
       }
-````
+```
 
 - All the repos on Github with Pursuit their name
-https://api.github.com/search/repositories?q=pursuit
-````
+  https://api.github.com/search/repositories?q=pursuit
+
+```
 "login": "purescript",
         "id": 6556677,
         "node_id": "MDEyOk9yZ2FuaXphdGlvbjY1NTY2Nzc=",
         "avatar_url": "https://avatars.githubusercontent.com/u/6556677?v=4"
-````
+```
 
 - All the JavaScript repos on Github with Pursuit in their name
+  https://api.github.com/search/repositories?q=pursuit-core+language:javascript
+
+````{
+  "total_count": 5,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 149148208,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxNDkxNDgyMDg=",
+      "name": "Pursuit-Core-Web",
+      "full_name": "joinpursuit/Pursuit-Core-Web",
+      "private": false,
+      ```
+
 
 - All the Swift repos on Github with Pursuit in their name
 - A list of all Pokemon
