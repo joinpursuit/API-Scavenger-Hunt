@@ -123,10 +123,29 @@ https://fortnite-api.com/v2/shop/br/combined
 
 - A list of all Game of Thrones Episodes.
 
+https://api.got.show/api/map/episodes
+
+````
+{
+  "message": "Success",
+  "data": [
+    {
+      "characters": [
+        "Viserys Targaryen",
+        "Catelyn Stark",
+        "Cersei Lannister",
+        "Jaime Lannister",
+        "Eddard Stark",
+        "Robert Baratheon",
+        "Jorah Mormont",
+````
+
 
 - A list of all songs with "Love" in the title.
 https://itunes.apple.com/search?term=love
-```"resultCount": 2,
+
+````
+"resultCount": 2,
   "results": [
     {
       "wrapperType": "audiobook",
@@ -134,9 +153,23 @@ https://itunes.apple.com/search?term=love
       "collectionId": 315601683,
       "amgArtistId": 371195,
       "artistName": "Pema Chödrön",
-      "collectionName": "Getting Unstuck: Breaking Your Habitual Patterns and Encountering Naked Reality",```
+      "collectionName": "Getting Unstuck: Breaking Your Habitual Patterns and Encountering Naked Reality",
+````
 
 - All information about Petyr Baelish from the Game of Thrones books
+https://anapioficeandfire.com/api/characters/823
+
+````
+{
+  "url": "https://www.anapioficeandfire.com/api/characters/823",
+  "name": "Petyr Baelish",
+  "gender": "Male",
+  "culture": "Valemen",
+  "born": "In 268 AC, at the Fingers",
+  "died": "",
+  "titles": 
+````
+
 - All the movies Leonardo Dicaprio has acted in
 
 # Part Two
