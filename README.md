@@ -32,6 +32,33 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+
+https://opencollective.com/webpack/members/organizations.json
+
+```
+{
+    "MemberId": 1770,
+    "createdAt": "2016-10-02 23:30",
+    "type": "ORGANIZATION",
+    "role": "HOST",
+    "isActive": true,
+    "totalAmountDonated": 0,
+    "lastTransactionAt": "2021-03-07 15:25",
+    "lastTransactionAmount": 0,
+    "profile": "https://opencollective.com/opensource",
+    "name": "Open Source Collective",
+    "company": null,
+    "description": "Non-profit fiscal host promoting a healthy and sustainable open source ecosystem",
+    "image": "https://opencollective-production.s3.us-west-1.amazonaws.com/97017710-a90f-11e9-b6fb-2bbe7128f780.png",
+    "email": null,
+    "twitter": "https://twitter.com/opencollect",
+    "github": null,
+    "website": "https://oscollective.org"
+  }
+  
+```
+
+
 - All the repos on Github with Pursuit their name
 - All the JavaScript repos on Github with Pursuit in their name
 - All the Swift repos on Github with Pursuit in their name
