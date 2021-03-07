@@ -1,0 +1,95 @@
+{
+    "requests": [
+      {
+        "method": "GET",
+        "endpoint": "/api/users",
+        "description": "Returns user list",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/users/alejo4373",
+        "description": "Returns user information",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "username:poonam",
+        "responseStatusCode": 201,
+        "statusCodeMeaning": "The request was created"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos?username=corey",
+        "description": "Buy Milk",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos/b0d19c30",
+        "description": "Returns poonam's to do item",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was succesful"
+      },
+      {
+          "method": "POST",
+          "endpoint": "api/todos",
+          "description": "added a list item to do - owner: poonam, text: eat ice cream",
+          "responseStatusCode": 201,
+          "statusCodeMeaning":"request was created"
+      },
+      {
+          "method": "PATCH",
+          "endpoint": "api/todos/b0d19c30",
+          "description": "text: eat a cheeseburger",
+          "responseStatusCode": 200,
+          "statusCodeMeaning": "The request was succesful"  
+      },
+
+      {
+        "method": "GET",
+        "endpoint": "/admin",
+        "description": "Returns 🛑 You are not authorized to come here. Where are your credentials?",
+        "responseStatusCode": 401,
+        "statusCodeMeaning": "The request was Unathorized"
+      },
+      {
+        "method": "PUT",
+        "endpoint":"api/todos/d83f7e30",
+        "description":"changed cheeseburger text to eat a  cake and listed as true for completed",
+        "responseStatusCode": 200,
+        "statusCodeMeaning":"The request was succesful"
+      },
+      {
+        "method": "DELETE",
+        "endpoint": "/api/todos//b0d19c30",
+        "description": "shows poonam's todo list that we want to delete",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/9",
+        "description": "Returns a gif",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "The request was bad"
+      },
+      {
+
+      }
+
+
+    ],
+    "statusCodesFound": [200, 201, 400, 401]
+  } 
