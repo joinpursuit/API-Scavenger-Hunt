@@ -32,7 +32,102 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+https://randomuser.me/api/
+``` JSON
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Landon",
+        "last": "Baker"
+      },
+      "location": {
+        "street": {
+          "number": 9909,
+          "name": "The Green"
+        },
+        "city": "Tuam",
+        "state": "Galway City",
+        "country": "Ireland",
+        "postcode": 95280,
+        "coordinates": {
+          "latitude": "20.1671",
+          "longitude": "-75.2183"
+        },
+        "timezone": {
+          "offset": "-2:00",
+          "description": "Mid-Atlantic"
+        }
+      },
+      "email": "landon.baker@example.com",
+      "login": {
+        "uuid": "905fee5f-e5d8-4527-a993-8e3dbe932153",
+        "username": "organicduck596",
+        "password": "monarch",
+        "salt": "5v2IuiD4",
+        "md5": "8a4cd2eda5bd94aa11d2210a60961179",
+        "sha1": "bb0ca35869d0bab98a3731b5d04027806735c428",
+        "sha256": "586f4eaf115aa2e5a5d2705499df7e8861d2133b2f3f025b9e9bd1657ae239f0"
+      },
+      "dob": {
+        "date": "1992-02-26T09:32:50.100Z",
+        "age": 29
+      },
+      "registered": {
+        "date": "2005-11-02T21:05:40.999Z",
+        "age": 16
+      },
+      "phone": "051-952-1031",
+      "cell": "081-085-9744",
+      "id": {
+        "name": "PPS",
+        "value": "5277639T"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/82.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/82.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/82.jpg"
+      },
+      "nat": "IE"
+    }
+  ],
+  "info": {
+    "seed": "e54337d3cf69e889",
+    "results": 1,
+    "page": 1,
+    "version": "1.3"
+  }
+}```
+
+
+
+
+
+
 - All the repos on Github with Pursuit their name
+https://api.github.com/users/joinpursuit/repos
+``` JSON
+
+  {
+    "id": 341080793,
+    "node_id": "MDEwOlJlcG9zaXRvcnkzNDEwODA3OTM=",
+    "name": "-Pursuit-Core-Web-Promises-Fetch-Lab-v2",
+    "full_name": "joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2",
+    "private": false,
+    "owner": {
+      "login": "joinpursuit",
+      "id": 5825944,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joinpursuit",
+      "html_url": "https://github.com/joinpursuit",
+      "followers_url":
+      ````
+
+  
 - All the JavaScript repos on Github with Pursuit in their name
 - All the Swift repos on Github with Pursuit in their name
 - A list of all Pokemon
