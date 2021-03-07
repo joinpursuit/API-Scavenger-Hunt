@@ -32,15 +32,84 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+https://randomuser.me/api/
+```
+{
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Fabian",
+        "last": "Caspersen"
+      }
+```
 - All the repos on Github with Pursuit their name
 - All the JavaScript repos on Github with Pursuit in their name
 - All the Swift repos on Github with Pursuit in their name
 - A list of all Pokemon
+https://pokeapi.co/api/v2/pokemon/
+```
+{
+      "name": "charizard",
+      "url": "https://pokeapi.co/api/v2/pokemon/6/"
+    },
+    {
+      "name": "squirtle",
+      "url": "https://pokeapi.co/api/v2/pokemon/7/"
+    }
+```
 - A list of all items in Fortnite
+https://fortnite-api.theapinetwork.com/store/get
+```{
+        "name": "Toothpick",
+        "description": "",
+        "type": "pickaxe",
+        "rarity": "rare",
+        "series": "marvel",
+}
+```
 - A list of all Game of Thrones Episodes.
+https://api.got.show/api/map/episodes
+```
+{ "season": 1,
+      "nr": 3,
+      "name": "Lord Snow",
+      "predecessor": "The Kingsroad",
+      "successor": "Cripples, Bastards, and Broken Things",
+      "createdAt": "2019-04-24T14:35:34.595Z",
+      "updatedAt": "2019-04-24T14:35:34.595Z",
+}
+```
 - A list of all songs with "Love" in the title.
 - All information about Petyr Baelish from the Game of Thrones books
+https://www.anapioficeandfire.com/api/characters/823
+```
+{
+  "name": "Petyr Baelish",
+  "gender": "Male",
+  "culture": "Valemen",
+  "born": "In 268 AC, at the Fingers",
+  "died": "",
+  "titles": [
+    "Master of coin (formerly)",
+    "Lord Paramount of the Trident",
+    "Lord of Harrenhal",
+    "Lord Protector of the Vale"
+  ],
+  "aliases": [
+    "Littlefinger"
+  ],
+}
+```
 - All the movies Leonardo Dicaprio has acted in
+https://imdb8.p.rapidapi.com/actors/get-all-filmography
+```
+},
+      "status": "released",
+      "title": "Once Upon a Time... In Hollywood",
+      "titleType": "movie",
+      "year": 2019
+}
+```
 
 # Part Two
 
