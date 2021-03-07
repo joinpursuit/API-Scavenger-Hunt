@@ -1,0 +1,76 @@
+"requests": [
+    {
+      "method": "GET",
+      "endpoint": "/api/users",
+      "description": "Returns a list of all user",
+      "responseStatusCode": 200,
+      "statusCodeMeaning": "The request was successful"
+    }
+    
+    {
+      "method": "GET",
+      "endpoint": "	/api/users/<user-username>",
+      "description": "Returns a user",
+      "responseStatusCode": 200,
+      "statusCodeMeaning": "The request was successful"
+    }
+
+    {
+        "method": "POST",
+        "endpoint": "	/api/users/signup",
+        "description": "creates new user",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+    }
+
+    {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "gets todo by id",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+    }  
+    
+    {
+        "method": "POST",
+        "endpoint": "/api/todos",
+        "description": "create a todo for a owner",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+    }
+
+    {    "method": "GET",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "gets todo by id",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+    }
+
+    {
+        "method": "PUT",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "replaces everything",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+    }
+     
+    {
+      "method": "PATCH",
+      "endpoint": "/api/todos/<todo-id>",
+      "description": "updated everything",
+      "responseStatusCode": 200,
+      "statusCodeMeaning": "The request was successful"
+    }
+
+   {
+        "method": "DELETE",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "deletes usear",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+   }
+
+
+
+  ]
+  "statusCodesFound": [200, 200, 200, 200, 200, 200, 200, 200, 200 ]
