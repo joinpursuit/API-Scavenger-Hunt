@@ -72,1021 +72,6 @@ https://randomuser.me/api/?results=150&nat=us&inc=name
         "first": "Florence",
         "last": "Lopez"
       }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Brooklyn",
-        "last": "Garcia"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Isaac",
-        "last": "Tucker"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Anita",
-        "last": "Lambert"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Cassandra",
-        "last": "Garcia"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Elijah",
-        "last": "Reyes"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Kent",
-        "last": "Sanders"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Raymond",
-        "last": "Vargas"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Adam",
-        "last": "Rice"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Judy",
-        "last": "Hale"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Mark",
-        "last": "Crawford"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Sylvia",
-        "last": "Hanson"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Richard",
-        "last": "Larson"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Terri",
-        "last": "Mills"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Sebastian",
-        "last": "Chapman"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Clifford",
-        "last": "Howell"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Leslie",
-        "last": "Stevens"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Michael",
-        "last": "Carter"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Beverley",
-        "last": "Wade"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Ramona",
-        "last": "Watts"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Leonard",
-        "last": "Garza"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Michele",
-        "last": "Garza"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Marshall",
-        "last": "Gordon"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Logan",
-        "last": "Chavez"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Leroy",
-        "last": "Lambert"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Teresa",
-        "last": "Garza"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Howard",
-        "last": "Rhodes"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Kristina",
-        "last": "Wells"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Donald",
-        "last": "Armstrong"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Mabel",
-        "last": "Bennett"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Leta",
-        "last": "Cook"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Herbert",
-        "last": "Brewer"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Jeremiah",
-        "last": "Webb"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Ricardo",
-        "last": "Duncan"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Lucy",
-        "last": "Walters"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Elaine",
-        "last": "Jenkins"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Everett",
-        "last": "Stanley"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Patsy",
-        "last": "Johnston"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Yvonne",
-        "last": "Bradley"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Rhonda",
-        "last": "May"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Dana",
-        "last": "Gibson"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Johnny",
-        "last": "Perkins"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Alexander",
-        "last": "Coleman"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Mattie",
-        "last": "Olson"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Gertrude",
-        "last": "Bishop"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Ricardo",
-        "last": "George"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Earl",
-        "last": "Andrews"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Violet",
-        "last": "Gutierrez"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Charlene",
-        "last": "Watts"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Meghan",
-        "last": "Chambers"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Anna",
-        "last": "Evans"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Ashley",
-        "last": "James"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Marjorie",
-        "last": "Gordon"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Alyssa",
-        "last": "Cox"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Sarah",
-        "last": "Little"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Charlene",
-        "last": "Morris"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Ethan",
-        "last": "Lane"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Ron",
-        "last": "Wright"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Sophie",
-        "last": "Wagner"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Evan",
-        "last": "Kuhn"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Patrick",
-        "last": "Mcdonalid"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Ted",
-        "last": "Cox"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Louise",
-        "last": "Prescott"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Marcia",
-        "last": "Garrett"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Addison",
-        "last": "Gardner"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Sally",
-        "last": "Mitchell"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Sue",
-        "last": "Campbell"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Marcia",
-        "last": "Nguyen"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Clifford",
-        "last": "Martinez"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Anne",
-        "last": "Rodriquez"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Miriam",
-        "last": "Hopkins"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Eduardo",
-        "last": "Fisher"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Taylor",
-        "last": "Arnold"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Max",
-        "last": "Gutierrez"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Jennifer",
-        "last": "Perry"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Randall",
-        "last": "Graves"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Henry",
-        "last": "Nguyen"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Vernon",
-        "last": "Sanchez"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Cindy",
-        "last": "Byrd"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Eileen",
-        "last": "Reed"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Donald",
-        "last": "Bowman"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Kevin",
-        "last": "Smith"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Ella",
-        "last": "Lewis"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Alyssa",
-        "last": "Kelley"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Stanley",
-        "last": "Gutierrez"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Tom",
-        "last": "Hamilton"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Andy",
-        "last": "Cruz"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Kirk",
-        "last": "Romero"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Lesa",
-        "last": "Allen"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Robert",
-        "last": "Torres"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Jacqueline",
-        "last": "Fields"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Sean",
-        "last": "Lee"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Jorge",
-        "last": "Knight"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Laurie",
-        "last": "James"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Wallace",
-        "last": "Grant"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Felicia",
-        "last": "Sullivan"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Patsy",
-        "last": "Harrison"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Holly",
-        "last": "Fleming"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Mathew",
-        "last": "Grant"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Danny",
-        "last": "Foster"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Louise",
-        "last": "Hoffman"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Shelly",
-        "last": "Bowman"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Luke",
-        "last": "Black"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Cody",
-        "last": "Simmons"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Janice",
-        "last": "Reynolds"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Caleb",
-        "last": "Johnson"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Lesa",
-        "last": "Wright"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Mia",
-        "last": "Harrison"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Cassandra",
-        "last": "Alexander"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Mario",
-        "last": "Jimenez"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Claude",
-        "last": "Soto"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Ross",
-        "last": "Fernandez"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Abigail",
-        "last": "Caldwell"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Avery",
-        "last": "Edwards"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Tracey",
-        "last": "Ramos"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Reginald",
-        "last": "Vargas"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Harper",
-        "last": "Ortiz"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Lena",
-        "last": "Palmer"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Cherly",
-        "last": "Hunt"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Raymond",
-        "last": "Simmons"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Devon",
-        "last": "Jackson"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Sean",
-        "last": "Ross"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Alicia",
-        "last": "West"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Harper",
-        "last": "Burke"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Jo",
-        "last": "Schmidt"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Darlene",
-        "last": "Larson"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Debra",
-        "last": "Hudson"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Ann",
-        "last": "Ramos"
-      }
-    },
-    {
-      "name": {
-        "title": "Miss",
-        "first": "Tonya",
-        "last": "Boyd"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Ernest",
-        "last": "Turner"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Carlos",
-        "last": "Williams"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Edward",
-        "last": "Torres"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Colleen",
-        "last": "Mcdonalid"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Marcus",
-        "last": "Carter"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Ramona",
-        "last": "Simmmons"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Terri",
-        "last": "Taylor"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Mike",
-        "last": "Mason"
-      }
-    },
-    {
-      "name": {
-        "title": "Ms",
-        "first": "Layla",
-        "last": "Holland"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Patsy",
-        "last": "Cole"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Lance",
-        "last": "Owens"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Anthony",
-        "last": "Garrett"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Dean",
-        "last": "Duncan"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Daryl",
-        "last": "Dean"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Joseph",
-        "last": "Ward"
-      }
-    },
-    {
-      "name": {
-        "title": "Mr",
-        "first": "Chad",
-        "last": "Walters"
-      }
-    },
-    {
-      "name": {
-        "title": "Mrs",
-        "first": "Louise",
-        "last": "Alvarez"
-      }
     }
   ],
   "info": {
@@ -1098,13 +83,571 @@ https://randomuser.me/api/?results=150&nat=us&inc=name
 }
 ```
 - All the repos on Github with Pursuit their name
+
+https://api.github.com/users/joinpursuit/repos
+```
+{
+    "id": 341080793,
+    "node_id": "MDEwOlJlcG9zaXRvcnkzNDEwODA3OTM=",
+    "name": "-Pursuit-Core-Web-Promises-Fetch-Lab-v2",
+    "full_name": "joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2",
+    "private": false,
+    "owner": {
+      "login": "joinpursuit",
+      "id": 5825944,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joinpursuit",
+      "html_url": "https://github.com/joinpursuit",
+      "followers_url": "https://api.github.com/users/joinpursuit/followers",
+      "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+      "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+      "repos_url": "https://api.github.com/users/joinpursuit/repos",
+      "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+      "type": "Organization",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2",
+    "description": "Like https://github.com/joinpursuit/Pursuit-Core-Web-Promises-Fetch-Lab, but based off the awesome new template!",
+    "fork": false,
+    "url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2",
+    "forks_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/forks",
+    "keys_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/teams",
+    "hooks_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/hooks",
+    "issue_events_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/events",
+    "assignees_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/tags",
+    "blobs_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/languages",
+    "stargazers_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/stargazers",
+    "contributors_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/contributors",
+    "subscribers_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/subscribers",
+    "subscription_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/subscription",
+    "commits_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/merges",
+    "archive_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/downloads",
+    "issues_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/labels{/name}",
+    "releases_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/deployments",
+    "created_at": "2021-02-22T04:35:43Z",
+    "updated_at": "2021-02-24T18:09:38Z",
+    "pushed_at": "2021-02-24T18:24:25Z",
+    "git_url": "git://github.com/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2.git",
+    "ssh_url": "git@github.com:joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2.git",
+    "clone_url": "https://github.com/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2.git",
+    "svn_url": "https://github.com/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2",
+    "homepage": null,
+    "size": 49,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 2,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "forks": 2,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "main"
+  }
+  ```
+  
 - All the JavaScript repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=joinpursuit/language:javascript
+```
+{
+      "id": 149148208,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxNDkxNDgyMDg=",
+      "name": "Pursuit-Core-Web",
+      "full_name": "joinpursuit/Pursuit-Core-Web",
+      "private": false,
+      "owner": {
+        "login": "joinpursuit",
+        "id": 5825944,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/joinpursuit",
+        "html_url": "https://github.com/joinpursuit",
+        "followers_url": "https://api.github.com/users/joinpursuit/followers",
+        "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+        "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+        "repos_url": "https://api.github.com/users/joinpursuit/repos",
+        "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+        "type": "Organization",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/joinpursuit/Pursuit-Core-Web",
+      "description": "The master curriculum for Pursuit Core's web development cohorts.",
+      "fork": false,
+      "url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web",
+      "forks_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/forks",
+      "keys_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/teams",
+      "hooks_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/hooks",
+      "issue_events_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/events",
+      "assignees_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/tags",
+      "blobs_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/languages",
+      "stargazers_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/stargazers",
+      "contributors_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/contributors",
+      "subscribers_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/subscribers",
+      "subscription_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/subscription",
+      "commits_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/merges",
+      "archive_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/downloads",
+      "issues_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/labels{/name}",
+      "releases_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-Web/deployments",
+      "created_at": "2018-09-17T15:38:43Z",
+      "updated_at": "2021-03-04T14:56:47Z",
+      "pushed_at": "2021-03-06T20:27:34Z",
+      "git_url": "git://github.com/joinpursuit/Pursuit-Core-Web.git",
+      "ssh_url": "git@github.com:joinpursuit/Pursuit-Core-Web.git",
+      "clone_url": "https://github.com/joinpursuit/Pursuit-Core-Web.git",
+      "svn_url": "https://github.com/joinpursuit/Pursuit-Core-Web",
+      "homepage": "",
+      "size": 67204,
+      "stargazers_count": 59,
+      "watchers_count": 59,
+      "language": "JavaScript",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "forks_count": 181,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 6,
+      "license": null,
+      "forks": 181,
+      "open_issues": 6,
+      "watchers": 59,
+      "default_branch": "master",
+      "score": 1.0
+    }
+```
+
 - All the Swift repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=joinpursuit/language:swift
+```
+ {
+      "id": 99703757,
+      "node_id": "MDEwOlJlcG9zaXRvcnk5OTcwMzc1Nw==",
+      "name": "Pursuit-Core-iOS",
+      "full_name": "joinpursuit/Pursuit-Core-iOS",
+      "private": false,
+      "owner": {
+        "login": "joinpursuit",
+        "id": 5825944,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/joinpursuit",
+        "html_url": "https://github.com/joinpursuit",
+        "followers_url": "https://api.github.com/users/joinpursuit/followers",
+        "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+        "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+        "repos_url": "https://api.github.com/users/joinpursuit/repos",
+        "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+        "type": "Organization",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/joinpursuit/Pursuit-Core-iOS",
+      "description": "Home of the Pursuit iOS course with resource material and unit lessons",
+      "fork": false,
+      "url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS",
+      "forks_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/forks",
+      "keys_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/teams",
+      "hooks_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/hooks",
+      "issue_events_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/events",
+      "assignees_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/tags",
+      "blobs_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/languages",
+      "stargazers_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/stargazers",
+      "contributors_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/contributors",
+      "subscribers_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/subscribers",
+      "subscription_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/subscription",
+      "commits_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/merges",
+      "archive_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/downloads",
+      "issues_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/labels{/name}",
+      "releases_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/joinpursuit/Pursuit-Core-iOS/deployments",
+      "created_at": "2017-08-08T14:46:25Z",
+      "updated_at": "2021-02-28T07:43:05Z",
+      "pushed_at": "2020-07-23T14:56:20Z",
+      "git_url": "git://github.com/joinpursuit/Pursuit-Core-iOS.git",
+      "ssh_url": "git@github.com:joinpursuit/Pursuit-Core-iOS.git",
+      "clone_url": "https://github.com/joinpursuit/Pursuit-Core-iOS.git",
+      "svn_url": "https://github.com/joinpursuit/Pursuit-Core-iOS",
+      "homepage": "",
+      "size": 140354,
+      "stargazers_count": 47,
+      "watchers_count": 47,
+      "language": "Swift",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "forks_count": 110,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 1,
+      "license": null,
+      "forks": 110,
+      "open_issues": 1,
+      "watchers": 47,
+      "default_branch": "master",
+      "score": 1.0
+    }
+```
 - A list of all Pokemon
+
+https://pokeapi.co/api/v2/pokemon
+
+```
+{
+  "count": 1118,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
+  "previous": null,
+  "results": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    },
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/2/"
+    },
+    {
+      "name": "venusaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/3/"
+    },
+    {
+      "name": "charmander",
+      "url": "https://pokeapi.co/api/v2/pokemon/4/"
+    },
+    {
+      "name": "charmeleon",
+      "url": "https://pokeapi.co/api/v2/pokemon/5/"
+    },
+    {
+      "name": "charizard",
+      "url": "https://pokeapi.co/api/v2/pokemon/6/"
+    },
+    {
+      "name": "squirtle",
+      "url": "https://pokeapi.co/api/v2/pokemon/7/"
+    },
+    {
+      "name": "wartortle",
+      "url": "https://pokeapi.co/api/v2/pokemon/8/"
+    },
+    {
+      "name": "blastoise",
+      "url": "https://pokeapi.co/api/v2/pokemon/9/"
+    },
+    {
+      "name": "caterpie",
+      "url": "https://pokeapi.co/api/v2/pokemon/10/"
+    },
+    {
+      "name": "metapod",
+      "url": "https://pokeapi.co/api/v2/pokemon/11/"
+    },
+    {
+      "name": "butterfree",
+      "url": "https://pokeapi.co/api/v2/pokemon/12/"
+    },
+    {
+      "name": "weedle",
+      "url": "https://pokeapi.co/api/v2/pokemon/13/"
+    },
+    {
+      "name": "kakuna",
+      "url": "https://pokeapi.co/api/v2/pokemon/14/"
+    },
+    {
+      "name": "beedrill",
+      "url": "https://pokeapi.co/api/v2/pokemon/15/"
+    },
+    {
+      "name": "pidgey",
+      "url": "https://pokeapi.co/api/v2/pokemon/16/"
+    },
+    {
+      "name": "pidgeotto",
+      "url": "https://pokeapi.co/api/v2/pokemon/17/"
+    },
+    {
+      "name": "pidgeot",
+      "url": "https://pokeapi.co/api/v2/pokemon/18/"
+    },
+    {
+      "name": "rattata",
+      "url": "https://pokeapi.co/api/v2/pokemon/19/"
+    },
+    {
+      "name": "raticate",
+      "url": "https://pokeapi.co/api/v2/pokemon/20/"
+    }
+  ]
+}
+```
 - A list of all items in Fortnite
+
+
+https://fortnite-api.theapinetwork.com/items/list
+```
+    {
+      "itemId": "5bac8575-992e-41db-b23c-8d5646d8f586",
+      "lastUpdate": 1614475984,
+      "item": {
+        "name": "Silver Surfer (Bundle)",
+        "description": null,
+        "type": "bundle",
+        "rarity": "epic",
+        "series": "marvel",
+        "cost": 2200,
+        "upcoming": false,
+        "images": {
+          "icon": "https://dropin-bucket.mativecdn.com/cosmetics/br/5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7/icon.png",
+          "featured": null,
+          "background": "https://dropin-bucket.mativecdn.com/cosmetics/br/5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7/icon.png",
+          "information": "https://dropin-bucket.mativecdn.com/cosmetics/br/5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7/icon.png"
+        },
+        "backpack": {},
+        "obtained": "2200",
+        "obtained_type": "vbucks",
+        "ratings": {
+          "avgStars": 3.71,
+          "totalPoints": 89,
+          "numberVotes": 24
+        }
+```
 - A list of all Game of Thrones Episodes.
+https://api.got.show/api/show/episodes
+
+```
+{
+    "written_by": [
+      "David Benioff",
+      "D.B. Weiss"
+    ],
+    "characters": [
+      "Will",
+      "Waymar Royce",
+      "Gared",
+      "Wildling girl",
+      "White Walker 1",
+      "White Walker 2",
+      "Bran Stark",
+      "Jon Snow",
+      "Robb Stark",
+      "Catelyn Stark",
+      "Eddard Stark",
+      "Rickon Stark",
+      "Sansa Stark",
+      "Mordane",
+      "Arya Stark",
+      "Jeyne Poole",
+      "Rodrik Cassel",
+      "Jory Cassel",
+      "Theon Greyjoy",
+      "Lady",
+      "Grey Wind",
+      "Shaggydog",
+      "Summer",
+      "Nymeria",
+      "Ghost",
+      "Jaime Lannister",
+      "Cersei Lannister",
+      "Maester",
+      "Tommy",
+      "Joffrey Baratheon",
+      "Sandor Clegane",
+      "Preston Greenfield",
+      "Hodor",
+      "Mikken",
+      "Robert Baratheon",
+      "Tommen Baratheon",
+      "Myrcella Baratheon",
+      "Tyrion Lannister",
+      "Ros",
+      "Daenerys Targaryen",
+      "Viserys Targaryen",
+      "Pentoshi servant",
+      "Illyrio Mopatis",
+      "Khal",
+      "Qotho",
+      "Cohollo",
+      "Haggo",
+      "Benjen Stark",
+      "Jorah Mormont",
+      "Mago"
+    ],
+    "deaths": [
+      "Waymar Royce",
+      "Gared",
+      "Will",
+      "Jon Arryn",
+      "Dothraki"
+    ],
+    "places": [
+      "Beyond the Wall",
+      "In Pentos",
+      "In King's Landing",
+      "In the North",
+      "First",
+      "Deaths",
+      "Cast notes"
+    ],
+    "_id": "5cc074bf04e71a0010b85a1a",
+    "title": "Winter Is Coming",
+    "season": 1,
+    "episode": 1,
+    "runtime": 62,
+    "directed_by": "Tim Van Patten",
+    "createdAt": "2019-04-24T14:37:51.759Z",
+    "updatedAt": "2019-04-24T14:37:51.759Z",
+    "__v": 0
+  }
+```
+
 - A list of all songs with "Love" in the title.
+
+
 - All information about Petyr Baelish from the Game of Thrones books
+
+https://www.anapioficeandfire.com/api/characters/823
+```
+{
+  "url": "https://www.anapioficeandfire.com/api/characters/823",
+  "name": "Petyr Baelish",
+  "gender": "Male",
+  "culture": "Valemen",
+  "born": "In 268 AC, at the Fingers",
+  "died": "",
+  "titles": [
+    "Master of coin (formerly)",
+    "Lord Paramount of the Trident",
+    "Lord of Harrenhal",
+    "Lord Protector of the Vale"
+  ],
+  "aliases": [
+    "Littlefinger"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "https://www.anapioficeandfire.com/api/characters/688",
+  "allegiances": [
+    "https://www.anapioficeandfire.com/api/houses/10",
+    "https://www.anapioficeandfire.com/api/houses/11"
+  ],
+  "books": [
+    "https://www.anapioficeandfire.com/api/books/1",
+    "https://www.anapioficeandfire.com/api/books/2",
+    "https://www.anapioficeandfire.com/api/books/3",
+    "https://www.anapioficeandfire.com/api/books/5",
+    "https://www.anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [
+    "Season 1",
+    "Season 2",
+    "Season 3",
+    "Season 4",
+    "Season 5",
+    "Season 6"
+  ],
+  "playedBy": [
+    "Aidan Gillen"
+  ]
+}
+```
+
 - All the movies Leonardo Dicaprio has acted in
 
 # Part Two
