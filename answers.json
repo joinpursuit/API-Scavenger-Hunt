@@ -59,7 +59,7 @@
       {
         "method": "GET",
         "endpoint": "/9",
-        "description": "Returns a gift",
+        "description": "Returns a gif",
         "responseStatusCode": 400,
         "statusCodeMeaning": "The request was bad"
       }
