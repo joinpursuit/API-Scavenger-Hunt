@@ -1,0 +1,68 @@
+{
+    "requests": [
+      {
+        "method": "GET",
+        "endpoint": "/api/users",
+        "description": "Returns user list",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/users/alejo4373",
+        "description": "Returns user information",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "Returns expected a `username` field  with a valid string in the body",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "The request was bad"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos?username=alejo4373",
+        "description": "Returns empty list",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos/1",
+        "description": "Returns todo not found",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "The request was Not Found"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/admin",
+        "description": "Returns 🛑 You are not authorized to come here. Where are your credentials?",
+        "responseStatusCode": 401,
+        "statusCodeMeaning": "The request was Unathorized"
+      },
+      {
+        "method": "DELETE",
+        "endpoint": "/api/todos",
+        "description": "Returns Oops! DELETE method is is not allowed here",
+        "responseStatusCode": 405,
+        "statusCodeMeaning": "The request was not allowed"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/9",
+        "description": "Returns a gift",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "The request was bad"
+      }
+    ],
+    "statusCodesFound": [200, 400, 401, 404, 405]
+  }
