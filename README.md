@@ -148,12 +148,13 @@ link - https://fortnite-api.theapinetwork.com/items/list
         "obtainedFromBattlepass": "none"
       }
     }
-    ```
-    
+```
+
 - A list of all Game of Thrones Episodes.
 link - "https://api.got.show/api/show/episodes"
 
-`` {
+```
+    {
     "written_by": [
       "David Benioff",
       "D.B. Weiss"
@@ -263,12 +264,63 @@ link - "https://api.got.show/api/show/episodes"
       "At the Inn at the Crossroads",
       "Characters",
       "Cast notes"
-    ]``
+    ]}
+    ```
 
 
 - A list of all songs with "Love" in the title.
+link - https://itunes.apple.com/search?media=music&entity=song&term=love
+link - https://itunes.apple.com/search?term="love"&attribute=songTerm 
+
+```
+ {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 278793024,
+      "collectionId": 959109988,
+      "trackId": 959117198,
+      "artistName": "Marchi's Flow & Lov.e",
+      "collectionName": "Feel the Love (feat. Miss Tia) - EP",
+      "trackName": "Feel the Love (feat. Miss Tia)",
+      "collectionCensoredName": "Feel the Love (feat. Miss Tia) - EP",
+      "trackCensoredName": "Feel the Love (feat. Miss Tia) [Cristian Marchi Main Radio]",
+      "artistViewUrl": "https://music.apple.com/us/artist/marchis-flow/278793024?uo=4",
+      "collectionViewUrl": "https://music.apple.com/us/album/feel-the-love-feat-miss-tia-cristian-marchi-main-radio/959109988?i=959117198&uo=4",
+      "trackViewUrl": "https://music.apple.com/us/album/feel-the-love-feat-miss-tia-cristian-marchi-main-radio/959109988?i=959117198&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/Music5/v4/7b/82/8b/7b828b5e-b6d1-2d11-5986-a0a52332f190/mzaf_8781833350791826520.plus.aac.p.m4a",
+      "artworkUrl30": "https://is4-ssl.mzstatic.com/image/thumb/Music5/v4/e4/92/85/e4928580-51a9-f751-8d69-a52178321202/source/30x30bb.jpg",
+      "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Music5/v4/e4/92/85/e4928580-51a9-f751-8d69-a52178321202/source/60x60bb.jpg",
+      "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music5/v4/e4/92/85/e4928580-51a9-f751-8d69-a52178321202/source/100x100bb.jpg",
+      "collectionPrice": 5.94,
+      "trackPrice": 0.99,
+      "releaseDate": "2008-11-28T12:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 6,
+      "trackNumber": 2,
+      "trackTimeMillis": 217892,
+      "country": "USA",
+      "currency": "USD",
+      "primaryGenreName": "Dance",
+      "isStreamable": true
+    },
+```
+
 - All information about Petyr Baelish from the Game of Thrones books
+link - 
+
+```
+
+```
+
 - All the movies Leonardo Dicaprio has acted in
+link -
+
+```
+
+```
 
 # Part Two
 
