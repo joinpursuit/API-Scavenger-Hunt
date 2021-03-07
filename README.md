@@ -58,7 +58,7 @@ Here are all the APIs to find!
 - All the JavaScript repos on Github with Pursuit in their name
   https://api.github.com/search/repositories?q=pursuit-core+language:javascript
 
-````
+```
 {
   "total_count": 5,
   "incomplete_results": false,
@@ -69,12 +69,12 @@ Here are all the APIs to find!
       "name": "Pursuit-Core-Web",
       "full_name": "joinpursuit/Pursuit-Core-Web",
       "private": false,
-````
+```
 
 - All the Swift repos on Github with Pursuit in their name
-https://api.github.com/search/repositories?q=pursuit-core+language:swift
+  https://api.github.com/search/repositories?q=pursuit-core+language:swift
 
-````
+```
 "items": [
     {
       "id": 233689493,
@@ -84,9 +84,26 @@ https://api.github.com/search/repositories?q=pursuit-core+language:swift
       "private": false,
       "owner": {
         "login": "maitreebain",
-````
+```
 
 - A list of all Pokemon
+  https://pokeapi.co/api/v2/pokemon
+
+````{
+  "count": 1118,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
+  "previous": null,
+  "results": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    },
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/2/"
+    },
+    {
+      ```
 - A list of all items in Fortnite
 - A list of all Game of Thrones Episodes.
 - A list of all songs with "Love" in the title.
