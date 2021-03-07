@@ -58,7 +58,8 @@ Here are all the APIs to find!
 - All the JavaScript repos on Github with Pursuit in their name
   https://api.github.com/search/repositories?q=pursuit-core+language:javascript
 
-````{
+````
+{
   "total_count": 5,
   "incomplete_results": false,
   "items": [
@@ -68,10 +69,23 @@ Here are all the APIs to find!
       "name": "Pursuit-Core-Web",
       "full_name": "joinpursuit/Pursuit-Core-Web",
       "private": false,
-      ```
-
+````
 
 - All the Swift repos on Github with Pursuit in their name
+https://api.github.com/search/repositories?q=pursuit-core+language:swift
+
+````
+"items": [
+    {
+      "id": 233689493,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMzM2ODk0OTM=",
+      "name": "Pursuit-Core-iOS-UserDefaults-Lab",
+      "full_name": "maitreebain/Pursuit-Core-iOS-UserDefaults-Lab",
+      "private": false,
+      "owner": {
+        "login": "maitreebain",
+````
+
 - A list of all Pokemon
 - A list of all items in Fortnite
 - A list of all Game of Thrones Episodes.
