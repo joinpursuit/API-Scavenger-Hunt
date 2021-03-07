@@ -312,6 +312,31 @@ https://www.anapioficeandfire.com/api/characters/823
 }
 
 - All the movies Leonardo Dicaprio has acted in
+http://api.tvmaze.com/search/people?q=leonardo+dicaprio
+
+
+  {
+    "score": 105.62446,
+    "person": {
+      "id": 70077,
+      "url": "https://www.tvmaze.com/people/70077/leonardo-dicaprio",
+      "name": "Leonardo DiCaprio",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "birthday": "1974-11-11",
+      "deathday": null,
+      "gender": "Male",
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/269/672763.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/269/672763.jpg"
+      },
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/people/70077"
+        }
 
 # Part Two
 
