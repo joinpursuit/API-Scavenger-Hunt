@@ -1,0 +1,58 @@
+{
+    "requests": [
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "user is added to the server",
+        "responseStatusCode": 201,
+        "statusCodeMeaning": "successfully created"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/user",
+        "description": "misspelling of user",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "What you were looking for was not found or the endpoint"
+      },
+      {
+        "method": "POST",
+        "endpoint": "api/users",
+        "description": "returns a list of users",
+        "responseStatusCode": 405,
+        "statusCodeMeaning": "Cannot post at this endpoint"
+      },
+      {
+        "method": "PUT",
+        "endpoint": "api/todos/fdab87a0",
+        "description": "id of todo",
+        "responseStatusCode": 500,
+        "statusCodeMeaning": "Internal server error: cannot update without any column"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/admin",
+        "description": "administrative access",
+        "responseStatusCode": 401,
+        "statusCodeMeaning": " You are not authorized to come here."
+      },
+      {
+        "method": "GET",
+        "endpoint": "/9",
+        "description": "Easter Egg",
+        "responseStatusCode": 418,
+        "statusCodeMeaning": "I'm a teapot Easter egg"
+      }
+
+
+
+
+    ],
+    "statusCodesFound": [200, 201, 401, 404, 405, 418, 500]
+  }
