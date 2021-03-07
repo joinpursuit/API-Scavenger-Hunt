@@ -32,11 +32,57 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+
+https://randomuser.me/api/?=page2
+
+```JSON
+{ 
+  "email": "matthieu.fabre@example.com",
+  "username": "tinymouse764",
+  "password": "1956",
+}
+```
+
 - All the repos on Github with Pursuit their name
+
+https://api.github.com/repos/joinpursuit/GolfScoreTracker
+
+```JSON
+{"html_url": "https://github.com/joinpursuit/GolfScoreTracker",
+  "description": "Project created during recitation",
+  "fork": false,
+  "url": "https://api.github.com/repos/joinpursuit/GolfScoreTracker",
+}
+```
+
 - All the JavaScript repos on Github with Pursuit in their name
+
 - All the Swift repos on Github with Pursuit in their name
+
 - A list of all Pokemon
+
+https://pokeapi.co/api/v2/
+
+```JSON
+{"pokemon": "https://pokeapi.co/api/v2/pokemon/",
+ "pokemon-color": "https://pokeapi.co/api/v2/pokemon-color/",
+ "pokemon-shape": "https://pokeapi.co/api/v2/pokemon-shape/",
+}
+```
+
 - A list of all items in Fortnite
+
+https://fortnite-api.theapinetwork.com/store/get
+
+```JSON
+{"item": {
+ "name": "Ravenpool",
+ "description": "Maximum darkness.",
+ "type": "outfit",
+ "rarity": "epic",
+ "series": "marvel", 
+}
+```
 - A list of all Game of Thrones Episodes.
 - A list of all songs with "Love" in the title.
 - All information about Petyr Baelish from the Game of Thrones books
