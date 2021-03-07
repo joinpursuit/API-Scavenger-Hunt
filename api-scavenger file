@@ -1,0 +1,339 @@
+- A list of 150 random users in English.
+https://randomuser.me/api?results=150
+- Screen Shot 2021-03-07 at 12.16.28 PM.png
+
+```{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Franklin",
+        "last": "Obrien"
+      },
+      "location": {
+        "street": {
+          "number": 4501,
+          "name": "Fairview Road"
+        },
+        "city": "Hereford",
+        "state": "Highlands and Islands",
+        "country": "United Kingdom",
+        "postcode": "M29 0SS",
+        "coordinates": {
+          "latitude": "13.9243",
+          "longitude": "-16.9470"
+        },
+        "timezone": {
+          "offset": "+11:00",
+          "description": "Magadan, Solomon Islands, New Caledonia"
+        } ```
+
+-  All the repos on Github with Pursuit their name
+ https://api.github.com/orgs/joinpursuit/repos 
+ https://api.github.com/search/repositories?q=pursuit
+
+ - github.png
+ 
+ ```[
+  {
+    "id": 9226862,
+    "node_id": "MDEwOlJlcG9zaXRvcnk5MjI2ODYy",
+    "name": "ioscourse-1",
+    "full_name": "joinpursuit/ioscourse-1",
+    "private": false,
+    "owner": {
+      "login": "joinpursuit",
+      "id": 5825944,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joinpursuit",
+      "html_url": "https://github.com/joinpursuit",
+      "followers_url": "https://api.github.com/users/joinpursuit/followers",
+      "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+      "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+      "repos_url": "https://api.github.com/users/joinpursuit/repos",
+      "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+      "type": "Organization",
+      "site_admin": false
+    }```
+
+
+
+ All the JavaScript repos on Github with Pursuit in their name
+ -  https://api.github.com/search/repositories?q=pursuit+language:javascript
+
+ ``` {
+  "total_count": 106,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 29826657,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyOTgyNjY1Nw==",
+      "name": "argo",
+      "full_name": "albertosantini/argo",
+      "private": false,
+      "owner": {
+        "login": "albertosantini",
+        "id": 328179,
+        "node_id": "MDQ6VXNlcjMyODE3OQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/328179?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/albertosantini",
+        "html_url": "https://github.com/albertosantini",
+        "followers_url": "https://api.github.com/users/albertosantini/followers",
+        "following_url": "https://api.github.com/users/albertosantini/following{/other_user}",
+        "gists_url": "https://api.github.com/users/albertosantini/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/albertosantini/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/albertosantini/subscriptions",
+        "organizations_url": "https://api.github.com/users/albertosantini/orgs",
+        "repos_url": "https://api.github.com/users/albertosantini/repos",
+        "events_url": "https://api.github.com/users/albertosantini/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/albertosantini/received_events",
+        "type": "User",
+        "site_admin": false
+      } ```
+
+    -  All the Swift repos on Github with Pursuit in their name
+ https://api.github.com/search/repositories?q=pursuit+language:Swift
+
+ ``` {
+  "total_count": 38,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 99703757,
+      "node_id": "MDEwOlJlcG9zaXRvcnk5OTcwMzc1Nw==",
+      "name": "Pursuit-Core-iOS",
+      "full_name": "joinpursuit/Pursuit-Core-iOS",
+      "private": false,
+      "owner": {
+        "login": "joinpursuit",
+        "id": 5825944,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/joinpursuit",
+        "html_url": "https://github.com/joinpursuit",
+        "followers_url": "https://api.github.com/users/joinpursuit/followers",
+        "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+        "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+        "repos_url": "https://api.github.com/users/joinpursuit/repos",
+        "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+        "type": "Organization",
+        "site_admin": false
+      } ```
+- A list of all Pokemon
+https://pokeapi.co/api/v2/pokemon
+
+``` {
+  "count": 1118,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
+  "previous": null,
+  "results": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    },
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/2/"
+    },
+    {
+      "name": "venusaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/3/"
+    },
+    {
+      "name": "charmander",
+      "url": "https://pokeapi.co/api/v2/pokemon/4/"
+    },
+    {
+      "name": "charmeleon",
+      "url": "https://pokeapi.co/api/v2/pokemon/5/"
+    },
+    {
+      "name": "charizard",
+      "url": "https://pokeapi.co/api/v2/pokemon/6/"
+    },
+    {
+      "name": "squirtle",
+      "url": "https://pokeapi.co/api/v2/pokemon/7/"
+    }, ```
+
+ A list of all items in Fortnite
+- https://fortnite-api.theapinetwork.com/items/list
+
+``` {
+  "lastUpdate": 0,
+  "lanuage": "en",
+  "data": [
+    {
+      "itemId": "5bac8575-992e-41db-b23c-8d5646d8f586",
+      "lastUpdate": 1614475984,
+      "item": {
+        "name": "Silver Surfer (Bundle)",
+        "description": null,
+        "type": "bundle",
+        "rarity": "epic",
+        "series": "marvel",
+        "cost": 2200,
+        "upcoming": false,
+        "images": {
+          "icon": "https://dropin-bucket.mativecdn.com/cosmetics/br/5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7/icon.png",
+          "featured": null,
+          "background": "https://dropin-bucket.mativecdn.com/cosmetics/br/5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7/icon.png",
+          "information": "https://dropin-bucket.mativecdn.com/cosmetics/br/5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7/icon.png"
+        },
+        "backpack": {},
+        "obtained": "2200",
+        "obtained_type": "vbucks",
+        "ratings": {
+          "avgStars": 3.71,
+          "totalPoints": 89,
+          "numberVotes": 24
+        },
+        "costmeticId": "5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7",
+        "obtainedValue": "none",
+        "obtainedFromBattlepass": "none"
+      }```
+
+- A list of all Game of Thrones Episodes.
+https://api.got.show/api/show/episodes
+``` 
+[
+  {
+    "written_by": [
+      "David Benioff",
+      "D.B. Weiss"
+    ],
+    "characters": [
+      "Will",
+      "Waymar Royce",
+      "Gared",
+      "Wildling girl",
+      "White Walker 1",
+      "White Walker 2",
+      "Bran Stark",
+      "Jon Snow",
+      "Robb Stark",
+      "Catelyn Stark",
+      "Eddard Stark",
+      "Rickon Stark",
+      "Sansa Stark",
+      "Mordane",
+      "Arya Stark",
+      "Jeyne Poole",
+      "Rodrik Cassel",
+      "Jory Cassel",
+      "Theon Greyjoy",
+      "Lady",
+      "Grey Wind",
+      "Shaggydog",
+      "Summer",
+      "Nymeria",
+      "Ghost",
+      "Jaime Lannister",
+      "Cersei Lannister",
+      "Maester",
+      "Tommy",
+      "Joffrey Baratheon",
+      "Sandor Clegane",
+      "Preston Greenfield",
+      "Hodor",
+      "Mikken",
+      "Robert Baratheon",
+      "Tommen Baratheon",
+      "Myrcella Baratheon",
+      "Tyrion Lannister",
+      "Ros",
+      "Daenerys Targaryen",
+      "Viserys Targaryen",
+      "Pentoshi servant",
+      "Illyrio Mopatis",
+      "Khal",
+      "Qotho",
+      "Cohollo",
+      "Haggo",
+      "Benjen Stark",
+      "Jorah Mormont",
+      "Mago"
+    ] ```
+
+- A list of all songs with "Love" in the title.
+https://itunes.apple.com/search?term=love&entity=song&attribute=songTerm
+```
+{
+  "resultCount": 50,
+  "results": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 368183298,
+      "collectionId": 1440881047,
+      "trackId": 1440881708,
+      "artistName": "Kendrick Lamar",
+      "collectionName": "DAMN.",
+      "trackName": "LOVE. (FEAT. ZACARI.)",
+      "collectionCensoredName": "DAMN.",
+      "trackCensoredName": "LOVE. (FEAT. ZACARI.)",
+      "artistViewUrl": "https://music.apple.com/us/artist/kendrick-lamar/368183298?uo=4",
+      "collectionViewUrl": "https://music.apple.com/us/album/love-feat-zacari/1440881047?i=1440881708&uo=4",
+      "trackViewUrl": "https://music.apple.com/us/album/love-feat-zacari/1440881047?i=1440881708&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/28/40/40/28404037-5570-0709-5601-7eff314e45eb/mzaf_6754627230951906996.plus.aac.p.m4a",
+      "artworkUrl30": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/84/06/77/840677aa-6372-eeb0-afc7-5fe3a4586056/source/30x30bb.jpg",
+      "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/84/06/77/840677aa-6372-eeb0-afc7-5fe3a4586056/source/60x60bb.jpg",
+      "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/84/06/77/840677aa-6372-eeb0-afc7-5fe3a4586056/source/100x100bb.jpg",
+      "collectionPrice": 9.99,
+      "trackPrice": 1.29,
+      "releaseDate": "2017-04-14T12:00:00Z",
+      "collectionExplicitness": "explicit",
+      "trackExplicitness": "explicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 14,
+      "trackNumber": 10,
+      "trackTimeMillis": 213400,
+      "country": "USA",
+      "currency": "USD",
+      "primaryGenreName": "Hip-Hop/Rap",
+      "contentAdvisoryRating": "Explicit",
+      "isStreamable": true
+    }
+```
+
+- All information about Petyr Baelish from the Game of Thrones books
+https://api.got.show//api/book/characters/Petyr Baelish 
+
+``` 
+{
+  "titles": [
+    "Master of coin (formerly)",
+    "Lord Paramount of the Trident",
+    "Lord of Harrenhal",
+    "Lord Protector of the Eyrie and the Vale of Arryn"
+  ],
+  "spouse": [
+    "Lady Lysa Arryn"
+  ],
+  "children": [],
+  "allegiance": [
+    "House Baelish of the Fingers",
+    "House Baelish of Harrenhal"
+  ],
+  "books": [
+    "A Game of Thrones",
+    "A Clash of Kings",
+    "A Storm of Swords",
+    "A Feast for Crows",
+    "A Dance with Dragons"
+  ]
+  ```
