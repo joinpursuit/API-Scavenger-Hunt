@@ -109,18 +109,33 @@ Here are all the APIs to find!
 https://fortnite-api.com/v2/shop/br/combined
 
 ````
+
 {
-  "status": 200,
-  "data": {
-    "hash": "74a71d87f7fd6c80c0a09903d173743a01711c47",
-    "date": "2021-03-07T03:00:00Z",
-    "featured": {
-      "name": "FEATURED",
-      "entries": [
+"status": 200,
+"data": {
+"hash": "74a71d87f7fd6c80c0a09903d173743a01711c47",
+"date": "2021-03-07T03:00:00Z",
+"featured": {
+"name": "FEATURED",
+"entries": [
+
 ````
 
 - A list of all Game of Thrones Episodes.
+
+
 - A list of all songs with "Love" in the title.
+https://itunes.apple.com/search?term=love
+```"resultCount": 2,
+  "results": [
+    {
+      "wrapperType": "audiobook",
+      "artistId": 326020144,
+      "collectionId": 315601683,
+      "amgArtistId": 371195,
+      "artistName": "Pema Chödrön",
+      "collectionName": "Getting Unstuck: Breaking Your Habitual Patterns and Encountering Naked Reality",```
+
 - All information about Petyr Baelish from the Game of Thrones books
 - All the movies Leonardo Dicaprio has acted in
 
