@@ -1,0 +1,48 @@
+{
+  "requests": [
+    {
+      "method": "GET",
+      "endpoint": "/api/users/",
+      "description": "Displays all users",
+      "responseStatusCode": "200",
+      "statusCodeMeaning": "The request was successful"
+    },
+    {
+        "method": "GET",
+        "endpoint": "/api/users/<user-username>",
+        "description": "Finds Specific User",
+        "responseStatusCode": "200",
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "Create a new user",
+        "responseStatusCode": "201",
+        "statusCodeMeaning": "The post was successful"
+      },
+    {
+      "method": "GET",
+      "endpoint": "/api/todos",
+      "description": "Returns a list of all todos",
+      "responseStatusCode": 200,
+      "statusCodeMeaning": "The request was successful"
+    },
+    {
+        "method": "POSt",
+        "endpoint": "/api/todos",
+        "description": "create a new todos",
+        "responseStatusCode": "201",
+        "statusCodeMeaning": "The post was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "Returns a list of todo using specific ID",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      }
+  ],
+  "statusCodesFound": [200, 200, 200, 201, 200, 201, 200]
+}
+
