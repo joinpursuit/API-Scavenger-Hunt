@@ -89,6 +89,7 @@ https://fortnite-api.theapinetwork.com/store/get
 
 - A list of all Game of Thrones Episodes.
 - A list of all songs with "Love" in the title.
+
 - All information about Petyr Baelish from the Game of Thrones books
 
 https://www.anapioficeandfire.com/api/characters/823
