@@ -309,10 +309,52 @@ link - https://itunes.apple.com/search?term="love"&attribute=songTerm
 ```
 
 - All information about Petyr Baelish from the Game of Thrones books
-link - 
+link - https://anapioficeandfire.com/api/characters/823
 
 ```
-
+{
+  "url": "https://www.anapioficeandfire.com/api/characters/823",
+  "name": "Petyr Baelish",
+  "gender": "Male",
+  "culture": "Valemen",
+  "born": "In 268 AC, at the Fingers",
+  "died": "",
+  "titles": [
+    "Master of coin (formerly)",
+    "Lord Paramount of the Trident",
+    "Lord of Harrenhal",
+    "Lord Protector of the Vale"
+  ],
+  "aliases": [
+    "Littlefinger"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "https://www.anapioficeandfire.com/api/characters/688",
+  "allegiances": [
+    "https://www.anapioficeandfire.com/api/houses/10",
+    "https://www.anapioficeandfire.com/api/houses/11"
+  ],
+  "books": [
+    "https://www.anapioficeandfire.com/api/books/1",
+    "https://www.anapioficeandfire.com/api/books/2",
+    "https://www.anapioficeandfire.com/api/books/3",
+    "https://www.anapioficeandfire.com/api/books/5",
+    "https://www.anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [
+    "Season 1",
+    "Season 2",
+    "Season 3",
+    "Season 4",
+    "Season 5",
+    "Season 6"
+  ],
+  "playedBy": [
+    "Aidan Gillen"
+  ]
+}
 ```
 
 - All the movies Leonardo Dicaprio has acted in
