@@ -588,6 +588,76 @@ https://www.anapioficeandfire.com/api/characters/823
 
 - All the movies Leonardo Dicaprio has acted in
 
+https://itunes.apple.com/search?term=leonardo+dicaprio
+
+```
+{
+  "resultCount": 45,
+  "results": [
+    {
+      "wrapperType": "audiobook",
+      "artistId": 524168658,
+      "collectionId": 648174732,
+      "artistName": "Douglas Wight",
+      "collectionName": "Leonardo DiCaprio: The Biography (Unabridged)",
+      "collectionCensoredName": "Leonardo DiCaprio: The Biography (Unabridged)",
+      "artistViewUrl": "https://books.apple.com/us/author/douglas-wight/id524168658?uo=4",
+      "collectionViewUrl": "https://books.apple.com/us/audiobook/leonardo-dicaprio-the-biography-unabridged/id648174732?uo=4",
+      "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Music2/v4/d1/d1/f7/d1d1f7af-20a1-fa26-e311-cfdfd85d3e17/itunes.jpg/60x60bb.jpg",
+      "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music2/v4/d1/d1/f7/d1d1f7af-20a1-fa26-e311-cfdfd85d3e17/itunes.jpg/100x100bb.jpg",
+      "collectionPrice": 12.99,
+      "collectionExplicitness": "notExplicit",
+      "trackCount": 1,
+      "copyright": "© 2013 Prospero Media",
+      "country": "USA",
+      "currency": "USD",
+      "releaseDate": "2013-05-13T07:00:00Z",
+      "primaryGenreName": "Biographies & Memoirs",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/d5/95/3c/d5953ce3-f503-45a0-9dce-2ad5c38d2645/mzaf_1877361572480942144.std.aac.p.m4a",
+      "description": "”I'm the king of the world!” That was the cry from Leonardo DiCaprio as he stood astride the bow in Titanic - the movie that would go on to smash all records, raking in a whopping GBP 1.1 billion worldwide. <br /><br />Now, few Hollywood movers and shakers would dispute that statement as Leo has rocketed to become the highest paid actor in the world, earning an estimated GBP 50 million in 2011 alone. And his position looks sets to be secure for some time to come as the release of the new 3D version of James Cameron's epic heralds another sensational year in the life of Hollywood's hottest talent, that will also see him take on the lead role in a new adaptation of <i>The Great Gatsby<\/i> and see him cast as a villain in Quentin Tarantino's new blockbuster <i>Django Unchained<\/i>. <br /><br />It's a far cry from the heart-throb's humble beginnings when he had to scrape for parts in TV commericals and soap operas before catching the eye in Baz Luhrmann's stylish <i>Romeo and Juliet<\/i> and then achieving worldwide superstardom with <i>Titanic<\/i>. Cementing his reputation with captivating performances in films like <i>Catch Me If You Can<\/i> and <i>The Departed<\/i>, DiCaprio won a Golden Globe for his portrayal of Howard Hughes in <i>The Aviator<\/i>. <br /><br />A keen environmentalist and conservationist, he has given millions to good causes around the globe and has never been shy about wearing his political ideas on his sleeve. Yet, although he's spent over 15 years at the top of his profession, Leonardo remains something of an enigma. He has famously dated some of the world's most beautiful women but seems no nearer to settling down and his often daring movie choices suggest someone still striving for perfection despite his stunning successes."
+    },
+    {
+      "wrapperType": "track",
+      "kind": "feature-movie",
+      "collectionId": 1491226465,
+      "trackId": 774084884,
+      "artistName": "Martin Scorsese",
+      "collectionName": "Leonardo DiCaprio 4-Movie Collection",
+      "trackName": "The Wolf of Wall Street",
+      "collectionCensoredName": "Leonardo DiCaprio 4-Movie Collection",
+      "trackCensoredName": "The Wolf of Wall Street",
+      "collectionArtistId": 1008915738,
+      "collectionArtistViewUrl": "https://itunes.apple.com/us/artist/paramount-home-entertainment-inc/1008915738?uo=4",
+      "collectionViewUrl": "https://itunes.apple.com/us/movie/the-wolf-of-wall-street/id774084884?uo=4",
+      "trackViewUrl": "https://itunes.apple.com/us/movie/the-wolf-of-wall-street/id774084884?uo=4",
+      "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video111/v4/ff/b7/77/ffb777a8-04c0-56fe-2237-64c09352891e/mzvf_3469655200525770514.640x354.h264lc.U.p.m4v",
+      "artworkUrl30": "https://is3-ssl.mzstatic.com/image/thumb/Video/v4/f0/40/fb/f040fbc3-3217-5403-bf75-da0687ef9d8f/source/30x30bb.jpg",
+      "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Video/v4/f0/40/fb/f040fbc3-3217-5403-bf75-da0687ef9d8f/source/60x60bb.jpg",
+      "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Video/v4/f0/40/fb/f040fbc3-3217-5403-bf75-da0687ef9d8f/source/100x100bb.jpg",
+      "collectionPrice": 39.96,
+      "trackPrice": 12.99,
+      "trackRentalPrice": 3.99000,
+      "collectionHdPrice": 49.99000,
+      "trackHdPrice": 14.99000,
+      "trackHdRentalPrice": 3.99000,
+      "releaseDate": "2013-12-25T08:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 4,
+      "trackNumber": 1,
+      "trackTimeMillis": 10806388,
+      "country": "USA",
+      "currency": "USD",
+      "primaryGenreName": "Drama",
+      "contentAdvisoryRating": "R",
+      "shortDescription": "Revered filmmaker Martin Scorsese directs the story of New York stockbroker Jordan Belfort (Leonardo",
+      "longDescription": "Sex. Money. Power. Drugs. Brace yourself for an outrageous true story from legendary filmmaker Martin Scorsese that critics are calling \"a masterpiece for a new generation.” Leonardo DiCaprio delivers the best performance of his career as a young stockbroker hungry for a life of non-stop thrills, where corruption was king and more was never enough. His rise to power earned him the title The Wolf of Wall Street. Together, Scorsese and DiCaprio deliver a story of American excess that is an absolute blast from start to finish.",
+      "hasITunesExtras": true
+    }
+```
+
 # Part Two
 
 For this exercise use the Todos API.
