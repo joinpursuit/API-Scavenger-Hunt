@@ -17,9 +17,9 @@
       {
         "method": "POST",
         "endpoint": "/api/users/signup",
-        "description": "Returns expected a `username` field  with a valid string in the body",
-        "responseStatusCode": 400,
-        "statusCodeMeaning": "The request was bad"
+        "description": "username:poonam",
+        "responseStatusCode": 201,
+        "statusCodeMeaning": "The request was created"
       },
       {
         "method": "GET",
@@ -30,18 +30,33 @@
       },
       {
         "method": "GET",
-        "endpoint": "/api/todos?username=alejo4373",
-        "description": "Returns empty list",
+        "endpoint": "/api/todos?username=corey",
+        "description": "Buy Milk",
         "responseStatusCode": 200,
         "statusCodeMeaning": "The request was successful"
       },
       {
         "method": "GET",
-        "endpoint": "/api/todos/1",
-        "description": "Returns todo not found",
-        "responseStatusCode": 404,
-        "statusCodeMeaning": "The request was Not Found"
+        "endpoint": "/api/todos/b0d19c30",
+        "description": "Returns poonam's to do item",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was succesful"
       },
+      {
+          "method": "POST",
+          "endpoint": "api/todos",
+          "description": "added a list item to do - owner: poonam, text: eat ice cream",
+          "responseStatusCode": 201,
+          "statusCodeMeaning":"request was created"
+      },
+      {
+          "method": "PATCH",
+          "endpoint": "api/todos/b0d19c30",
+          "description": "text: eat a cheeseburger",
+          "responseStatusCode": 200,
+          "statusCodeMeaning": "The request was succesful"  
+      },
+
       {
         "method": "GET",
         "endpoint": "/admin",
@@ -50,11 +65,18 @@
         "statusCodeMeaning": "The request was Unathorized"
       },
       {
+        "method": "PUT",
+        "endpoint":"api/todos/d83f7e30",
+        "description":"changed cheeseburger text to eat a  cake and listed as true for completed",
+        "responseStatusCode": 200,
+        "statusCodeMeaning":"The request was succesful"
+      },
+      {
         "method": "DELETE",
-        "endpoint": "/api/todos",
-        "description": "Returns Oops! DELETE method is is not allowed here",
-        "responseStatusCode": 405,
-        "statusCodeMeaning": "The request was not allowed"
+        "endpoint": "/api/todos//b0d19c30",
+        "description": "shows poonam's todo list that we want to delete",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
       },
       {
         "method": "GET",
@@ -62,7 +84,12 @@
         "description": "Returns a gif",
         "responseStatusCode": 400,
         "statusCodeMeaning": "The request was bad"
+      },
+      {
+
       }
+
+
     ],
-    "statusCodesFound": [200, 400, 401, 404, 405]
+    "statusCodesFound": [200, 201, 400, 401]
   } 
