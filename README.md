@@ -60,6 +60,9 @@ https://opencollective.com/webpack/members/organizations.json
 
 
 - All the repos on Github with Pursuit their name
+
+https://api.github.com/users/joinpursuit/repos
+
 ```
 {
     "id": 341080793,
@@ -159,6 +162,18 @@ https://opencollective.com/webpack/members/organizations.json
 ```
 
 - All the JavaScript repos on Github with Pursuit in their name
+
+https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/languages
+
+```
+{
+  "JavaScript": 7760,
+  "HTML": 48
+}
+
+```
+
+
 - All the Swift repos on Github with Pursuit in their name
 - A list of all Pokemon
 - A list of all items in Fortnite
