@@ -42,11 +42,20 @@ Here are all the APIs to find!
         "title": "Mr",
         "first": "Peter",
         "last": "Gilbert"
-      }, ```
+      }
+````
 
 - All the repos on Github with Pursuit their name
+https://api.github.com/search/repositories?q=pursuit
+````
+"login": "purescript",
+        "id": 6556677,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjY1NTY2Nzc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6556677?v=4"
+````
 
 - All the JavaScript repos on Github with Pursuit in their name
+
 - All the Swift repos on Github with Pursuit in their name
 - A list of all Pokemon
 - A list of all items in Fortnite
