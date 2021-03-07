@@ -71,8 +71,6 @@ https://api.github.com/search/repositories?q=pursuit
 {
   "total_count": 2085
 }
-
-
 ```
 
 
@@ -92,7 +90,6 @@ https://api.github.com/search/repositories?q=pursuitin:name+language:javascript
 {
   "total_count": 178 
 }
-
 ```
 
 
@@ -112,9 +109,6 @@ https://api.github.com/search/repositories?q=pursuitin:name+language:swift
 
 
   "total_count": 199
-
-
-
 ```
 
 
@@ -129,22 +123,48 @@ https://pokeapi.co/api/v2/pokemon
 
 
   "count": 1118
-
 ```
 
 - A list of all items in Fortnite
 ```
 
+https://fortnite-api.theapinetwork.com/items/list
+
+
+{
+      "itemId": "5bac8575-992e-41db-b23c-8d5646d8f586",
+      "lastUpdate": 1614475984,
+      "item": {
+        "name": "Silver Surfer (Bundle)",
+        "description": null,
+        "type": "bundle",
+        "rarity": "epic",
+        "series": "marvel",
+        "cost": 2200,
+        "upcoming": false }
 ```
 
 - A list of all Game of Thrones Episodes.
 ```
+https://api.got.show/api/map/episodes
 
+  "_id": "5cc0743604e71a0010b85729",
+      "director": "Tim Van Patten",
+      "airDate": "2011-04-24T04:00:00.000Z",
+      "totalNr": 2,
+      "season": 1,
+      "nr": 2,
+      "name": "The Kingsroad",
+      "predecessor": "Winter Is Coming",
+      "successor": "Lord Snow",
+      "createdAt": "2019-04-24T14:35:34.594Z",
+      "updatedAt": "2019-04-24T14:35:34.594Z",
+      "__v": 0
 ```
-
 
 - A list of all songs with "Love" in the title.
 ```
+
 
 ```
 
