@@ -61,9 +61,59 @@ link - https://randomuser.me/api/?results=150
 
           ```
 - All the repos on Github with Pursuit their name
+link - curl -i https://api.github.com/orgs/joinpursuit/repos
+
+``` "id": 5825944,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joinpursuit",
+      "html_url": "https://github.com/joinpursuit",
+      "followers_url": "https://api.github.com/users/joinpursuit/followers",
+      "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+      "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+      "repos_url": "https://api.github.com/users/joinpursuit/repos",
+      "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+      "type": "Organization",
+      "site_admin": false
+
+      ```
+
 - All the JavaScript repos on Github with Pursuit in their name
 - All the Swift repos on Github with Pursuit in their name
+
 - A list of all Pokemon
+link - "https://pokeapi.co/api/v2/pokemon/"
+
+``` "count": 1118,
+  "next": "https://pokeapi.co/api/v2/pokemon/?offset=20&limit=20",
+  "previous": null,
+  "results": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    },
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/2/"
+    },
+    {
+      "name": "venusaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/3/"
+    },
+    {
+      "name": "charmander",
+      "url": "https://pokeapi.co/api/v2/pokemon/4/"
+    },
+    {
+      "name": "charmeleon",
+      "url": "https://pokeapi.co/api/v2/pokemon/5/"
+    } ```
+
 - A list of all items in Fortnite
 - A list of all Game of Thrones Episodes.
 - A list of all songs with "Love" in the title.
