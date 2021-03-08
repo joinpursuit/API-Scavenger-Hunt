@@ -1,0 +1,62 @@
+{
+    "requests": [
+      {
+        "method": "GET",
+        "endpoint": "/9",
+        "description": "the request gives a gif from schitts creek",
+        "responseStatusCode": 418,
+        "statusCodeMeaning": "i'm a tea pot"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/todos",
+        "description": " gives me expected valid values for todos",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "bad request"
+      },
+      {
+        "method": "PUT",
+        "endpoint": "/api/todos",
+        "description": " Oops! PUT method is not allowed here",
+        "responseStatusCode": 405,
+        "statusCodeMeaning": "Method not allowed"
+      },{
+        "method": "PATCH",
+        "endpoint": "/api/todos",
+        "description": " Oops! PATCH method is not allowed here",
+        "responseStatusCode": 405,
+        "statusCodeMeaning": "Method not allowed"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos/39ebadc0",
+        "description": "Returns Myra47's Todos list",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "PATCH",
+        "endpoint": "/api/todos/39ebadc0",
+        "description": "couldn't generate an update without any columns",
+        "responseStatusCode": 500,
+        "statusCodeMeaning": "Internal Server Error"
+      },
+      {
+        "method": "DELETE",
+        "endpoint": "/api/todos/39ebadc0",
+        "description": "Todo not found",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "Not found"
+      }
+
+    ]
+    "statusCodesFound": [200, 418, 400, 405, 405, 200, 200, 500, 404],
+  }
+
