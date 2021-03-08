@@ -164,20 +164,49 @@ https://api.got.show/api/map/episodes
 
 - A list of all songs with "Love" in the title.
 ```
+https://itunes.apple.com/search?term=love&entity=song
 
-
+{
+  "wrapperType": "track",
+      "kind": "song",
+      "artistId": 543948286,
+      "collectionId": 560097651,
+      "trackId": 560097759,
+      "artistName": "Macklemore & Ryan Lewis",
+      "collectionName": "The Heist (Deluxe Edition)",
+      "trackName": "Same Love (feat. Mary Lambert)",
+}
 ```
 
 
 - All information about Petyr Baelish from the Game of Thrones books
 ```
+https://api.got.show/api/book/characters/Petyr%20Baelish
+
+[
+  "_id": "5cc08e61888dfb00103cdb6c",
+  "name": "Petyr Baelish",
+  "slug": "Petyr_Baelish",
+  "gender": "male",
+]
 
 ```
 
 
 - All the movies Leonardo Dicaprio has acted in
 ```
+https://imdb-api.com/en/API/SearchAll/k_c1zso614/Leonardo%20Dicaprio
 
+ "searchType": "All",
+  "expression": "Leonardo Dicaprio",
+  "results": [
+    {
+      "id": "nm0000138",
+      "resultType": "Name",
+      "image": "https://imdb-api.com/images/original/MV5BMjI0MTg3MzI0M15BMl5BanBnXkFtZTcwMzQyODU2Mw@@._V1_Ratio0.7273_AL_.jpg",
+      "title": "Leonardo DiCaprio",
+      "description": "(Actor, Inception (2010))"
+    },
 ```
 
 

@@ -1,0 +1,86 @@
+{
+    "requests": [
+      {
+        "method": <METHOD>,
+        "endpoint": /api/something,
+        "description": EXPLAIN WHAT THE REQUEST DOES IN YOUR OWN WORDS,
+        "responseStatusCode": ###,
+        "statusCodeMeaning": WHAT DOES THIS STATUS CODE MEAN
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+          "method":"GET",
+          "endpoint":"/api/users",
+          "description": "Returns users' info",
+          "responseStatusCode":200,
+          "statusCodeMeaning":"The request was successful"
+      },
+
+      {
+          "method":"POST",
+          "endpoint":"/api/users/signup",
+          "description":"Creates new user",
+          "responseStatusCode":200,
+          "statusCodeMeaning":"The request was successful"
+      },
+
+      {
+          "method":"DELETE",
+          "endpoint":"/api/users/21",
+          "description": "Deletes the user",
+          "responseStatusCode": 401,
+          "statusCodeMeaning": "What you were looking for was not found or the endpoint(/api/users/21) or the method you used (DELETE) is unhandled by the Server."
+      },
+
+      {
+         "method":"GET",
+         "endpoint": "/api/todos?owner=Carlo",
+         "description":"Shows Carlo's todo list",
+         "responseStatusCode":200,
+         "statusCodeMeaning":"The request was successful"
+      },
+
+      {
+          "method":"POST",
+          "endpoint":"/api/todos",
+          "description":"Adds todo for durdona",
+          "responseStatusCode":200,
+          "statusCodeMeaning":"The request was successful"
+      },
+
+      {
+          "method":"PATCH",
+          "endpoint":"/api/todos/id",
+          "description":"Changes 'completed' status to true",
+          "responseStatusCode":200,
+          "statusCodeMeaning":"The request was successful"
+      },
+
+      {
+          "method":"DELETE",
+          "endpoint":"/api/todos/id",
+          "description":"Deletes todo for durdona",
+          "responseStatusCode":200,
+          "statusCodeMeaning":"The request was successful"
+      },
+      
+      {
+          "method":"GET",
+          "endpoint":"/api/todos?completed=true",
+          "description":"Returns all todos with status 'completed': 'true'",
+          "responseStatusCode":200,
+          "statusCodeMeaning":"The request was successful"
+
+      }
+
+
+
+    ],
+    "statusCodesFound": [200, 401, ...]
+  }
