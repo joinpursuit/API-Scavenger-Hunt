@@ -32,12 +32,196 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+
+https://randomuser.me/api/?results=3000
+```
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Akseli",
+        "last": "Nikula"
+      },
+      "location": {
+        "street": {
+          "number": 9653,
+          "name": "Otavalankatu"
+        },
+
+```
 - All the repos on Github with Pursuit their name
+https://api.github.com/search/repositories?q=pursuit
+```
+{
+  "total_count": 2087,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 22592439,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMjU5MjQzOQ==",
+      "name": "pursuit",
+      "full_name": "purescript/pursuit",
+      "private": false,
+      "owner": {
+        "login": "purescript",
+        "id": 6556677,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjY1NTY2Nzc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6556677?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/purescript",
+        "html_url": "https://github.com/purescript",
+        "followers_url": "https://api.github.com/users/purescript/followers",
+        "following_url": "https://api.github.com/users/purescript/following{/other_user}",
+        "gists_url": "https://api.github.com/users/purescript/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/purescript/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/purescript/subscriptions",
+        "organizations_url": "https://api.github.com/users/purescript/orgs",
+        "repos_url": "https://api.github.com/users/purescript/repos",
+        "events_url": "https://api.github.com/users/purescript/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/purescript/received_events",
+        "type": "Organization",
+        "site_admin": false
+      },
+```      
+
+
+
 - All the JavaScript repos on Github with Pursuit in their name
+https://api.github.com/search/repositories?q=pursuit+language:javascript
+```
+{
+  "total_count": 106,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 29826657,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyOTgyNjY1Nw==",
+      "name": "argo",
+      "full_name": "albertosantini/argo",
+      "private": false,
+      "owner": {
+        "login": "albertosantini",
+        "id": 328179,
+        "node_id": "MDQ6VXNlcjMyODE3OQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/328179?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/albertosantini",
+        "html_url": "https://github.com/albertosantini",
+        "followers_url": "https://api.github.com/users/albertosantini/followers",
+        "following_url": "https://api.github.com/users/albertosantini/following{/other_user}",
+        "gists_url": "https://api.github.com/users/albertosantini/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/albertosantini/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/albertosantini/subscriptions",
+        "organizations_url": "https://api.github.com/users/albertosantini/orgs",
+        "repos_url": "https://api.github.com/users/albertosantini/repos",
+        "events_url": "https://api.github.com/users/albertosantini/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/albertosantini/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+```
+
 - All the Swift repos on Github with Pursuit in their name
+https://api.github.com/search/repositories?q=pursuit+language:swift
+```
+{
+  "total_count": 38,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 99703757,
+      "node_id": "MDEwOlJlcG9zaXRvcnk5OTcwMzc1Nw==",
+      "name": "Pursuit-Core-iOS",
+      "full_name": "joinpursuit/Pursuit-Core-iOS",
+      "private": false,
+      "owner": {
+        "login": "joinpursuit",
+        "id": 5825944,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/joinpursuit",
+        "html_url": "https://github.com/joinpursuit",
+        "followers_url": "https://api.github.com/users/joinpursuit/followers",
+        "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+        "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+        "repos_url": "https://api.github.com/users/joinpursuit/repos",
+        "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+        "type": "Organization",
+        "site_admin": false
+      },
+```
+
 - A list of all Pokemon
+https://pokeapi.co/api/v2/pokemon
+```
+{
+  "count": 1118,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
+  "previous": null,
+  "results": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    },
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/2/"
+    },
+    {
+      "name": "venusaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/3/"
+    },
+```
 - A list of all items in Fortnite
+https://fortnite-api.theapinetwork.com/items/list
+```
+{
+  "lastUpdate": 0,
+  "lanuage": "en",
+  "data": [
+    {
+      "itemId": "5bac8575-992e-41db-b23c-8d5646d8f586",
+      "lastUpdate": 1615175701,
+      "item": {
+        "name": "Silver Surfer (Bundle)",
+        "description": null,
+        "type": "bundle",
+        "rarity": "epic",
+        "series": "marvel",
+        "cost": 2200,
+        "upcoming": false,
+        "images": {
+          "icon": "https://dropin-bucket.mativecdn.com/cosmetics/br/5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7/icon.png",
+          "featured": null,
+          "background": "https://dropin-bucket.mativecdn.com/cosmetics/br/5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7/icon.png",
+          "information": "https://dropin-bucket.mativecdn.com/cosmetics/br/5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7/icon.png"
+        },
+```
+
 - A list of all Game of Thrones Episodes.
+https://www.anapioficeandfire.com/api/books
+```
+ {
+    "url": "https://www.anapioficeandfire.com/api/books/1",
+    "name": "A Game of Thrones",
+    "isbn": "978-0553103540",
+    "authors": [
+      "George R. R. Martin"
+    ],
+    "numberOfPages": 694,
+    "publisher": "Bantam Books",
+    "country": "United States",
+    "mediaType": "Hardcover",
+    "released": "1996-08-01T00:00:00",
+    "characters": [
+```     
 - A list of all songs with "Love" in the title.
 - All information about Petyr Baelish from the Game of Thrones books
 - All the movies Leonardo Dicaprio has acted in
