@@ -1,0 +1,72 @@
+{
+    "requests": [
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "Creates a new user",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "Expected a `username` field  with a valid string in the body (fullname not supported)"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/9",
+        "description": "Shows a gif that says: ARE WE FEELING LUCKY.?",
+        "responseStatusCode": 418,
+        "statusCodeMeaning": "I'm a Teapot"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/9",
+        "description": "Shows 2 gifs, negging the request, so funny. 2nd one is George Clooney saying 'Who are You'",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "Bad Request"
+      },
+      {
+        "method": "GET",
+        "endpoint": "https://alejos-todos-api.herokuapp.com/api/todos?owner=god",
+        "description": "You cannot read God's todos, that is forbidden!",
+        "responseStatusCode": 403,
+        "statusCodeMeaning": "Forbidden"
+      }  ,
+      {
+        "method": "POST",
+        "endpoint": "https://alejos-todos-api.herokuapp.com/api/todos",
+        "description": "todo created for owner: Pompa Donpa",
+        "responseStatusCode": 201,
+        "statusCodeMeaning": "Created"
+      }
+      ,
+      {
+        "method": "POST",
+        "endpoint": "https://alejos-todos-api.herokuapp.com/api/users/signup",
+        "description": "Attempt to create 'username' : 'Pompa Donpa' failed. 'Username not available. Please try a different one.'",
+        "responseStatusCode": 409,
+        "statusCodeMeaning": "Conflict"
+      },
+      {
+        "method": "DELETE",
+        "endpoint": "https://alejos-todos-api.herokuapp.com/api/todos/05fb0a60",
+        "description": "Attempt to delete <todo-id = 05fb0a60>  failed, because it was previously created and deleted",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "Not Found"
+      },
+      {
+        "method": "PATCH",
+        "endpoint": "https://alejos-todos-api.herokuapp.com/api/todos/05fb0a60",
+        "description": "Attempt to patch <todo-id = 05fb0a60>  failed, because it was previously created and deleted + 'Error: Cannot generate an UPDATE without any columns'",
+        "responseStatusCode": 500,
+        "statusCodeMeaning": "Internal Server Error"
+      }
+
+
+
+    ],
+    "statusCodesFound": [200, 400, 418, 400, 403, 201, 409, 404, 500]
+  }
