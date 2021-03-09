@@ -1,0 +1,75 @@
+{
+    "requests": [
+      {
+        "method": <METHOD>,
+        "endpoint": /api/something,
+        "description": EXPLAIN WHAT THE REQUEST DOES IN YOUR OWN WORDS,
+        "responseStatusCode": ###,
+        "statusCodeMeaning": WHAT DOES THIS STATUS CODE MEAN
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "User is added to the server",
+        "responseStatusCode": 201,
+        "statusCodeMeaning": "The request successfully created"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/users/<user-username>",
+        "description": "Returns list of all user usernames",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "Server couldn't find requested resource"
+      },
+      {
+        "method": "Post",
+        "endpoint": "/api/users/signup",
+        "description": "Expected a username field with a valid string in the body",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "Server couldn't understand the request due to invalid syntax"
+      },
+      {
+        "method": "PUT",
+        "endpoint": "/api/todos",
+        "description": "Method is not allowed",
+        "responseStatusCode": 405,
+        "statusCodeMeaning": "The request method is known by server but has been disabled and cannot be used"
+      },
+      {
+        "method": "OPTIONS",
+        "endpoint": "/api/users",
+        "description": "Body returned no response",
+        "responseStatusCode": 204,
+        "statusCodeMeaning": "No content to send to this request but the headers may be useful"
+      },
+      {
+        "method": "PATCH",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "Cannot generate an UPDATE without any columns",
+        "responseStatusCode": 500,
+        "statusCodeMeaning": "The server has encountered a situation it doesn't know how to handle"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/admin",
+        "description": "You are not authorized to come here. Where are your credentials?",
+        "responseStatusCode": 401,
+        "statusCodeMeaning": "Authentication is needed to get the requested response"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/9",
+        "description": "Easter Egg that app.js says to find",
+        "responseStatusCode": 418,
+        "statusCodeMeaning": "Any attempt to brew coffee witha teapot should result in error code 418 I'm a teapot"
+      }
+    ],
+    "statusCodesFound": [200, 201, 204, 400, 401, 404, 405, 418, 500]
+  }
