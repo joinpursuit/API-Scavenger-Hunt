@@ -206,30 +206,175 @@ https://fortnite-api.theapinetwork.com/items/list
 ```
 
 - A list of all Game of Thrones Episodes.
-https://www.anapioficeandfire.com/api/books
+https://api.got.show/api/show/episodes
 ```
  {
-    "url": "https://www.anapioficeandfire.com/api/books/1",
-    "name": "A Game of Thrones",
-    "isbn": "978-0553103540",
-    "authors": [
-      "George R. R. Martin"
+    "written_by": [
+      "David Benioff",
+      "D.B. Weiss"
     ],
-    "numberOfPages": 694,
-    "publisher": "Bantam Books",
-    "country": "United States",
-    "mediaType": "Hardcover",
-    "released": "1996-08-01T00:00:00",
     "characters": [
+      "Will",
+      "Waymar Royce",
+      "Gared",
+      "Wildling girl",
+      "White Walker 1",
+      "White Walker 2",
+      "Bran Stark",
+      "Jon Snow",
+      "Robb Stark",
+      "Catelyn Stark",
+      "Eddard Stark",
+      "Rickon Stark",
+      "Sansa Stark",
+      "Mordane",
+      "Arya Stark",
+      "Jeyne Poole",
+      "Rodrik Cassel",
+      "Jory Cassel",
+      "Theon Greyjoy",
+      "Lady",
+      "Grey Wind",
+      "Shaggydog",
+      "Summer",
+      "Nymeria",
+      "Ghost",
+      "Jaime Lannister",
+      "Cersei Lannister",
+      "Maester",
+      "Tommy",
+      "Joffrey Baratheon",
+      "Sandor Clegane",
+      "Preston Greenfield",
+      "Hodor",
+      "Mikken",
+      "Robert Baratheon",
+      "Tommen Baratheon",
+      "Myrcella Baratheon",
+      "Tyrion Lannister",
+      "Ros",
+      "Daenerys Targaryen",
+      "Viserys Targaryen",
+      "Pentoshi servant",
+      "Illyrio Mopatis",
+      "Khal",
+      "Qotho",
+      "Cohollo",
+      "Haggo",
+      "Benjen Stark",
+      "Jorah Mormont",
+      "Mago"
+    ],
 ```     
 - A list of all songs with "Love" in the title.
+https://itunes.apple.com/search?term=love&entity=song&attribute=songTerm
+```
+{
+  "resultCount": 50,
+  "results": [
+    {
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 432307585,
+      "collectionId": 1125521386,
+      "trackId": 1125521742,
+      "artistName": "Love",
+      "collectionName": "Forever Changes (2015 Remastered Version)",
+      "trackName": "Alone Again Or (2015 Remastered Version)",
+      "collectionCensoredName": "Forever Changes (2015 Remastered Version)",
+      "trackCensoredName": "Alone Again Or (2015 Remastered Version)",
+      "artistViewUrl": "https://music.apple.com/us/artist/love/432307585?uo=4",
+      "collectionViewUrl": "https://music.apple.com/us/album/alone-again-or-2015-remastered-version/1125521386?i=1125521742&uo=4",
+      "trackViewUrl": "https://music.apple.com/us/album/alone-again-or-2015-remastered-version/1125521386?i=1125521742&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/3a/9b/f9/3a9bf908-7ff2-71ea-f902-a2f93b399ee3/mzaf_13964194849737987276.plus.aac.p.m4a",
+      "artworkUrl30": "https://is4-ssl.mzstatic.com/image/thumb/Music30/v4/2e/4e/df/2e4edf24-346b-76b0-b425-28da90a3ab86/source/30x30bb.jpg",
+      "artworkUrl60": "https://is4-ssl.mzstatic.com/image/thumb/Music30/v4/2e/4e/df/2e4edf24-346b-76b0-b425-28da90a3ab86/source/60x60bb.jpg",
+      "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music30/v4/2e/4e/df/2e4edf24-346b-76b0-b425-28da90a3ab86/source/100x100bb.jpg",
+      "collectionPrice": 9.99,
+      "trackPrice": 1.29,
+      "releaseDate": "1967-11-01T12:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 11,
+      "trackNumber": 1,
+      "trackTimeMillis": 197266,
+      "country": "USA",
+      "currency": "USD",
+      "primaryGenreName": "Rock",
+      "isStreamable": true
+    },
+```
 - All information about Petyr Baelish from the Game of Thrones books
+https://www.anapioficeandfire.com/api/characters/823
+```
+{
+  "url": "https://www.anapioficeandfire.com/api/characters/823",
+  "name": "Petyr Baelish",
+  "gender": "Male",
+  "culture": "Valemen",
+  "born": "In 268 AC, at the Fingers",
+  "died": "",
+  "titles": [
+    "Master of coin (formerly)",
+    "Lord Paramount of the Trident",
+    "Lord of Harrenhal",
+    "Lord Protector of the Vale"
+  ],
+```
+
 - All the movies Leonardo Dicaprio has acted in
+https://itunes.apple.com/search?term=leonardo+dicaprio&entity=movie
+```
+{
+  "resultCount": 38,
+  "results": [
+    {
+      "wrapperType": "track",
+      "kind": "feature-movie",
+      "collectionId": 1491226465,
+      "trackId": 774084884,
+      "artistName": "Martin Scorsese",
+      "collectionName": "Leonardo DiCaprio 4-Movie Collection",
+      "trackName": "The Wolf of Wall Street",
+      "collectionCensoredName": "Leonardo DiCaprio 4-Movie Collection",
+      "trackCensoredName": "The Wolf of Wall Street",
+      "collectionArtistId": 1008915738,
+      "collectionArtistViewUrl": "https://itunes.apple.com/us/artist/paramount-home-entertainment-inc/1008915738?uo=4",
+      "collectionViewUrl": "https://itunes.apple.com/us/movie/the-wolf-of-wall-street/id774084884?uo=4",
+      "trackViewUrl": "https://itunes.apple.com/us/movie/the-wolf-of-wall-street/id774084884?uo=4",
+      "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video111/v4/ff/b7/77/ffb777a8-04c0-56fe-2237-64c09352891e/mzvf_3469655200525770514.640x354.h264lc.U.p.m4v",
+      "artworkUrl30": "https://is3-ssl.mzstatic.com/image/thumb/Video/v4/f0/40/fb/f040fbc3-3217-5403-bf75-da0687ef9d8f/source/30x30bb.jpg",
+      "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Video/v4/f0/40/fb/f040fbc3-3217-5403-bf75-da0687ef9d8f/source/60x60bb.jpg",
+      "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Video/v4/f0/40/fb/f040fbc3-3217-5403-bf75-da0687ef9d8f/source/100x100bb.jpg",
+      "collectionPrice": 39.99,
+      "trackPrice": 12.99,
+      "trackRentalPrice": 3.99000,
+      "collectionHdPrice": 49.99000,
+      "trackHdPrice": 14.99000,
+      "trackHdRentalPrice": 3.99000,
+      "releaseDate": "2013-12-25T08:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 4,
+      "trackNumber": 1,
+      "trackTimeMillis": 10806388,
+      "country": "USA",
+      "currency": "USD",
+      "primaryGenreName": "Drama",
+      "contentAdvisoryRating": "R",
+      "shortDescription": "Revered filmmaker Martin Scorsese directs the story of New York stockbroker Jordan Belfort (Leonardo",
+      "longDescription": "Sex. Money. Power. Drugs. Brace yourself for an outrageous true story from legendary filmmaker Martin Scorsese that critics are calling \"a masterpiece for a new generation.” Leonardo DiCaprio delivers the best performance of his career as a young stockbroker hungry for a life of non-stop thrills, where corruption was king and more was never enough. His rise to power earned him the title The Wolf of Wall Street. Together, Scorsese and DiCaprio deliver a story of American excess that is an absolute blast from start to finish.",
+      "hasITunesExtras": true
+    },
+```
 
 # Part Two
 
 For this exercise use the Todos API.
-
 - Docs: https://github.com/alejo4373/Todos-API
 - Root Endpoint: https://alejos-todos-api.herokuapp.com
 
