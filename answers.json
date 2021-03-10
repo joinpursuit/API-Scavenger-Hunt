@@ -1,0 +1,43 @@
+{
+    "requests": [
+      
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "User is added to the server",
+        "responseStatusCode": 201,
+        "statusCodeMeaning": "The request successfully created"
+      },
+    
+      {
+        "method": "OPTIONS",
+        "endpoint": "/api/users",
+        "description": "Body returned no response",
+        "responseStatusCode": 204,
+        "statusCodeMeaning": "No content to send to this request but the headers may be useful"
+      },
+     
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "Expected a `username` field  with a valid string in the body",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "Bad Request/invalid syntax"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/9",
+        "description": "Easter Egg ",
+        "responseStatusCode": 418,
+        "statusCodeMeaning": "Any attempt to brew coffee witha teapot should result in error code 418 I'm a teapot"
+      }
+    ],
+    "statusCodesFound": [200, ...]
+}
