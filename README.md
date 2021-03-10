@@ -32,15 +32,266 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+  https://randomuser.me/api
+```
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Peter",
+        "last": "Gilbert"
+      }
+```
 - All the repos on Github with Pursuit their name
+https://api.github.com/search/repositories?q=pursuit
+````
+        "login": "purescript",
+        "id": 6556677,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjY1NTY2Nzc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6556677?v=4"
+````
 - All the JavaScript repos on Github with Pursuit in their name
+https://api.github.com/search/repositories?q=pursuit+language:javascript
+```
+{
+  "total_count": 106,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 29826657,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyOTgyNjY1Nw==",
+      "name": "argo",
+      "full_name": "albertosantini/argo",
+      "private": false,
+      "owner": {
+        "login": "albertosantini",
+        "id": 328179,
+        "node_id": "MDQ6VXNlcjMyODE3OQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/328179?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/albertosantini",
+        "html_url": "https://github.com/albertosantini",
+        "followers_url": "https://api.github.com/users/albertosantini/followers",
+        "following_url": "https://api.github.com/users/albertosantini/following{/other_user}",
+        "gists_url": "https://api.github.com/users/albertosantini/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/albertosantini/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/albertosantini/subscriptions",
+        "organizations_url": "https://api.github.com/users/albertosantini/orgs",
+        "repos_url": "https://api.github.com/users/albertosantini/repos",
+        "events_url": "https://api.github.com/users/albertosantini/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/albertosantini/received_events",
+        "type": "User",
+        "site_admin": false
+      }
+```
 - All the Swift repos on Github with Pursuit in their name
+https://api.github.com/search/repositories?q=pursuit-core+language:swift
+```
+"items": [
+    {
+      "id": 233689493,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMzM2ODk0OTM=",
+      "name": "Pursuit-Core-iOS-UserDefaults-Lab",
+      "full_name": "maitreebain/Pursuit-Core-iOS-UserDefaults-Lab",
+      "private": false,
+      "owner": {
+        "login": "maitreebain",
+```
 - A list of all Pokemon
+https://pokeapi.co/api/v2/pokemon
+```
+{
+  "count": 1118,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
+  "previous": null,
+  "results": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    }
+```
 - A list of all items in Fortnite
+https://fortnite-api.theapinetwork.com/store/get
+```
+{
+  "name": "Toothpick",
+  "description": "",
+  "type": "pickaxe",
+  "rarity": "rare",
+  "series": "marvel",
+}
+```
 - A list of all Game of Thrones Episodes.
+https://api.got.show/api/show/episodes
+```
+[
+  {
+    "written_by": [
+      "David Benioff",
+      "D.B. Weiss"
+    ],
+    "characters": [
+      "Will",
+      "Waymar Royce",
+      "Gared",
+      "Wildling girl",
+      "White Walker 1",
+      "White Walker 2",
+      "Bran Stark",
+      "Jon Snow",
+      "Robb Stark",
+      "Catelyn Stark",
+      "Eddard Stark",
+      "Rickon Stark",
+      "Sansa Stark",
+      "Mordane",
+      "Arya Stark",
+      "Jeyne Poole",
+      "Rodrik Cassel",
+      "Jory Cassel",
+      "Theon Greyjoy",
+      "Lady",
+      "Grey Wind",
+      "Shaggydog",
+      "Summer",
+      "Nymeria",
+      "Ghost",
+      "Jaime Lannister",
+      "Cersei Lannister",
+      "Maester",
+      "Tommy",
+      "Joffrey Baratheon",
+      "Sandor Clegane",
+      "Preston Greenfield",
+      "Hodor",
+      "Mikken",
+      "Robert Baratheon",
+      "Tommen Baratheon",
+      "Myrcella Baratheon",
+      "Tyrion Lannister",
+      "Ros",
+      "Daenerys Targaryen",
+      "Viserys Targaryen",
+      "Pentoshi servant",
+      "Illyrio Mopatis",
+      "Khal",
+      "Qotho",
+      "Cohollo",
+      "Haggo",
+      "Benjen Stark",
+      "Jorah Mormont",
+      "Mago"
+    ],
+    "deaths": [
+      "Waymar Royce",
+      "Gared",
+      "Will",
+      "Jon Arryn",
+      "Dothraki"
+    ],
+    "places": [
+      "Beyond the Wall",
+      "In Pentos",
+      "In King's Landing",
+      "In the North",
+      "First",
+      "Deaths",
+      "Cast notes"
+    ],
+    "_id": "5cc074bf04e71a0010b85a1a",
+    "title": "Winter Is Coming",
+    "season": 1,
+    "episode": 1,
+]
+```
 - A list of all songs with "Love" in the title.
+https://itunes.apple.com/search?term=love
+```
+
+  "resultCount": 2,
+  "results": [
+    {
+      "wrapperType": "audiobook",
+      "artistId": 326020144,
+      "collectionId": 315601683,
+      "amgArtistId": 371195,
+      "artistName": "Pema Chödrön",
+      "collectionName": "Getting Unstuck: Breaking Your Habitual Patterns and Encountering Naked Reality",
+
+```
 - All information about Petyr Baelish from the Game of Thrones books
+https://www.anapioficeandfire.com/api/characters?name=Petyr%20Baelish
+```
+[
+  {
+    "url": "https://www.anapioficeandfire.com/api/characters/823",
+    "name": "Petyr Baelish",
+    "gender": "Male",
+    "culture": "Valemen",
+    "born": "In 268 AC, at the Fingers",
+    "died": "",
+    "titles": [
+      "Master of coin (formerly)",
+      "Lord Paramount of the Trident",
+      "Lord of Harrenhal",
+      "Lord Protector of the Vale"
+    ],
+    "aliases": [
+      "Littlefinger"
+    ],
+    "father": "",
+    "mother": "",
+    "spouse": "https://www.anapioficeandfire.com/api/characters/688",
+    "allegiances": [
+      "https://www.anapioficeandfire.com/api/houses/10",
+      "https://www.anapioficeandfire.com/api/houses/11"
+    ],
+    "books": [
+      "https://www.anapioficeandfire.com/api/books/1",
+      "https://www.anapioficeandfire.com/api/books/2",
+      "https://www.anapioficeandfire.com/api/books/3",
+      "https://www.anapioficeandfire.com/api/books/5",
+      "https://www.anapioficeandfire.com/api/books/8"
+    ],
+    "povBooks": [],
+    "tvSeries": [
+      "Season 1",
+      "Season 2",
+      "Season 3",
+      "Season 4",
+      "Season 5",
+      "Season 6"
+    ],
+    "playedBy": [
+      "Aidan Gillen"
+    ]
+  }
+]
+```
 - All the movies Leonardo Dicaprio has acted in
+https://api.got.show//api/book/characters/Petyr Baelish
+```
+{
+  "titles": [
+    "Master of coin (formerly)",
+    "Lord Paramount of the Trident",
+    "Lord of Harrenhal",
+    "Lord Protector of the Eyrie and the Vale of Arryn"
+  ],
+  "spouse": [
+    "Lady Lysa Arryn"
+  ],
+  "children": [],
+  "allegiance": [
+    "House Baelish of the Fingers",
+    "House Baelish of Harrenhal"
+  ],
+  "books": [
+    "A Game of Thrones",
+
+}
+```
 
 # Part Two
 
