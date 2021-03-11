@@ -1,0 +1,68 @@
+{
+    "requests": [
+        {
+          "method": "GET",
+          "endpoint": "/api/todos",
+          "description": "Returns a list of all todos",
+          "responseStatusCode": 200,
+          "statusCodeMeaning": "The request was successful"
+        },
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "Expected a `username` field  with a valid string in the body",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "Bad Request/invalid syntax"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todosed",
+        "description": "What you were looking for was not found",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "Not found"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/9",
+        "description": "You will want to try a POST request here",
+        "responseStatusCode": 418,
+        "statusCodeMeaning": "You will want to try a POST request here"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/admin",
+        "description": "Unauthorized",
+        "responseStatusCode": 401,
+        "statusCodeMeaning": "You are not authorized to come here"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/9",
+        "description": "See other",
+        "responseStatusCode": 303,
+        "statusCodeMeaning": "Try just `/9` without `/api"
+      },
+      {
+        "method": "Delete",
+        "endpoint": "/api/todos",
+        "description": "Method not found",
+        "responseStatusCode": 405,
+        "statusCodeMeaning": "DELETE method is is not allowed here"
+      },
+      {
+        "method": "Delete",
+        "endpoint": "/9",
+        "description": "no content",
+        "responseStatusCode": 204,
+        "statusCodeMeaning": "No body returned for response"
+      },
+      {
+        "method": "Post",
+        "endpoint": "/api/users/signup",
+        "description": "Created",
+        "responseStatusCode": 201,
+        "statusCodeMeaning": "User created"
+      }
+    ],
+    "statusCodesFound": [200, 404, 303, 418, 401,400,405, 204]
+  }
