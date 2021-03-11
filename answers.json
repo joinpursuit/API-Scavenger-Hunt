@@ -1,0 +1,76 @@
+{
+  "requests": [
+    {
+      "method": <METHOD>,
+      "endpoint": /api/something,
+      "description": EXPLAIN WHAT THE REQUEST DOES IN YOUR OWN WORDS,
+      "responseStatusCode": ###,
+      "statusCodeMeaning": WHAT DOES THIS STATUS CODE MEAN
+    },
+    {
+      "method": "GET",
+      "endpoint": "/api/users",
+      "description": "Returns a list of all users",
+      "responseStatusCode": 200,
+      "statusCodeMeaning": "The request was successful"
+    },
+    {
+        "method": "GET",
+        "endpoint": "/api/users/<user-username>",
+        "description": "it was looking for a different method or endpoint",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "Not found"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "expected 'username' needs a valid string in the body ",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "bad request"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/todos",
+        "description": "missing 'owner' and 'text' values",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "bad request"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "didn't find a todo",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "not found"
+      },
+      {
+        "method": "PUT",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "missing valid values",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "bad request"
+      },
+      {
+        "method": "PATCH",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "no clumns",
+        "responseStatusCode": 500,
+        "statusCodeMeaning": "Internal Server Error"
+      },
+      {
+        "method": "DELETE",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "todo not found",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "not found"
+      }
+  ],
+  "statusCodesFond": [200, 404,400, 500]
+}
+
