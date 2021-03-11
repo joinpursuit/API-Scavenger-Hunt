@@ -14,5 +14,55 @@
         "responseStatusCode": 200,
         "statusCodeMeaning": "The request was successful"
       },
-    ],
+      {"method": "POST",
+        "endpoint": "/api/todos",
+        "description": "Expected valid values for todo [owner,text]",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "The server do not complete the request because  info need"
+
+      },
+      {"method": "GET",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "Todo not found",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "The server couldn't find the request"
+      },
+      {"method": "PUT",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "Missing valid values to put todo [owner,text,completed]",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "The server need more info in order to fulfilled the request"
+      },
+      {"method": "PATCH",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "Error",
+        "responseStatusCode": 500,
+        "statusCodeMeaning": "Internal Sever error"
+      },
+      {"method": "DELETE",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "Todo not found",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "The server couldn't find the request"
+      },
+      {"method": "GET",
+        "endpoint": "/api/users",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {"method": "GET",
+        "endpoint": "/api/users/<user-username>",
+        "description": "NOT FOUND",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "The server couldn't find my request "
+      },
+      {"method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "ERROR: The server did not expect more than one field in the body",
+        "responseStatusCode": 505,
+        "statusCodeMeaning": "The server do not understand my request"}
+      ],
+      "statusCodesFound": [200, 400, 404, 400, 500, 404, 200, 404, 505 ]
+    }
      
