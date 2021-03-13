@@ -32,8 +32,72 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+
+https://randomuser.me/api/?results=150
+
+```json
+"results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Ava",
+        "last": "Novak"
+      },
+      "location": {
+        "street": {
+          "number": 8595,
+          "name": "Coastal Highway"
+        },
+        "city": "South River",
+        "state": "Alberta",
+        "country": "Canada",
+        "postcode": "O6P 2Q7",
+        "coordinates": {
+          "latitude": "-68.1101",
+          "longitude": "18.5097"
+        },
+```
 - All the repos on Github with Pursuit their name
+
+https://api.github.com/orgs/joinpursuit/repos
+
+```json
+[
+  {
+    "id": 9226862,
+    "node_id": "MDEwOlJlcG9zaXRvcnk5MjI2ODYy",
+    "name": "ioscourse-1",
+    "full_name": "joinpursuit/ioscourse-1",
+    "private": false,
+    "owner": {
+      "login": "joinpursuit",
+      "id": 5825944,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joinpursuit",
+      "html_url": "https://github.com/joinpursuit",
+      
+  ```
 - All the JavaScript repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=joinpursuit%20in:name%20language:javascript
+```json
+{
+  "total_count": 126,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 149148208,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxNDkxNDgyMDg=",
+      "name": "Pursuit-Core-Web",
+      "full_name": "joinpursuit/Pursuit-Core-Web",
+      "private": false,
+      "owner": {
+        "login": "joinpursuit",
+     
+```
 - All the Swift repos on Github with Pursuit in their name
 - A list of all Pokemon
 - A list of all items in Fortnite
