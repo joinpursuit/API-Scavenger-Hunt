@@ -32,8 +32,14 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+https://randomuser.me/api/?results=150&nat=us
+
 - All the repos on Github with Pursuit their name
+https://api.github.com/users/joinpursuit/repos
+
 - All the JavaScript repos on Github with Pursuit in their name
+
+
 - All the Swift repos on Github with Pursuit in their name
 - A list of all Pokemon
 - A list of all items in Fortnite
