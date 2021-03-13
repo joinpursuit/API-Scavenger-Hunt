@@ -35,6 +35,14 @@
         "responseStatusCode": 201,
         "statusCodeMeaning": "Post created"
 
+      },
+      {
+        "method": "POST",
+        "endpoint": "api/users/signup",
+        "description": "Post an existing user",
+        "responseStatusCode": 409,
+        "statusCodeMeaning": "There is a conflict"
+
       }
 
     
@@ -42,5 +50,5 @@
 
 
 
-    "statusCodesFound": [200, 201, 400, 401, 404]
+    "statusCodesFound": [200, 201, 400, 401, 404, 409]
   }
