@@ -32,14 +32,314 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
-- All the repos on Github with Pursuit their name
+
+https://randomuser.me/api/?results=150
+
+```
+   {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Micheal",
+        "last": "Holt"
+      }
+
+```
+
+- All the repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=pursuit%20in:name
+
+
+```
+{
+  "total_count": 1352,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 22592439,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMjU5MjQzOQ==",
+      "name": "pursuit",
+      "full_name": "purescript/pursuit",
+      "private": false,
+      "owner": {
+        "login": "purescript",
+        "id": 6556677,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjY1NTY2Nzc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6556677?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/purescript",
+        "html_url": "https://github.com/purescript",
+        "followers_url": "https://api.github.com/users/purescript/followers",
+        "following_url": "https://api.github.com/users/purescript/following{/other_user}",
+        "gists_url": "https://api.github.com/users/purescript/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/purescript/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/purescript/subscriptions",
+        "organizations_url": "https://api.github.com/users/purescript/orgs",
+        "repos_url": "https://api.github.com/users/purescript/repos",
+        "events_url": "https://api.github.com/users/purescript/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/purescript/received_events",
+        "type": "Organization",
+        "site_admin": false
+      }
+```
+
 - All the JavaScript repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=pursuit%20in:name%20language:javascript
+
+
+```
+   {
+      "id": 149148208,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxNDkxNDgyMDg=",
+      "name": "Pursuit-Core-Web",
+      "full_name": "joinpursuit/Pursuit-Core-Web",
+      "private": false,
+      "owner": {
+        "login": "joinpursuit",
+        "id": 5825944,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/joinpursuit",
+        "html_url": "https://github.com/joinpursuit",
+        "followers_url": "https://api.github.com/users/joinpursuit/followers",
+        "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+        "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+        "repos_url": "https://api.github.com/users/joinpursuit/repos",
+        "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+        "type": "Organization",
+        "site_admin": false
+      }
+```
+
 - All the Swift repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=pursuit%20in:name%20language:swift
+
+
+```
+  "items": [
+    {
+      "id": 99703757,
+      "node_id": "MDEwOlJlcG9zaXRvcnk5OTcwMzc1Nw==",
+      "name": "Pursuit-Core-iOS",
+      "full_name": "joinpursuit/Pursuit-Core-iOS",
+      "private": false,
+      "owner": {
+        "login": "joinpursuit",
+        "id": 5825944,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/joinpursuit",
+        "html_url": "https://github.com/joinpursuit",
+        "followers_url": "https://api.github.com/users/joinpursuit/followers",
+        "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+        "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+        "repos_url": "https://api.github.com/users/joinpursuit/repos",
+        "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+        "type": "Organization",
+        "site_admin": false
+      }
+```
+
+
 - A list of all Pokemon
+
+https://pokeapi.co/api/v2/pokemon
+
+```
+"results": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    },
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/2/"
+    }
+```
 - A list of all items in Fortnite
+
+https://fortnite-api.theapinetwork.com/store/get
+
+```
+    {
+      "itemId": "9445ef84-2a5f-467e-9be9-fc9c56ef8b83",
+      "lastUpdate": 1615658155,
+      "store": {
+        "isFeatured": false,
+        "isRefundable": true,
+        "cost": 200,
+        "occurrences": 0,
+        "isNew": false
+      }
+
+```
+
 - A list of all Game of Thrones Episodes.
+
+https://api.got.show/api/show/episodes
+
+```
+ {
+    "written_by": [
+      "David Benioff",
+      "D.B. Weiss"
+    ],
+    "characters": [
+      "Will",
+      "Waymar Royce",
+      "Gared",
+      "Wildling girl",
+      "White Walker 1",
+      "White Walker 2",
+      "Bran Stark",
+      "Jon Snow",
+      "Robb Stark",
+      "Catelyn Stark",
+      "Eddard Stark",
+      "Rickon Stark",
+      "Sansa Stark",
+      "Mordane",
+      "Arya Stark",
+      "Jeyne Poole",
+      "Rodrik Cassel",
+      "Jory Cassel",
+      "Theon Greyjoy",
+      "Lady",
+      "Grey Wind",
+      "Shaggydog",
+      "Summer",
+      "Nymeria",
+      "Ghost",
+      "Jaime Lannister",
+      "Cersei Lannister",
+      "Maester",
+      "Tommy",
+      "Joffrey Baratheon",
+      "Sandor Clegane",
+      "Preston Greenfield",
+      "Hodor",
+      "Mikken",
+      "Robert Baratheon",
+      "Tommen Baratheon",
+      "Myrcella Baratheon",
+      "Tyrion Lannister",
+      "Ros",
+      "Daenerys Targaryen",
+      "Viserys Targaryen",
+      "Pentoshi servant",
+      "Illyrio Mopatis",
+      "Khal",
+      "Qotho",
+      "Cohollo",
+      "Haggo",
+      "Benjen Stark",
+      "Jorah Mormont",
+      "Mago"
+    ],
+    "deaths": [
+      "Waymar Royce",
+      "Gared",
+      "Will",
+      "Jon Arryn",
+      "Dothraki"
+    ],
+    "places": [
+      "Beyond the Wall",
+      "In Pentos",
+      "In King's Landing",
+      "In the North",
+      "First",
+      "Deaths",
+      "Cast notes"
+    ],
+    "_id": "5cc074bf04e71a0010b85a1a",
+    "title": "Winter Is Coming",
+    "season": 1,
+    "episode": 1,
+    "runtime": 62,
+    "directed_by": "Tim Van Patten",
+    "createdAt": "2019-04-24T14:37:51.759Z",
+    "updatedAt": "2019-04-24T14:37:51.759Z",
+    "__v": 0
+  }
+
+```
 - A list of all songs with "Love" in the title.
+
+https://itunes.apple.com/search?term=love&entity=song&attribute=songTerm
+
+```
+
+```
+
 - All information about Petyr Baelish from the Game of Thrones books
+
+https://www.anapioficeandfire.com/api/characters?name=petyr%20baelish
+
+```
+
+[
+  {
+    "url": "https://www.anapioficeandfire.com/api/characters/823",
+    "name": "Petyr Baelish",
+    "gender": "Male",
+    "culture": "Valemen",
+    "born": "In 268 AC, at the Fingers",
+    "died": "",
+    "titles": [
+      "Master of coin (formerly)",
+      "Lord Paramount of the Trident",
+      "Lord of Harrenhal",
+      "Lord Protector of the Vale"
+    ],
+    "aliases": [
+      "Littlefinger"
+    ],
+    "father": "",
+    "mother": "",
+    "spouse": "https://www.anapioficeandfire.com/api/characters/688",
+    "allegiances": [
+      "https://www.anapioficeandfire.com/api/houses/10",
+      "https://www.anapioficeandfire.com/api/houses/11"
+    ],
+    "books": [
+      "https://www.anapioficeandfire.com/api/books/1",
+      "https://www.anapioficeandfire.com/api/books/2",
+      "https://www.anapioficeandfire.com/api/books/3",
+      "https://www.anapioficeandfire.com/api/books/5",
+      "https://www.anapioficeandfire.com/api/books/8"
+    ],
+    "povBooks": [],
+    "tvSeries": [
+      "Season 1",
+      "Season 2",
+      "Season 3",
+      "Season 4",
+      "Season 5",
+      "Season 6"
+    ],
+    "playedBy": [
+      "Aidan Gillen"
+    ]
+  }
+]
+
+```
+
+
 - All the movies Leonardo Dicaprio has acted in
 
 # Part Two
