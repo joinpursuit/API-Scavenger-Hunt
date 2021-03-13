@@ -279,9 +279,43 @@ https://api.got.show/api/show/episodes
 ```
 - A list of all songs with "Love" in the title.
 
-https://itunes.apple.com/search?term=love&entity=song&attribute=songTerm
+https://itunes.apple.com/search?term=love&entity=musicTrack&attribute=songTerm
 
 ```
+{
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 368183298,
+      "collectionId": 1440881047,
+      "trackId": 1440881708,
+      "artistName": "Kendrick Lamar",
+      "collectionName": "DAMN.",
+      "trackName": "LOVE. (FEAT. ZACARI.)",
+      "collectionCensoredName": "DAMN.",
+      "trackCensoredName": "LOVE. (FEAT. ZACARI.)",
+      "artistViewUrl": "https://music.apple.com/us/artist/kendrick-lamar/368183298?uo=4",
+      "collectionViewUrl": "https://music.apple.com/us/album/love-feat-zacari/1440881047?i=1440881708&uo=4",
+      "trackViewUrl": "https://music.apple.com/us/album/love-feat-zacari/1440881047?i=1440881708&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/28/40/40/28404037-5570-0709-5601-7eff314e45eb/mzaf_6754627230951906996.plus.aac.p.m4a",
+      "artworkUrl30": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/84/06/77/840677aa-6372-eeb0-afc7-5fe3a4586056/source/30x30bb.jpg",
+      "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/84/06/77/840677aa-6372-eeb0-afc7-5fe3a4586056/source/60x60bb.jpg",
+      "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/84/06/77/840677aa-6372-eeb0-afc7-5fe3a4586056/source/100x100bb.jpg",
+      "collectionPrice": 9.99,
+      "trackPrice": 1.29,
+      "releaseDate": "2017-04-14T12:00:00Z",
+      "collectionExplicitness": "explicit",
+      "trackExplicitness": "explicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 14,
+      "trackNumber": 10,
+      "trackTimeMillis": 213400,
+      "country": "USA",
+      "currency": "USD",
+      "primaryGenreName": "Hip-Hop/Rap",
+      "contentAdvisoryRating": "Explicit",
+      "isStreamable": true
+    }
 
 ```
 
@@ -341,6 +375,39 @@ https://www.anapioficeandfire.com/api/characters?name=petyr%20baelish
 
 
 - All the movies Leonardo Dicaprio has acted in
+
+https://itunes.apple.com/search?term=leonardo+dicaprio&entity=movie
+
+```
+ {
+      "wrapperType": "track",
+      "kind": "feature-movie",
+      "trackId": 1473165316,
+      "artistName": "Quentin Tarantino",
+      "trackName": "Once Upon a Time...in Hollywood",
+      "trackCensoredName": "Once Upon a Time...in Hollywood",
+      "trackViewUrl": "https://itunes.apple.com/us/movie/once-upon-a-time-in-hollywood/id1473165316?uo=4",
+      "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/89/74/d9/8974d974-01b1-bd9b-c7af-16e25b99527f/mzvf_11817609157199251412.640x354.h264lc.U.p.m4v",
+      "artworkUrl30": "https://is3-ssl.mzstatic.com/image/thumb/Video113/v4/58/cd/27/58cd278f-8501-9240-dab9-893818292b75/pr_source.lsr/30x30bb.jpg",
+      "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Video113/v4/58/cd/27/58cd278f-8501-9240-dab9-893818292b75/pr_source.lsr/60x60bb.jpg",
+      "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Video113/v4/58/cd/27/58cd278f-8501-9240-dab9-893818292b75/pr_source.lsr/100x100bb.jpg",
+      "collectionPrice": 14.99,
+      "trackPrice": 14.99,
+      "collectionHdPrice": 14.99000,
+      "trackHdPrice": 14.99000,
+      "releaseDate": "2019-07-26T07:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "trackTimeMillis": 9704568,
+      "country": "USA",
+      "currency": "USD",
+      "primaryGenreName": "Drama",
+      "contentAdvisoryRating": "R",
+      "longDescription": "The 9th film from Quentin Tarantino features a large ensemble cast and multiple storylines in a tribute to the final moments of Hollywood’s golden age.",
+      "hasITunesExtras": true
+    }
+    
+```
 
 # Part Two
 
