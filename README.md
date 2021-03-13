@@ -32,13 +32,84 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+  https://randomuser.me/api/?results=150
+
+```
+ "info": {
+    "seed": "3524f08526d05b27",
+    "results": 150,
+    "page": 1,
+    "version": "1.3"
+  }
+```
+
 - All the repos on Github with Pursuit their name
+
+  https://api.github.com/search/repositories?q={pursuit}
+
+  ```
+  {
+  "total_count": 1100,
+  "incomplete_results": false,
+  "items": [
+  {
+  ```
+
 - All the JavaScript repos on Github with Pursuit in their name
 - All the Swift repos on Github with Pursuit in their name
 - A list of all Pokemon
+  https://pokeapi.co/api/v2/pokemon/
+
+```
+{
+  "count": 1118,
+  "next": "https://pokeapi.co/api/v2/pokemon/?offset=20&limit=20",
+  "previous": null,
+  "results": [
+    {
+```
+
 - A list of all items in Fortnite
+  https://fortnite-api.theapinetwork.com/items/list
+
+```
+{
+  "lastUpdate": 0,
+  "lanuage": "en",
+  "data": [
+    {
+      "itemId": "5bac8575-992e-41db-b23c-8d5646d8f586",
+      "lastUpdate": 1615175701,
+      "item": {
+        "name": "Silver Surfer (Bundle)",
+        "description": null,
+        "type": "bundle",
+        "rarity": "epic",
+        "series": "marvel",
+        "cost": 2200,
+        "upcoming": false,
+        "images": {
+           },
+        "backpack": {},
+        "obtained": "2200",
+        "obtained_type": "vbucks",
+        "ratings": {
+          "avgStars": 3.67,
+          "totalPoints": 99,
+          "numberVotes": 27
+        },
+        "costmeticId": "5bac8575-992e-41db-b23c-8d5646d8f586_khqd0lc7",
+        "obtainedValue": "none",
+        "obtainedFromBattlepass": "none"
+      }
+    },
+    {
+```
+
 - A list of all Game of Thrones Episodes.
+
 - A list of all songs with "Love" in the title.
+
 - All information about Petyr Baelish from the Game of Thrones books
 - All the movies Leonardo Dicaprio has acted in
 
@@ -50,7 +121,6 @@ For this exercise use the Todos API.
 - Root Endpoint: https://alejos-todos-api.herokuapp.com
 
 Try out all requests you can think of in this API, the docs are a good starting point.
-
 
 1. Create an `answers.json` file in the root of this repo. Copy the json below to your file.
 1. For each request add a new object to the `requests` array in your json file, in the same format seen below. Try to keep your json syntax valid.
