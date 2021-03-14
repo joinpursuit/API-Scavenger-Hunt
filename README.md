@@ -32,15 +32,382 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
-- All the repos on Github with Pursuit their name
+
+https://randomuser.me/api/?results=150
+
+```
+   {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Micheal",
+        "last": "Holt"
+      }
+
+```
+
+- All the repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=pursuit%20in:name
+
+
+```
+{
+  "total_count": 1352,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 22592439,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMjU5MjQzOQ==",
+      "name": "pursuit",
+      "full_name": "purescript/pursuit",
+      "private": false,
+      "owner": {
+        "login": "purescript",
+        "id": 6556677,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjY1NTY2Nzc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6556677?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/purescript",
+        "html_url": "https://github.com/purescript",
+        "followers_url": "https://api.github.com/users/purescript/followers",
+        "following_url": "https://api.github.com/users/purescript/following{/other_user}",
+        "gists_url": "https://api.github.com/users/purescript/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/purescript/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/purescript/subscriptions",
+        "organizations_url": "https://api.github.com/users/purescript/orgs",
+        "repos_url": "https://api.github.com/users/purescript/repos",
+        "events_url": "https://api.github.com/users/purescript/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/purescript/received_events",
+        "type": "Organization",
+        "site_admin": false
+      }
+```
+
 - All the JavaScript repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=pursuit%20in:name%20language:javascript
+
+
+```
+   {
+      "id": 149148208,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxNDkxNDgyMDg=",
+      "name": "Pursuit-Core-Web",
+      "full_name": "joinpursuit/Pursuit-Core-Web",
+      "private": false,
+      "owner": {
+        "login": "joinpursuit",
+        "id": 5825944,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/joinpursuit",
+        "html_url": "https://github.com/joinpursuit",
+        "followers_url": "https://api.github.com/users/joinpursuit/followers",
+        "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+        "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+        "repos_url": "https://api.github.com/users/joinpursuit/repos",
+        "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+        "type": "Organization",
+        "site_admin": false
+      }
+```
+
 - All the Swift repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=pursuit%20in:name%20language:swift
+
+
+```
+  "items": [
+    {
+      "id": 99703757,
+      "node_id": "MDEwOlJlcG9zaXRvcnk5OTcwMzc1Nw==",
+      "name": "Pursuit-Core-iOS",
+      "full_name": "joinpursuit/Pursuit-Core-iOS",
+      "private": false,
+      "owner": {
+        "login": "joinpursuit",
+        "id": 5825944,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/joinpursuit",
+        "html_url": "https://github.com/joinpursuit",
+        "followers_url": "https://api.github.com/users/joinpursuit/followers",
+        "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+        "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+        "repos_url": "https://api.github.com/users/joinpursuit/repos",
+        "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+        "type": "Organization",
+        "site_admin": false
+      }
+```
+
+
 - A list of all Pokemon
+
+https://pokeapi.co/api/v2/pokemon
+
+```
+"results": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    },
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/2/"
+    }
+```
 - A list of all items in Fortnite
+
+https://fortnite-api.theapinetwork.com/store/get
+
+```
+    {
+      "itemId": "9445ef84-2a5f-467e-9be9-fc9c56ef8b83",
+      "lastUpdate": 1615658155,
+      "store": {
+        "isFeatured": false,
+        "isRefundable": true,
+        "cost": 200,
+        "occurrences": 0,
+        "isNew": false
+      }
+
+```
+
 - A list of all Game of Thrones Episodes.
+
+https://api.got.show/api/show/episodes
+
+```
+ {
+    "written_by": [
+      "David Benioff",
+      "D.B. Weiss"
+    ],
+    "characters": [
+      "Will",
+      "Waymar Royce",
+      "Gared",
+      "Wildling girl",
+      "White Walker 1",
+      "White Walker 2",
+      "Bran Stark",
+      "Jon Snow",
+      "Robb Stark",
+      "Catelyn Stark",
+      "Eddard Stark",
+      "Rickon Stark",
+      "Sansa Stark",
+      "Mordane",
+      "Arya Stark",
+      "Jeyne Poole",
+      "Rodrik Cassel",
+      "Jory Cassel",
+      "Theon Greyjoy",
+      "Lady",
+      "Grey Wind",
+      "Shaggydog",
+      "Summer",
+      "Nymeria",
+      "Ghost",
+      "Jaime Lannister",
+      "Cersei Lannister",
+      "Maester",
+      "Tommy",
+      "Joffrey Baratheon",
+      "Sandor Clegane",
+      "Preston Greenfield",
+      "Hodor",
+      "Mikken",
+      "Robert Baratheon",
+      "Tommen Baratheon",
+      "Myrcella Baratheon",
+      "Tyrion Lannister",
+      "Ros",
+      "Daenerys Targaryen",
+      "Viserys Targaryen",
+      "Pentoshi servant",
+      "Illyrio Mopatis",
+      "Khal",
+      "Qotho",
+      "Cohollo",
+      "Haggo",
+      "Benjen Stark",
+      "Jorah Mormont",
+      "Mago"
+    ],
+    "deaths": [
+      "Waymar Royce",
+      "Gared",
+      "Will",
+      "Jon Arryn",
+      "Dothraki"
+    ],
+    "places": [
+      "Beyond the Wall",
+      "In Pentos",
+      "In King's Landing",
+      "In the North",
+      "First",
+      "Deaths",
+      "Cast notes"
+    ],
+    "_id": "5cc074bf04e71a0010b85a1a",
+    "title": "Winter Is Coming",
+    "season": 1,
+    "episode": 1,
+    "runtime": 62,
+    "directed_by": "Tim Van Patten",
+    "createdAt": "2019-04-24T14:37:51.759Z",
+    "updatedAt": "2019-04-24T14:37:51.759Z",
+    "__v": 0
+  }
+
+```
 - A list of all songs with "Love" in the title.
+
+https://itunes.apple.com/search?term=love&entity=musicTrack&attribute=songTerm
+
+```
+{
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 368183298,
+      "collectionId": 1440881047,
+      "trackId": 1440881708,
+      "artistName": "Kendrick Lamar",
+      "collectionName": "DAMN.",
+      "trackName": "LOVE. (FEAT. ZACARI.)",
+      "collectionCensoredName": "DAMN.",
+      "trackCensoredName": "LOVE. (FEAT. ZACARI.)",
+      "artistViewUrl": "https://music.apple.com/us/artist/kendrick-lamar/368183298?uo=4",
+      "collectionViewUrl": "https://music.apple.com/us/album/love-feat-zacari/1440881047?i=1440881708&uo=4",
+      "trackViewUrl": "https://music.apple.com/us/album/love-feat-zacari/1440881047?i=1440881708&uo=4",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/28/40/40/28404037-5570-0709-5601-7eff314e45eb/mzaf_6754627230951906996.plus.aac.p.m4a",
+      "artworkUrl30": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/84/06/77/840677aa-6372-eeb0-afc7-5fe3a4586056/source/30x30bb.jpg",
+      "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/84/06/77/840677aa-6372-eeb0-afc7-5fe3a4586056/source/60x60bb.jpg",
+      "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/84/06/77/840677aa-6372-eeb0-afc7-5fe3a4586056/source/100x100bb.jpg",
+      "collectionPrice": 9.99,
+      "trackPrice": 1.29,
+      "releaseDate": "2017-04-14T12:00:00Z",
+      "collectionExplicitness": "explicit",
+      "trackExplicitness": "explicit",
+      "discCount": 1,
+      "discNumber": 1,
+      "trackCount": 14,
+      "trackNumber": 10,
+      "trackTimeMillis": 213400,
+      "country": "USA",
+      "currency": "USD",
+      "primaryGenreName": "Hip-Hop/Rap",
+      "contentAdvisoryRating": "Explicit",
+      "isStreamable": true
+    }
+
+```
+
 - All information about Petyr Baelish from the Game of Thrones books
+
+https://www.anapioficeandfire.com/api/characters?name=petyr%20baelish
+
+```
+
+[
+  {
+    "url": "https://www.anapioficeandfire.com/api/characters/823",
+    "name": "Petyr Baelish",
+    "gender": "Male",
+    "culture": "Valemen",
+    "born": "In 268 AC, at the Fingers",
+    "died": "",
+    "titles": [
+      "Master of coin (formerly)",
+      "Lord Paramount of the Trident",
+      "Lord of Harrenhal",
+      "Lord Protector of the Vale"
+    ],
+    "aliases": [
+      "Littlefinger"
+    ],
+    "father": "",
+    "mother": "",
+    "spouse": "https://www.anapioficeandfire.com/api/characters/688",
+    "allegiances": [
+      "https://www.anapioficeandfire.com/api/houses/10",
+      "https://www.anapioficeandfire.com/api/houses/11"
+    ],
+    "books": [
+      "https://www.anapioficeandfire.com/api/books/1",
+      "https://www.anapioficeandfire.com/api/books/2",
+      "https://www.anapioficeandfire.com/api/books/3",
+      "https://www.anapioficeandfire.com/api/books/5",
+      "https://www.anapioficeandfire.com/api/books/8"
+    ],
+    "povBooks": [],
+    "tvSeries": [
+      "Season 1",
+      "Season 2",
+      "Season 3",
+      "Season 4",
+      "Season 5",
+      "Season 6"
+    ],
+    "playedBy": [
+      "Aidan Gillen"
+    ]
+  }
+]
+
+```
+
+
 - All the movies Leonardo Dicaprio has acted in
+
+https://itunes.apple.com/search?term=leonardo+dicaprio&entity=movie
+
+```
+ {
+      "wrapperType": "track",
+      "kind": "feature-movie",
+      "trackId": 1473165316,
+      "artistName": "Quentin Tarantino",
+      "trackName": "Once Upon a Time...in Hollywood",
+      "trackCensoredName": "Once Upon a Time...in Hollywood",
+      "trackViewUrl": "https://itunes.apple.com/us/movie/once-upon-a-time-in-hollywood/id1473165316?uo=4",
+      "previewUrl": "https://video-ssl.itunes.apple.com/itunes-assets/Video113/v4/89/74/d9/8974d974-01b1-bd9b-c7af-16e25b99527f/mzvf_11817609157199251412.640x354.h264lc.U.p.m4v",
+      "artworkUrl30": "https://is3-ssl.mzstatic.com/image/thumb/Video113/v4/58/cd/27/58cd278f-8501-9240-dab9-893818292b75/pr_source.lsr/30x30bb.jpg",
+      "artworkUrl60": "https://is3-ssl.mzstatic.com/image/thumb/Video113/v4/58/cd/27/58cd278f-8501-9240-dab9-893818292b75/pr_source.lsr/60x60bb.jpg",
+      "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Video113/v4/58/cd/27/58cd278f-8501-9240-dab9-893818292b75/pr_source.lsr/100x100bb.jpg",
+      "collectionPrice": 14.99,
+      "trackPrice": 14.99,
+      "collectionHdPrice": 14.99000,
+      "trackHdPrice": 14.99000,
+      "releaseDate": "2019-07-26T07:00:00Z",
+      "collectionExplicitness": "notExplicit",
+      "trackExplicitness": "notExplicit",
+      "trackTimeMillis": 9704568,
+      "country": "USA",
+      "currency": "USD",
+      "primaryGenreName": "Drama",
+      "contentAdvisoryRating": "R",
+      "longDescription": "The 9th film from Quentin Tarantino features a large ensemble cast and multiple storylines in a tribute to the final moments of Hollywood’s golden age.",
+      "hasITunesExtras": true
+    }
+    
+```
 
 # Part Two
 

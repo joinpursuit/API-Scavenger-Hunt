@@ -1,0 +1,54 @@
+{
+    "requests": [
+      {
+        "method": "DELETE",
+        "endpoint": "/api/todos/80401f40",
+        "description": "Deletes object from array list",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "POST",
+        "endpoint": "api/todos?owner=teyanna",
+        "description": "Unsuccessful post attempt",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "Bad request from user"
+      },
+      {
+        "method": "POST",
+        "endpoint": "api/todos?owner=teyanna",
+        "description": "Unsuccessful post attempt # 2",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "The request was not found"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/admin",
+        "description": "Attempt at accesssing admin data",
+        "responseStatusCode": 401,
+        "statusCodeMeaning": "User does not have access"
+      },
+      {
+        "method": "POST",
+        "endpoint": "api/users/signup",
+        "description": "Posting new user",
+        "responseStatusCode": 201,
+        "statusCodeMeaning": "Post created"
+
+      },
+      {
+        "method": "POST",
+        "endpoint": "api/users/signup",
+        "description": "Post an existing user",
+        "responseStatusCode": 409,
+        "statusCodeMeaning": "There is a conflict"
+
+      }
+
+    
+    ],
+
+
+
+    "statusCodesFound": [200, 201, 400, 401, 404, 409]
+  }
