@@ -32,7 +32,82 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+
+https://randomuser.me/api?results=150
+ ``` 
+ {{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "حامد",
+        "last": "احمدی"
+      },
+      "location": {
+        "street": {
+          "number": 2475,
+          "name": "دکتر لواسانی"
+        },
+        "city": "ایلام",
+        "state": "خوزستان",
+        "country": "Iran",
+        "postcode": 45479,
+        "coordinates": {
+          "latitude": "28.5668",
+          "longitude": "-177.0740"
+        },
+        "timezone": {
+          "offset": "-9:00",
+          "description": "Alaska"
+        }
+      },
+      "email": "hmd.hmdy@example.com",
+      "login": {
+        "uuid": "40134256-ee46-4da4-9acb-adab785bc0b7",
+        "username": "silverpanda697",
+        "password": "papers",
+        "salt": "47qA1QrK",
+        "md5": "09c8694d931bb7ab3aabe51e4a0a3121",
+        "sha1": "1495844bfc94f04dfe45355a681daab636012bf5",
+        "sha256": "700d8ebb19b285c70c7903c68d02c6ee1c84b295c1d0e623e08c096c049ef0d5"
+      },
+      "dob": {
+        "date": "1988-08-31T20:12:52.736Z",
+        "age": 33
+      },
+      "registered": {
+        "date": "2013-03-17T11:59:37.530Z",
+        "age": 8
+      },
+      "phone": "045-37707487",
+      "cell": "0999-981-3026",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/71.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/71.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/71.jpg"
+      },
+      "nat": "IR"
+    }
+  ],
+  "info": {
+    "seed": "0996608d1f4b2414",
+    "results": 1,
+    "page": 1,
+    "version": "1.3"
+  }
+}
+
+ }
+ ```
+
 - All the repos on Github with Pursuit their name
+
+
 - All the JavaScript repos on Github with Pursuit in their name
 - All the Swift repos on Github with Pursuit in their name
 - A list of all Pokemon
