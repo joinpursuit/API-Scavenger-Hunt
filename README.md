@@ -32,11 +32,106 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+
+https://randomuser.me/api/?results=5000
+
+ "results": [
+    ```
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Tale",
+        "last": "Egeland"
+      },
+      "location": {
+        "street": {
+          "number": 9802,
+          "name": "Benneches gate"
+        },
+
+        ```
+
+
 - All the repos on Github with Pursuit their name
+
+https://api.github.com/search/repositories?q=pursuit
+
+```{
+  "total_count": 2087,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 22592439,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMjU5MjQzOQ==",
+      "name": "pursuit",
+    }
+```
+
+
 - All the JavaScript repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=pursuit+language:javascript
+
+```  "total_count": 106,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 29826657,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyOTgyNjY1Nw==",
+      "name": "argo",
+      "full_name": "albertosantini/argo",
+      "private": false,
+```
+
+
 - All the Swift repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=pursuit+language:swift
+
+```
+{
+  "total_count": 38,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 99703757,
+      "node_id": "MDEwOlJlcG9zaXRvcnk5OTcwMzc1Nw==",
+      "name": "Pursuit-Core-iOS",
+      "full_name": "joinpursuit/Pursuit-Core-iOS",
+      "private": false,
+      "owner": {
+```
+
+
 - A list of all Pokemon
+https://pokeapi.co/api/v2/pokemon
+
+```
+ "count": 1118,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
+  "previous": null,
+  "results": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    },
+```
+
+
 - A list of all items in Fortnite
+
+https://fortnite-api.theapinetwork.com/store/get
+
+```      "item": {
+        "name": "Piña Clobbers",
+        "description": "The spiky bat with a pineapple punch.",
+        "type": "pickaxe",
+        "rarity": "uncommon",
+        "series": null,
+        "images": {
+```
+
 - A list of all Game of Thrones Episodes.
 - A list of all songs with "Love" in the title.
 - All information about Petyr Baelish from the Game of Thrones books
