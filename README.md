@@ -32,7 +32,78 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+https://randomuser.me/api/
+
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Gustavo",
+        "last": "Parra"
+      },
+      "location": {
+        "street": {
+          "number": 2054,
+          "name": "Ronda de Toledo"
+        },
+        "city": "Barcelona",
+        "state": "Comunidad de Madrid",
+        "country": "Spain",
+        "postcode": 45300,
+        "coordinates": {
+          "latitude": "-19.2979",
+          "longitude": "-118.4946"
+        },
+        "timezone": {
+          "offset": "+11:00",
+          "description": "Magadan, Solomon Islands, New Caledonia"
+        }
+      },
+      "email": "gustavo.parra@example.com",
+      "login": {
+        "uuid": "7af3f186-516a-4e57-a36a-a2e54c8a348f",
+        "username": "happyostrich665",
+        "password": "clay",
+        "salt": "veAQ6uBj",
+        "md5": "3f69b88acd6491eeaccab18e6e6bbd56",
+        "sha1": "1f86eb20ce352df9414e53559619fea3dc995af4",
+        "sha256": "6211c671c849264b288dbc015c9291b7911325dd8b7ca77cc7868977c67a90a6"
+      },
+      "dob": {
+        "date": "1953-01-30T22:02:18.374Z",
+        "age": 68
+      },
+      "registered": {
+        "date": "2018-06-01T18:50:12.268Z",
+        "age": 3
+      },
+      "phone": "937-562-259",
+      "cell": "682-646-136",
+      "id": {
+        "name": "DNI",
+        "value": "15859659-K"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/37.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/37.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/37.jpg"
+      },
+      "nat": "ES"
+    }
+  ],
+  "info": {
+    "seed": "c4b9621c475ab536",
+    "results": 1,
+    "page": 1,
+    "version": "1.3"
+  }
+}
 - All the repos on Github with Pursuit their name
+https://github.com/joinpursuit
+
+
 - All the JavaScript repos on Github with Pursuit in their name
 - All the Swift repos on Github with Pursuit in their name
 - A list of all Pokemon
