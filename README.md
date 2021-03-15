@@ -32,11 +32,110 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+
+https://randomuser.me/api/?results=150
+
+```
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Evan",
+        "last": "Henry"
+      },
+```
+
 - All the repos on Github with Pursuit their name
+
+https://api.github.com/search/repositories?q=pursuit
+
+```
+{
+  "total_count": 2087,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 22592439,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMjU5MjQzOQ==",
+      "name": "pursuit",
+      "full_name": "purescript/pursuit",
+      "private": false,
+```
+
 - All the JavaScript repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=pursuit+language:js
+
+```
+{
+  "total_count": 106,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 29826657,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyOTgyNjY1Nw==",
+      "name": "argo",
+      "full_name": "albertosantini/argo",
+      "private": false,
+```
+
 - All the Swift repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=pursuit+language:swift
+
+```
+{
+  "total_count": 38,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 99703757,
+      "node_id": "MDEwOlJlcG9zaXRvcnk5OTcwMzc1Nw==",
+      "name": "Pursuit-Core-iOS",
+      "full_name": "joinpursuit/Pursuit-Core-iOS",
+      "private": false,
+```
+
 - A list of all Pokemon
+
+https://pokeapi.co/api/v2/pokemon
+
+```
+{
+  "count": 1118,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
+  "previous": null,
+  "results": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    },
+```
+
 - A list of all items in Fortnite
+
+https://fortnite-api.theapinetwork.com/items/list
+
+```
+{
+  "lastUpdate": 0,
+  "lanuage": "en",
+  "data": [
+    {
+      "itemId": "5bac8575-992e-41db-b23c-8d5646d8f586",
+      "lastUpdate": 1615175701,
+      "item": {
+        "name": "Silver Surfer (Bundle)",
+        "description": null,
+        "type": "bundle",
+        "rarity": "epic",
+        "series": "marvel",
+        "cost": 2200,
+        "upcoming": false,
+```
+
 - A list of all Game of Thrones Episodes.
 - A list of all songs with "Love" in the title.
 - All information about Petyr Baelish from the Game of Thrones books
