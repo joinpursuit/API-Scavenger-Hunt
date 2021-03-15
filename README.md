@@ -20,7 +20,7 @@ Example:
 
 https://catfact.ninja/fact
 
-```
+``` JSON
 {
   "fact": "The name \"jaguar\" comes from a Native American word meaning \"he who kills with one leap\".",
   "length": 89
@@ -32,7 +32,76 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+
+https://randomuser.me/api/?results=150
+
+``` JSON
+{
+{
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Kylie",
+        "last": "Schmidt"
+      },
+      "location": {
+        "street": {
+          "number": 7493,
+          "name": "Brown Terrace"
+        },
+        "city": "Perth",
+        "state": "Northern Territory",
+        "country": "Australia",
+        "postcode": 4860,
+        "coordinates": {
+          "latitude": "-89.3906",
+          "longitude": "14.7033"
+        },
+        "timezone": {
+          "offset": "-9:00",
+          "description": "Alaska"
+        }
+      },
+      "email": "kylie.schmidt@example.com",
+      "login": {
+        "uuid": "8da2b0a5-5a09-45ad-a544-d95f93e7d6c7",
+        "username": "crazyswan658",
+        "password": "driven",
+        "salt": "PdJuQZMw",
+        "md5": "fd3361248002157ac596cde9adb962e4",
+        "sha1": "31debf1603c40b99f2fa65c7ec9ccf217e675525",
+        "sha256": "69433cb6e56c85e92792d3282c8d908ed184d816e05d303d40f223c920332fcd"
+      },
+      "dob": {
+        "date": "1964-02-07T23:18:56.512Z",
+        "age": 57
+      },
+      "registered": {
+        "date": "2019-02-03T21:43:33.855Z",
+        "age": 2
+      },
+      "phone": "02-9484-7452",
+      "cell": "0419-769-306",
+      "id": {
+        "name": "TFN",
+        "value": "644736934"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/60.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/60.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/60.jpg"
+      },
+      "nat": "AU"
+    }
+}
+```
 - All the repos on Github with Pursuit their name
+
+```JSON
+{
+  
+}
+```
 - All the JavaScript repos on Github with Pursuit in their name
 - All the Swift repos on Github with Pursuit in their name
 - A list of all Pokemon
