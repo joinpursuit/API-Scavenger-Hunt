@@ -32,8 +32,50 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+   https://randomuser.me/api/?results=150&nat=us
+   
+   ```
+    {
+      "gender": "female",
+      "name": {
+        "title": "Miss",
+        "first": "Melinda",
+        "last": "Walters"
+      }
+      ```
 - All the repos on Github with Pursuit their name
+  https://api.github.com/users/joinpursuit/repos
+```
+ {
+    "id": 341080793,
+    "node_id": "MDEwOlJlcG9zaXRvcnkzNDEwODA3OTM=",
+    "name": "-Pursuit-Core-Web-Promises-Fetch-Lab-v2",
+    "full_name": "joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2",
+    "private": false,
+    "owner": {
+      "login": "joinpursuit",
+      "id": 5825944,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joinpursuit",
+      "html_url": "https://github.com/joinpursuit",
+      "followers_url": "https://api.github.com/users/joinpursuit/followers",
+      "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+      "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+      "repos_url": "https://api.github.com/users/joinpursuit/repos",
+      "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+      "type": "Organization",
+      "site_admin": false
+    }
+ }
+ ```
 - All the JavaScript repos on Github with Pursuit in their name
+
 - All the Swift repos on Github with Pursuit in their name
 - A list of all Pokemon
 - A list of all items in Fortnite
