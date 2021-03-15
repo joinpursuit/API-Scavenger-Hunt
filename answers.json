@@ -1,0 +1,37 @@
+
+
+
+{
+    "requests": [
+      {
+        "method": <METHOD>,
+        "endpoint": /api/something,
+        "description": EXPLAIN WHAT THE REQUEST DOES IN YOUR OWN WORDS,
+        "responseStatusCode": ###,
+        "statusCodeMeaning": WHAT DOES THIS STATUS CODE MEAN
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/admin",
+        "description": "Attempts to access an endpoint available only to admins",
+        "responseStatusCode": 401,
+        "statusCodeMeaning": "Unauthorized  -  Authentication is needed to get the requested response. This is similar to a 403, but is different in that authentication is possible"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/todos",
+        "description": "Attempts to POST a todo without expressing anything else (the values that would be posted within the todo object)",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "Bad Request  -  This response means that the server could not understand the request due to invalid syntax"
+      }
+      
+  ],
+  "statusCodesFound": [200, 401, 400, ...]
+}
