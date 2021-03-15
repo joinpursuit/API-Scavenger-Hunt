@@ -20,7 +20,7 @@ Example:
 
 https://catfact.ninja/fact
 
-```
+```json
 {
   "fact": "The name \"jaguar\" comes from a Native American word meaning \"he who kills with one leap\".",
   "length": 89
@@ -32,15 +32,132 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+
+https://randomuser.me/api/?results=150
+
+```json
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Nanci",
+        "last": "da Mata"
+      },......
+
+```
 - All the repos on Github with Pursuit their name
+
+https://api.github.com/search/repositories?q=pursuit
+
+```json
+{
+  "total_count": 2087,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 22592439,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMjU5MjQzOQ==",
+      "name": "pursuit",
+      "full_name": "purescript/pursuit",
+      "private": false,
+      "owner": {
+        "login": "purescript",
+        .....
+
+```
 - All the JavaScript repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=pursuit+language:javascript
+
+```json
+
+{
+  "total_count": 106,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 29826657,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyOTgyNjY1Nw==",
+      "name": "argo",
+      "full_name": "albertosantini/argo",
+      "private": false,
+      "owner": {
+        "login": "albertosantini",
+        "id": 328179,......
+
+```
+
 - All the Swift repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=pursuit+language:swift
+
+```json
+
+{
+  "total_count": 38,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 99703757,
+      "node_id": "MDEwOlJlcG9zaXRvcnk5OTcwMzc1Nw==",
+      "name": "Pursuit-Core-iOS",
+      "full_name": "joinpursuit/Pursuit-Core-iOS",
+      "private": false,
+      "owner": {
+        "login": "joinpursuit",
+        "id": 5825944,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",........
+
+```
 - A list of all Pokemon
+
+https://pokeapi.co/api/v2/pokemon/
+
+```json
+
+{
+  "count": 1118,
+  "next": "https://pokeapi.co/api/v2/pokemon/?offset=20&limit=20",
+  "previous": null,
+  "results": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    },
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/2/"
+    },.......
+
+```
+
 - A list of all items in Fortnite
+
+https://fortnite-api.com/v1/playlists/
+
+```json
+
+{
+  "status": 200,
+  "data": [
+    {
+      "id": "Playlist_DefaultSolo_FFA",
+      "name": "Solo",
+      "subName": null,
+      "description": "Go it alone in a battle to be the last one standing.",........
+
+```
 - A list of all Game of Thrones Episodes.
+
+
 - A list of all songs with "Love" in the title.
 - All information about Petyr Baelish from the Game of Thrones books
 - All the movies Leonardo Dicaprio has acted in
+
+
 
 # Part Two
 
@@ -92,7 +209,7 @@ Try out all requests you can think of in this API, the docs are a good starting 
 
 ### Bonuses
 
-1. Take a look at the upcoming lessons to learn how to make make network requests with JavaScript (hint: `fetch`).
+1. Take a look at the upcoming lessons to learn how to make network requests with JavaScript (hint: `fetch`).
    Since you previously had build a simple Todos App with HTML and now you know how to manipulate
    the DOM, add some JS to try to connect your Todos app to this API so that todos you enter in the page
    are saved to the API. Marking a todo as complete or uncompleted should work.
