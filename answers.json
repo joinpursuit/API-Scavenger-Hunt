@@ -1,0 +1,67 @@
+
+
+
+{
+    "requests": [
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "OK  -  The request was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/admin",
+        "description": "Attempts to access an endpoint available only to admins",
+        "responseStatusCode": 401,
+        "statusCodeMeaning": "Unauthorized  -  Authentication is needed to get the requested response. This is similar to a 403, but is different in that authentication is possible"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/todos",
+        "description": "Attempts to POST a todo without expressing anything else (the values that would be posted within the todo object)",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "Bad Request  -  This response means that the server could not understand the request due to invalid syntax"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/doesItExist?",
+        "description": "Attempts to guess a random endpoint, which as probability would have it, is not available",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "Not Found  -  Server could not find requested resource. This response code is probably the most famous one due to how frequently it occurs on the web"
+      },
+      {
+        "method": "OPTIONS",
+        "endpoint": "/api/todos",
+        "description": "Tried to get a list of Options, but the api was made without this coded into it",
+        "responseStatusCode": 204,
+        "statusCodeMeaning": "No Content  -  There is no content to send for this request, but the headers may be useful. The user-agent may update its cashed headers for this resource with the new ones"
+      },
+      {
+        "method": "DELETE",
+        "endpoint": "/api/todos",
+        "description": "Attempts to delete the entire todos endpoint/object. Obviously can't be done",
+        "responseStatusCode": 405,
+        "statusCodeMeaning": "Method Not Allowed  -  The request method is known by the server but has been disabled and can not be used"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "Attempts to delete the entire todos endpoint/object. Obviously can't be done",
+        "responseStatusCode": 201,
+        "statusCodeMeaning": "Created  -  The request has succeeded and a new resource has been created as a result. This is typically the response sent after POST requests, or some PUT requests"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "Attempted to post the same username that was already added to the users object",
+        "responseStatusCode": 409,
+        "statusCodeMeaning": "Conflict  -  This response is sent when a request conflicts with the current state of the server"
+      },
+
+
+
+  ],
+  "statusCodesFound": [200, 401, 400, 404, 204, 405, 201, 409, ...]
+}
