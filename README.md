@@ -100,11 +100,44 @@ https://randomuser.me/api/
     "page": 1,
     "version": "1.3"
   }
-
 ```
 
 - All the repos on Github with Pursuit their name
 
+https://api.github.com/search/repositories?q=pursuit
+
+```json
+    {
+      "id": 63269236,
+      "node_id": "MDEwOlJlcG9zaXRvcnk2MzI2OTIzNg==",
+      "name": "Pursuit-Core-Android",
+      "full_name": "joinpursuit/Pursuit-Core-Android",
+      "private": false,
+      "owner": {
+        "login": "joinpursuit",
+        "id": 5825944,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/joinpursuit",
+        "html_url": "https://github.com/joinpursuit",
+        "followers_url": "https://api.github.com/users/joinpursuit/followers",
+        "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+        "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+        "repos_url": "https://api.github.com/users/joinpursuit/repos",
+        "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+        "type": "Organization",
+        "site_admin": false
+      },
+```
+
+
+
+**In case this is what you REALLY want: it's a search with all of joinpursuit's repos:
 https://api.github.com/orgs/joinpursuit/repos
 
 ```json
@@ -134,80 +167,84 @@ https://api.github.com/orgs/joinpursuit/repos
       "type": "Organization",
       "site_admin": false
     },
-    "html_url": "https://github.com/joinpursuit/AC3.2-Tableviews_Part_3",
-    "description": null,
-    "fork": false,
-    "url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3",
-    "forks_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/forks",
-    "keys_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/keys{/key_id}",
-    "collaborators_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/collaborators{/collaborator}",
-    "teams_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/teams",
-    "hooks_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/hooks",
-    "issue_events_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/issues/events{/number}",
-    "events_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/events",
-    "assignees_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/assignees{/user}",
-    "branches_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/branches{/branch}",
-    "tags_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/tags",
-    "blobs_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/git/blobs{/sha}",
-    "git_tags_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/git/tags{/sha}",
-    "git_refs_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/git/refs{/sha}",
-    "trees_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/git/trees{/sha}",
-    "statuses_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/statuses/{sha}",
-    "languages_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/languages",
-    "stargazers_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/stargazers",
-    "contributors_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/contributors",
-    "subscribers_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/subscribers",
-    "subscription_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/subscription",
-    "commits_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/commits{/sha}",
-    "git_commits_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/git/commits{/sha}",
-    "comments_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/comments{/number}",
-    "issue_comment_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/issues/comments{/number}",
-    "contents_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/contents/{+path}",
-    "compare_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/compare/{base}...{head}",
-    "merges_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/merges",
-    "archive_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/{archive_format}{/ref}",
-    "downloads_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/downloads",
-    "issues_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/issues{/number}",
-    "pulls_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/pulls{/number}",
-    "milestones_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/milestones{/number}",
-    "notifications_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/notifications{?since,all,participating}",
-    "labels_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/labels{/name}",
-    "releases_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/releases{/id}",
-    "deployments_url": "https://api.github.com/repos/joinpursuit/AC3.2-Tableviews_Part_3/deployments",
-    "created_at": "2016-09-26T20:16:12Z",
-    "updated_at": "2017-07-25T17:23:08Z",
-    "pushed_at": "2017-07-27T21:28:15Z",
-    "git_url": "git://github.com/joinpursuit/AC3.2-Tableviews_Part_3.git",
-    "ssh_url": "git@github.com:joinpursuit/AC3.2-Tableviews_Part_3.git",
-    "clone_url": "https://github.com/joinpursuit/AC3.2-Tableviews_Part_3.git",
-    "svn_url": "https://github.com/joinpursuit/AC3.2-Tableviews_Part_3",
-    "homepage": null,
-    "size": 5831,
-    "stargazers_count": 0,
-    "watchers_count": 0,
-    "language": "Swift",
-    "has_issues": true,
-    "has_projects": true,
-    "has_downloads": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 23,
-    "mirror_url": null,
-    "archived": false,
-    "disabled": false,
-    "open_issues_count": 0,
-    "license": {
-      "key": "mit",
-      "name": "MIT License",
-      "spdx_id": "MIT",
-      "url": "https://api.github.com/licenses/mit",
-      "node_id": "MDc6TGljZW5zZTEz"
-    },
+    "html_url": "https://github.com/joinpursuit/AC3.2-Tableviews_Part_3"
+  }
 ```
 
 
 - All the JavaScript repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=pursuit+language:javascript
+```json
+
+    {
+      "id": 341080793,
+      "node_id": "MDEwOlJlcG9zaXRvcnkzNDEwODA3OTM=",
+      "name": "Pursuit-Core-Web-Promises-Fetch-Lab-v2",
+      "full_name": "joinpursuit/Pursuit-Core-Web-Promises-Fetch-Lab-v2",
+      "private": false,
+      "owner": {
+        "login": "joinpursuit",
+        "id": 5825944,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/joinpursuit",
+        "html_url": "https://github.com/joinpursuit",
+        "followers_url": "https://api.github.com/users/joinpursuit/followers",
+        "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+        "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+        "repos_url": "https://api.github.com/users/joinpursuit/repos",
+        "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+        "type": "Organization",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/joinpursuit/Pursuit-Core-Web-Promises-Fetch-Lab-v2",
+    }
+
+
+```
+
+
 - All the Swift repos on Github with Pursuit in their name
+
+https://api.github.com/search/repositories?q=pursuit+language:swift
+```json
+    {
+      "id": 99703757,
+      "node_id": "MDEwOlJlcG9zaXRvcnk5OTcwMzc1Nw==",
+      "name": "Pursuit-Core-iOS",
+      "full_name": "joinpursuit/Pursuit-Core-iOS",
+      "private": false,
+      "owner": {
+        "login": "joinpursuit",
+        "id": 5825944,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjU4MjU5NDQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5825944?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/joinpursuit",
+        "html_url": "https://github.com/joinpursuit",
+        "followers_url": "https://api.github.com/users/joinpursuit/followers",
+        "following_url": "https://api.github.com/users/joinpursuit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/joinpursuit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/joinpursuit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/joinpursuit/subscriptions",
+        "organizations_url": "https://api.github.com/users/joinpursuit/orgs",
+        "repos_url": "https://api.github.com/users/joinpursuit/repos",
+        "events_url": "https://api.github.com/users/joinpursuit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/joinpursuit/received_events",
+        "type": "Organization",
+        "site_admin": false
+      },
+    }
+
+```
+
+
 - A list of all Pokemon
 
 https://pokeapi.co/api/v2/pokemon/?limit=1118
@@ -304,7 +341,90 @@ https://api.got.show/api/show/episodes
 ```
 
 - A list of all songs with "Love" in the title.
+
+https://api.deezer.com/search?q=track:"love"
+```json
+    {
+      "id": 986939372,
+      "readable": true,
+      "title": "Savage Love (Laxed - Siren Beat)",
+      "title_short": "Savage Love (Laxed - Siren Beat)",
+      "title_version": "",
+      "link": "https:\/\/www.deezer.com\/track\/986939372",
+      "duration": 171,
+      "rank": 997408,
+      "explicit_lyrics": true,
+      "explicit_content_lyrics": 1,
+      "explicit_content_cover": 2,
+      "preview": "https:\/\/cdns-preview-f.dzcdn.net\/stream\/c-fad919850f67c847921eee0647c068ea-3.mp3",
+      "md5_image": "ae220905519d1bb84cddd953abbc08da",
+      "artist": {
+        "id": 92319522,
+        "name": "Jawsh 685",
+        "link": "https:\/\/www.deezer.com\/artist\/92319522",
+        "picture": "https:\/\/api.deezer.com\/artist\/92319522\/image",
+        "picture_small": "https:\/\/cdns-images.dzcdn.net\/images\/artist\/e81ea567c8ca45a3992b50a240f08f47\/56x56-000000-80-0-0.jpg",
+        "picture_medium": "https:\/\/cdns-images.dzcdn.net\/images\/artist\/e81ea567c8ca45a3992b50a240f08f47\/250x250-000000-80-0-0.jpg",
+        "picture_big": "https:\/\/cdns-images.dzcdn.net\/images\/artist\/e81ea567c8ca45a3992b50a240f08f47\/500x500-000000-80-0-0.jpg",
+        "picture_xl": "https:\/\/cdns-images.dzcdn.net\/images\/artist\/e81ea567c8ca45a3992b50a240f08f47\/1000x1000-000000-80-0-0.jpg",
+        "tracklist": "https:\/\/api.deezer.com\/artist\/92319522\/top?limit=50",
+        "type": "artist"
+      },
+    }
+```
+
+***NOTE: this one was tough. I had to register for an API with e-mail in order to be granted access because I couldn't find APIs with the info which didn't require keys
+
+
 - All information about Petyr Baelish from the Game of Thrones books
+
+https://www.anapioficeandfire.com/api/characters/823
+```json
+{
+  "url": "https://www.anapioficeandfire.com/api/characters/823",
+  "name": "Petyr Baelish",
+  "gender": "Male",
+  "culture": "Valemen",
+  "born": "In 268 AC, at the Fingers",
+  "died": "",
+  "titles": [
+    "Master of coin (formerly)",
+    "Lord Paramount of the Trident",
+    "Lord of Harrenhal",
+    "Lord Protector of the Vale"
+  ],
+  "aliases": [
+    "Littlefinger"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "https://www.anapioficeandfire.com/api/characters/688",
+  "allegiances": [
+    "https://www.anapioficeandfire.com/api/houses/10",
+    "https://www.anapioficeandfire.com/api/houses/11"
+  ],
+  "books": [
+    "https://www.anapioficeandfire.com/api/books/1",
+    "https://www.anapioficeandfire.com/api/books/2",
+    "https://www.anapioficeandfire.com/api/books/3",
+    "https://www.anapioficeandfire.com/api/books/5",
+    "https://www.anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [
+    "Season 1",
+    "Season 2",
+    "Season 3",
+    "Season 4",
+    "Season 5",
+    "Season 6"
+  ],
+  "playedBy": [
+    "Aidan Gillen"
+  ]
+}
+```
+
 - All the movies Leonardo Dicaprio has acted in
 
 # Part Two
