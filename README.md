@@ -32,14 +32,84 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+```{
+  https://randomuser.me/api
+}
+{
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Ilia",
+        "last": "Overweel"
+      }
+```
+
 - All the repos on Github with Pursuit their name
+```{
+
+}
+```
 - All the JavaScript repos on Github with Pursuit in their name
+```
+https://api.github.com/search/repositories?q=pursuit-core+language:javascript
+{"id": 149148208,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxNDkxNDgyMDg=",
+      "name": "Pursuit-Core-Web",
+      }
+```
 - All the Swift repos on Github with Pursuit in their name
+``` {
+      "id": 233689493,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMzM2ODk0OTM=",
+      "name": "Pursuit-Core-iOS-UserDefaults-Lab",
+}
+```
+
 - A list of all Pokemon
+```
+https://pokeapi.co/api/v2/pokemon?limit
+{
+  "count": 1118,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
+}
+```
 - A list of all items in Fortnite
+```
+http://www.fortnitehut.com/free-api?type=outfit
+{
+
+}
+```
+
 - A list of all Game of Thrones Episodes.
+```{
+  https://api.got.show/api/show/episodes
+ {
+    "written_by": [
+      "David Benioff",
+      "D.B. Weiss"
+    ],}
+}
+```
 - A list of all songs with "Love" in the title.
+```
+{
+      "wrapperType": "track",
+      "kind": "song",
+      "artistId": 432307585,
+      "collectionId": 1125521386,
+      "trackId": 1125521742,
+    }
+```
+
 - All information about Petyr Baelish from the Game of Thrones books
+
+```
+{
+  https://awoiaf.westeros.org/api.php?action=query&generator=alltransclusions&gatfrom=B
+}
+```
+
 - All the movies Leonardo Dicaprio has acted in
 
 # Part Two
