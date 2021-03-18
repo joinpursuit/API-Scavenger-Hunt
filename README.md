@@ -32,10 +32,181 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+https://randomuser.me/api?results=150&nat=US
+
+```json 
+{
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Eric",
+        "last": "Carpenter"
+      },
+      "location": {
+        "street": {
+          "number": 5623,
+          "name": "Valwood Pkwy"
+        },
+        "city": "Saint Paul",
+        "state": "Missouri",
+        "country": "United States",
+        "postcode": 58931,
+        "coordinates": {
+          "latitude": "41.8652",
+          "longitude": "0.7224"
+        },
+        "timezone": {
+          "offset": "-4:00",
+          "description": "Atlantic Time (Canada), Caracas, La Paz"
+        }
+      },
+      "email": "eric.carpenter@example.com",
+      "login": {
+        "uuid": "a2b72766-dcfe-43d4-8e08-15a65879671c",
+        "username": "greenfrog882",
+        "password": "maryjane",
+        "salt": "YVZfJSZ0",
+        "md5": "81836a0bd0685642dc3fea052f10d702",
+        "sha1": "aaa951f9532bedf2b0b3870faa509ad23cb3a992",
+        "sha256": "7e9b8266aff8e987638be55bd1abdee279d78969e9ed6221d2eced16132bb4ff"
+      },
+      "dob": {
+        "date": "1985-05-11T11:27:14.216Z",
+        "age": 36
+      },
+      "registered": {
+        "date": "2013-10-30T05:10:58.006Z",
+        "age": 8
+      },
+      "phone": "(544)-375-7099",
+      "cell": "(873)-180-9175",
+      "id": {
+        "name": "SSN",
+        "value": "166-72-5269"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/60.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/60.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/60.jpg"
+      },
+      "nat": "US"
+    }
+  ],
+  "info": {
+    "seed": "389eeb32b8e600b8",
+    "results": 150,
+    "page": 1,
+    "version": "1.3"
+  }
+```
+
+
+
+
 - All the repos on Github with Pursuit their name
 - All the JavaScript repos on Github with Pursuit in their name
 - All the Swift repos on Github with Pursuit in their name
+
+
+
+
+
+
 - A list of all Pokemon
+https://pokeapi.co/api/v2/pokemon
+
+```json
+
+{
+  "count": 1118,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
+  "previous": null,
+  "results": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    },
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/2/"
+    },
+    {
+      "name": "venusaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/3/"
+    },
+    {
+      "name": "charmander",
+      "url": "https://pokeapi.co/api/v2/pokemon/4/"
+    },
+    {
+      "name": "charmeleon",
+      "url": "https://pokeapi.co/api/v2/pokemon/5/"
+    },
+    {
+      "name": "charizard",
+      "url": "https://pokeapi.co/api/v2/pokemon/6/"
+    },
+    {
+      "name": "squirtle",
+      "url": "https://pokeapi.co/api/v2/pokemon/7/"
+    },
+    {
+      "name": "wartortle",
+      "url": "https://pokeapi.co/api/v2/pokemon/8/"
+    },
+    {
+      "name": "blastoise",
+      "url": "https://pokeapi.co/api/v2/pokemon/9/"
+    },
+    {
+      "name": "caterpie",
+      "url": "https://pokeapi.co/api/v2/pokemon/10/"
+    },
+    {
+      "name": "metapod",
+      "url": "https://pokeapi.co/api/v2/pokemon/11/"
+    },
+    {
+      "name": "butterfree",
+      "url": "https://pokeapi.co/api/v2/pokemon/12/"
+    },
+    {
+      "name": "weedle",
+      "url": "https://pokeapi.co/api/v2/pokemon/13/"
+    },
+    {
+      "name": "kakuna",
+      "url": "https://pokeapi.co/api/v2/pokemon/14/"
+    },
+    {
+      "name": "beedrill",
+      "url": "https://pokeapi.co/api/v2/pokemon/15/"
+    },
+    {
+      "name": "pidgey",
+      "url": "https://pokeapi.co/api/v2/pokemon/16/"
+    },
+    {
+      "name": "pidgeotto",
+      "url": "https://pokeapi.co/api/v2/pokemon/17/"
+    },
+    {
+      "name": "pidgeot",
+      "url": "https://pokeapi.co/api/v2/pokemon/18/"
+    },
+    {
+      "name": "rattata",
+      "url": "https://pokeapi.co/api/v2/pokemon/19/"
+    },
+    {
+      "name": "raticate",
+      "url": "https://pokeapi.co/api/v2/pokemon/20/"
+    }
+  ]
+}
+```
+
+
 - A list of all items in Fortnite
 - A list of all Game of Thrones Episodes.
 - A list of all songs with "Love" in the title.
