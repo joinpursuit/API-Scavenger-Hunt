@@ -103,6 +103,13 @@ http://www.fortnitehut.com/free-api?type=outfit
 ```
 
 - All information about Petyr Baelish from the Game of Thrones books
+
+```
+{
+  https://awoiaf.westeros.org/api.php?action=query&generator=alltransclusions&gatfrom=B
+}
+```
+
 - All the movies Leonardo Dicaprio has acted in
 
 # Part Two
