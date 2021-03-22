@@ -13,7 +13,38 @@
         "description": "Returns a list of all todos",
         "responseStatusCode": 200,
         "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/admin",
+        "description": "Attempt at accessing admin data",
+        "responseStatusCode": 401,
+        "statusCodeMeaning": "User does not have authorization"
+      },
+      {
+        "method": "DELETE",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "Todo was deleted",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "Todo not found"
+      },
+      {
+        "method": "PATCH",
+        "endpoint": "api/todos/<todo-id>",
+        "description": "generate an update",
+        "responseStatusCode": 500,
+        "statusCodeMeaning": "Internal server error"
+      },
+      {
+        "method": "PUT",
+        "endpoint": "api/todos/<todo-id>",
+        "description": "generate an update on to-do list",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "Missing values"
       }
     ],
-    "statusCodesFound": [200, ...]
+
+
+
+    "statusCodesFound": [200, 401, 404, 500, 400...]
   }
