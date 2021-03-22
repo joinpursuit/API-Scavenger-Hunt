@@ -131,8 +131,8 @@ Try out all requests you can think of in this API, the docs are a good starting 
 {
   "requests": [
     {
-      "method": <METHOD>,
-      "endpoint": /api/something,
+      "method": "patch",
+      "endpoint": "/api/todos/eccefff0",
       "description": EXPLAIN WHAT THE REQUEST DOES IN YOUR OWN WORDS,
       "responseStatusCode": ###,
       "statusCodeMeaning": WHAT DOES THIS STATUS CODE MEAN
