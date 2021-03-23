@@ -1,0 +1,68 @@
+{
+    "requests": [
+      {
+        "method": "GET",
+        "endpoint": "http://www.todos-api.com/api/users/Hafiz",
+        "description": "Returns a JSON having an object payload which has id:65 and username:'Hafiz', and err:false ",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "http://www.todos-api.com/api/todos/0328e4d0",
+        "description": "Find the user by id ",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "GET",
+        "endpoint": "http://www.todos-api.com/api/todos/579cb9c0",
+        "description": "Tried to find the deleted usser",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "The request was not successful"
+      },
+      {
+        "method": "POST",
+        "endpoint": "http://www.todos-api.com/api/todos",
+        "description": "Created a user",
+        "responseStatusCode": 201,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "POST",
+        "endpoint": "http://www.todos-api.com/api/users/signup",
+        "description": "Username not available",
+        "responseStatusCode": 409,
+        "statusCodeMeaning": "The request was not successful"
+      },
+      {
+        "method": "POST",
+        "endpoint": "http://www.todos-api.com/api/users/signup",
+        "description": "The server did not expect more than one field",
+        "responseStatusCode": 500,
+        "statusCodeMeaning": "The request was not successful"
+      },
+      {
+        "method": "PATCH",
+        "endpoint": "http://www.todos-api.com/api/todos/c80bdd20",
+        "description": "Updated the completed value to true",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "Delete",
+        "endpoint": "http://www.todos-api.com/api/todos/c80bdd20",
+        "description": "Deleted the user with specified id",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "Delete",
+        "endpoint": "http://www.todos-api.com/api/todos/c80bdd20",
+        "description": "Tried to delete the same user with same id",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "The request was not successful"
+      }
+    ],
+    "statusCodesFound": [200, 200, 404, 201, 409, 500, 200, 200, 404]
+  }
