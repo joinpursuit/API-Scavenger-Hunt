@@ -100,16 +100,9 @@ https://randomuser.me/api?results=150&nat=US
   }
 ```
 
-
-
-
 - All the repos on Github with Pursuit their name
 - All the JavaScript repos on Github with Pursuit in their name
 - All the Swift repos on Github with Pursuit in their name
-
-
-
-
 
 
 - A list of all Pokemon
@@ -208,10 +201,146 @@ https://pokeapi.co/api/v2/pokemon
 
 
 - A list of all items in Fortnite
+
+https://fortnite-api.theapinetwork.com/items/list
+
+```json
+{
+      "itemId": "c4ce9db-b8a72a1-a3a8d78-ea263bb",
+      "lastUpdate": 1614201127,
+      "item": {
+        "name": "Dance Moves",
+        "description": "Express yourself on the battlefield.",
+        "type": "emote",
+        "rarity": "common",
+        "series": null,
+        "cost": 0,
+        "upcoming": false,
+        "images": {
+          "icon": "https://dropin-bucket.mativecdn.com/cosmetics/br/eid_dancemoves/icon.png",
+          "featured": null,
+          "background": "https://dropin-bucket.mativecdn.com/cosmetics/br/eid_dancemoves/icon.png",
+          "information": "https://dropin-bucket.mativecdn.com/cosmetics/br/eid_dancemoves/icon.png"
+        },
+        "backpack": {},
+        "obtained": "",
+        "obtained_type": "none",
+        "ratings": {
+          "avgStars": 4.02,
+          "totalPoints": 2741,
+          "numberVotes": 682
+        },
+        "costmeticId": "EID_DanceMoves",
+        "obtainedValue": "none",
+        "obtainedFromBattlepass": "none"
+      }
+    },
+```
+
 - A list of all Game of Thrones Episodes.
+
+https://api.got.show/api/show/episodes
+
+```json
+  {
+    "written_by": [
+      "David Benioff",
+      "D.B. Weiss"
+    ],
+    "characters": [
+      "Rhaegar Targaryen",
+      "High Septon (Robert's Rebellion)"
+    ],
+    "deaths": [
+      "Petyr Baelish",
+      "Captured wight",
+      "Black Brothers",
+      "Wildlings"
+    ],
+    "places": [
+      "In King's Landing",
+      "At Winterfell",
+      "In the Narrow Sea",
+      "At the Wall",
+      "First",
+      "Deaths",
+      "Cast",
+      "Cast notes",
+      "General",
+      "In King's Landing",
+      "At Winterfell",
+      "In the Narrow Sea",
+      "Rhaegar/Lyanna, Jon/Daenerys",
+      "Jon Snow's real name",
+      "At the Wall"
+    ],
+    "_id": "5cc074bf04e71a0010b85a5c",
+    "title": "The Dragon and the Wolf",
+    "season": 7,
+    "episode": 7,
+    "runtime": 80,
+    "directed_by": "Jeremy Podeswa",
+    "createdAt": "2019-04-24T14:37:51.793Z",
+    "updatedAt": "2019-04-24T14:37:51.793Z",
+    "__v": 0
+  }
+```
+
+
 - A list of all songs with "Love" in the title.
+
 - All information about Petyr Baelish from the Game of Thrones books
+
+https://www.anapioficeandfire.com/api/characters/823
+
+```json
+{
+  "url": "https://www.anapioficeandfire.com/api/characters/823",
+  "name": "Petyr Baelish",
+  "gender": "Male",
+  "culture": "Valemen",
+  "born": "In 268 AC, at the Fingers",
+  "died": "",
+  "titles": [
+    "Master of coin (formerly)",
+    "Lord Paramount of the Trident",
+    "Lord of Harrenhal",
+    "Lord Protector of the Vale"
+  ],
+  "aliases": [
+    "Littlefinger"
+  ],
+  "father": "",
+  "mother": "",
+  "spouse": "https://www.anapioficeandfire.com/api/characters/688",
+  "allegiances": [
+    "https://www.anapioficeandfire.com/api/houses/10",
+    "https://www.anapioficeandfire.com/api/houses/11"
+  ],
+  "books": [
+    "https://www.anapioficeandfire.com/api/books/1",
+    "https://www.anapioficeandfire.com/api/books/2",
+    "https://www.anapioficeandfire.com/api/books/3",
+    "https://www.anapioficeandfire.com/api/books/5",
+    "https://www.anapioficeandfire.com/api/books/8"
+  ],
+  "povBooks": [],
+  "tvSeries": [
+    "Season 1",
+    "Season 2",
+    "Season 3",
+    "Season 4",
+    "Season 5",
+    "Season 6"
+  ],
+  "playedBy": [
+    "Aidan Gillen"
+  ]
+}
+```
+
 - All the movies Leonardo Dicaprio has acted in
+
 
 # Part Two
 
