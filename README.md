@@ -32,14 +32,39 @@ https://catfact.ninja/fact
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
-- All the repos on Github with Pursuit their name
+```
+https://randomuser.me/api/?results=150
+```
+
+---
+
+
+- All the repos on Github with Pursuit in their name
+```
+https://api.github.com/search/repositories?q=pursuit in:name
+```
+
+---
 - All the JavaScript repos on Github with Pursuit in their name
 - All the Swift repos on Github with Pursuit in their name
+
 - A list of all Pokemon
+```
+https://pokeapi.co/api/v2/pokemon?offset=20&limit=1118
+```
+
+---
+
 - A list of all items in Fortnite
 - A list of all Game of Thrones Episodes.
 - A list of all songs with "Love" in the title.
+
 - All information about Petyr Baelish from the Game of Thrones books
+```
+https://www.anapioficeandfire.com/api/characters/823
+```
+
+---
 - All the movies Leonardo Dicaprio has acted in
 
 # Part Two

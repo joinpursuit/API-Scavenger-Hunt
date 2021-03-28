@@ -1,0 +1,20 @@
+{
+    "requests": [
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "?",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "Bad Request"
+      },
+      
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      }
+    ],
+    "statusCodesFound": [200, 400]
+  }
