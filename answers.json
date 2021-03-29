@@ -1,0 +1,29 @@
+{
+    "requests": [{
+        "method": "GET",
+        "endpoint": "/admin",
+        "description": "Attempt at accesssing admin data",
+        "responseStatusCode": 401,
+        "statusCodeMeaning": "User does not have access"
+      },
+      {"method": "PATCH",
+      "endpoint": "/api/todos/eccefff0",
+      "description": "generates on update to TO-do list",
+      "responseStatusCode": 500,
+      "statusCodeMeaning": "Server does not know how to handle situation"
+    },
+    {"method": "PUT",
+        "endpoint": "/api/todos/eccefff0",
+        "description": "generates on update to TO-do list",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "Server cannot understand request due to invalid syntax"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      }
+    ],
+    "statusCodesFound": [200, 401, 500]
