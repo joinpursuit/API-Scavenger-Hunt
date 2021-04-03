@@ -1,0 +1,83 @@
+{
+    "requests": [
+      // {
+      //   "method": 'Get',
+      //   "endpoint": /api/something,
+      //   "description": EXPLAIN WHAT THE REQUEST DOES IN YOUR OWN WORDS,
+      //   "responseStatusCode": ###,
+      //   "statusCodeMeaning": WHAT DOES THIS STATUS CODE MEAN
+      // },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/todos",
+        "description": "POST new todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "DELETE",
+        "endpoint": "/api/todos",
+        "description": "DELETE todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "PUT",
+        "endpoint": "/api/todos",
+        "description": "stores the Todos created",
+        "responseStatusCode": 201,
+        "statusCodeMeaning": "The request was created"
+      },
+      {
+        "method": "PATCH",
+        "endpoint": "/api/todos",
+        "description": "apply partia changes to todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "CONNECT",
+        "endpoint": "/api/todos",
+        "description": "establishes a network connection",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The requested connection was established"
+      },
+
+    ],
+    "statusCodesFound": [200, 0]
+  }
+
+// HTTP Status Codes:
+// 100 Continue. The client SHOULD continue with its request. ...
+// 200 OK. The request has succeeded.
+// 203 Non-Authoritative Information. 
+// 300 Multiple Choices. 
+// 303 See Other. 
+// 306 (Unused) 
+// 400 Bad Request.
+
+// GET
+// The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+// HEAD
+// The HEAD method asks for a response identical to that of a GET request, but without the response body.
+// POST
+// The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.
+// PUT
+// The PUT method replaces all current representations of the target resource with the request payload.
+// DELETE
+// The DELETE method deletes the specified resource.
+// CONNECT
+// The CONNECT method establishes a tunnel to the server identified by the target resource.
+// OPTIONS
+// The OPTIONS method is used to describe the communication options for the target resource.
+// TRACE
+// The TRACE method performs a message loop-back test along the path to the target resource.
+// PATCH
+// The PATCH method is used to apply partial modifications to a resource.
