@@ -29,18 +29,186 @@ https://catfact.ninja/fact
 
 ---
 
+
+
 Here are all the APIs to find!
 
 - A list of 150 random users in English.
+```
+https://randomuser.me/api/?results=150&nat=us
+
+{
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Sonia",
+        "last": "Burns"
+      },
+       {
+        "city": "Garden Grove",
+        "state": "Vermont",
+        "country": "United States",
+        "postcode": 11587,
+        "coordinates": {
+          "latitude": "4.1587",
+          "longitude": "59.2836"
+        }
+
+ "results": 150,
+```
+
 - All the repos on Github with Pursuit their name
+```
+https://api.github.com/search/repositories?q=pursuit
+
+{
+      "id": 22592439,
+      "node_id": "MDEwOlJlcG9zaXRvcnkyMjU5MjQzOQ==",
+      "name": "pursuit",
+      "full_name": "purescript/pursuit",
+      "private": false,
+      }
+{
+  "total_count": 2085
+}
+```
+
+
 - All the JavaScript repos on Github with Pursuit in their name
+```
+https://api.github.com/search/repositories?q=pursuitin:name+language:javascript
+
+
+      "id": 40902807,
+      "node_id": "MDEwOlJlcG9zaXRvcnk0MDkwMjgwNw==",
+      "name": "ChessPursuit",
+      "full_name": "Saturnyn/ChessPursuit",
+      "private": false,
+      "owner": }
+
+      "language": "JavaScript"
+{
+  "total_count": 178 
+}
+```
+
+
 - All the Swift repos on Github with Pursuit in their name
+```
+https://api.github.com/search/repositories?q=pursuitin:name+language:swift
+
+
+      "id": 158296571,
+      "node_id": "MDEwOlJlcG9zaXRvcnkxNTgyOTY1NzE=",
+      "name": "Pursuit-Core-iOS-Hangman-UIKit-Project",
+      "full_name": "joinpursuit/Pursuit-Core-iOS-Hangman-UIKit-Project",
+      "private": false,
+      "owner": }
+
+      "language": "Swift"
+
+
+  "total_count": 199
+```
+
+
 - A list of all Pokemon
+```
+https://pokeapi.co/api/v2/pokemon
+
+{
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/"
+    }
+
+
+  "count": 1118
+```
+
 - A list of all items in Fortnite
+```
+
+https://fortnite-api.theapinetwork.com/items/list
+
+
+{
+      "itemId": "5bac8575-992e-41db-b23c-8d5646d8f586",
+      "lastUpdate": 1614475984,
+      "item": {
+        "name": "Silver Surfer (Bundle)",
+        "description": null,
+        "type": "bundle",
+        "rarity": "epic",
+        "series": "marvel",
+        "cost": 2200,
+        "upcoming": false }
+```
+
 - A list of all Game of Thrones Episodes.
+```
+https://api.got.show/api/map/episodes
+
+  "_id": "5cc0743604e71a0010b85729",
+      "director": "Tim Van Patten",
+      "airDate": "2011-04-24T04:00:00.000Z",
+      "totalNr": 2,
+      "season": 1,
+      "nr": 2,
+      "name": "The Kingsroad",
+      "predecessor": "Winter Is Coming",
+      "successor": "Lord Snow",
+      "createdAt": "2019-04-24T14:35:34.594Z",
+      "updatedAt": "2019-04-24T14:35:34.594Z",
+      "__v": 0
+```
+
 - A list of all songs with "Love" in the title.
+```
+https://itunes.apple.com/search?term=love&entity=song
+
+{
+  "wrapperType": "track",
+      "kind": "song",
+      "artistId": 543948286,
+      "collectionId": 560097651,
+      "trackId": 560097759,
+      "artistName": "Macklemore & Ryan Lewis",
+      "collectionName": "The Heist (Deluxe Edition)",
+      "trackName": "Same Love (feat. Mary Lambert)",
+}
+```
+
+
 - All information about Petyr Baelish from the Game of Thrones books
+```
+https://api.got.show/api/book/characters/Petyr%20Baelish
+
+[
+  "_id": "5cc08e61888dfb00103cdb6c",
+  "name": "Petyr Baelish",
+  "slug": "Petyr_Baelish",
+  "gender": "male",
+]
+
+```
+
+
 - All the movies Leonardo Dicaprio has acted in
+```
+https://imdb-api.com/en/API/SearchAll/k_c1zso614/Leonardo%20Dicaprio
+
+ "searchType": "All",
+  "expression": "Leonardo Dicaprio",
+  "results": [
+    {
+      "id": "nm0000138",
+      "resultType": "Name",
+      "image": "https://imdb-api.com/images/original/MV5BMjI0MTg3MzI0M15BMl5BanBnXkFtZTcwMzQyODU2Mw@@._V1_Ratio0.7273_AL_.jpg",
+      "title": "Leonardo DiCaprio",
+      "description": "(Actor, Inception (2010))"
+    },
+```
+
 
 # Part Two
 
