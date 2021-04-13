@@ -1,0 +1,78 @@
+{
+    "requests": [
+      {
+        "method": <METHOD>,
+        "endpoint": /api/something,
+        "description": EXPLAIN WHAT THE REQUEST DOES IN YOUR OWN WORDS,
+        "responseStatusCode": ###,
+        "statusCodeMeaning": WHAT DOES THIS STATUS CODE MEAN
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "Returns a list of all todos",
+        "responseStatusCode": 200,
+        "statusCodeMeaning": "The request was successful"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/todos",
+        "description": "To create a to-do list",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "Server cannot process request, values were not valid"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos/<todo-id>",
+        "description": "returns a list of the id's of the todos",
+        "responseStatusCode": 404,
+        "statusCodeMeaning": "To-do list wasn't found"
+      },
+      {
+        "method": "PUT",
+        "endpoint": "api/todos/<todo-id>",
+        "description": "To replace to-do list",
+        "responseStatusCode": 400,
+        "statusCodeMeaning": "Missing values"
+      },
+      {
+        "method": "PATCH",
+        "endpoint": "api/todos/<todo-id>",
+        "description": "modification to the to-do list",
+        "responseStatusCode": 500,
+        "statusCodeMeaning": "modifications weren't able to be accepted due to absence of columns"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/admin",
+        "description": "Attempt at accessing admin data",
+        "responseStatusCode": 401,
+        "statusCodeMeaning": "User does not have authorization"
+      },
+      {
+        "method": "DELETE",
+        "endpoint": "/api/todos",
+        "description": "delete the entire endpoint",
+        "responseStatusCode": 405,
+        "statusCodeMeaning": "The action to delete is not allowed"
+      },
+      {
+        "method": "OPTION",
+        "endpoint": "/api/todos",
+        "description": "requests communication for the given URL" ,
+        "responseStatusCode": 204,
+        "statusCodeMeaning": "response code indicates that a request has succeeded, but that the client doesn't need to navigate away from its current page"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "Update the list with the same username that was alread posted",
+        "responseStatusCode": 409,
+        "statusCodeMeaning": "response code indicate request conflicts with current server"
+      }
+    ],
+
+
+
+    "statusCodesFound": [200, 401, 404, 500, 400, 405, 204, 409 ...]
+  }
