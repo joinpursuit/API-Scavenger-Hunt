@@ -1,0 +1,68 @@
+{
+    "requests": [
+      {
+        "method": "GET",
+        "endpoint": "/api/users",
+        "description": "Gets list of users that can modify(?) the repo",
+        "responseStatusCode": "200",
+        "statusCodeMeaning": "OK, meaning it was able to process the GET request"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/todos",
+        "description": "It gives you something to do",
+        "responseStatusCode": "200",
+        "statusCodeMeaning": "OK, meaning it was able to process the GET request"
+      }, 
+      {
+        "method": "GET",
+        "endpoint": "/api/easteregg",
+        "description": "I thought it would give me the easter egg",
+        "responseStatusCode": "404",
+        "statusCodeMeaning": "Not found"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/api/9",
+        "description": "Thought it would get me the easter egg after reading the documents",
+        "responseStatusCode": "303",
+        "statusCodeMeaning": "See other, I believe means to try again with different syntax?"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/9",
+        "description": "Easter Egg!!",
+        "responseStatusCode": "418",
+        "statusCodeMeaning": "I'm a teapot"
+      },
+      {
+        "method": "GET",
+        "endpoint": "/admin",
+        "description": "For admin privileges?",
+        "responseStatusCode": "401",
+        "statusCodeMeaning": "Unauthorized"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/users/signup",
+        "description": "Trying to sign up?",
+        "responseStatusCode": "400",
+        "statusCodeMeaning": "Bad Request"
+      },
+      {
+        "method": "POST",
+        "endpoint": "/api/todos",
+        "description": "Posting in Todos",
+        "responseStatusCode": "405",
+        "statusCodeMeaning": "Method not Allowed"
+      },
+      {
+        "method": "PATCH",
+        "endpoint": "/api/todos/39ebadc0",
+        "description": "unable to generate columns",
+        "responseStatusCode": 500,
+        "statusCodeMeaning": "Internal Server Error"
+      }
+    ],
+    "statusCodesFound": [200, 404, 303, 418, 401, 400, 405, 500]
+}
