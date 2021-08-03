@@ -163,20 +163,17 @@ https://api.github.com/users/joinpursuit/repos
 
 - All the JavaScript repos on Github with Pursuit in their name
 
-https://api.github.com/repos/joinpursuit/-Pursuit-Core-Web-Promises-Fetch-Lab-v2/languages
+https://api.github.com/search/repositories?q=pursuit-core+language:javascript
 
 ```
-{
-  "JavaScript": 7760,
-  "HTML": 48
-}
+
 
 ```
 
 
 - All the Swift repos on Github with Pursuit in their name
 
-
+https://api.github.com/search/repositories?q=pursuit-core+language:swift
 
 ```
 
@@ -294,6 +291,10 @@ https://api.got.show/api/show/episodes
 ```
 
 - A list of all songs with "Love" in the title.
+
+
+
+
 - All information about Petyr Baelish from the Game of Thrones books
 
 https://www.anapioficeandfire.com/api/characters/823
